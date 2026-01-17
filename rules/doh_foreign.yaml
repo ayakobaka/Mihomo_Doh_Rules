@@ -1,0 +1,540 @@
+# DoH Servers Ruleset - 境外 DoH (建议代理)
+# Auto-generated from curl/curl wiki
+# Generated at: 2026-01-17 20:42:57
+# Total domains: 323
+# Format: Mihomo rule-provider (behavior: domain)
+
+payload:
+  # **0-9**
+  - 123000123.xyz
+  # **Others**
+  - ibuki.cgnat.net
+  # 123000123.xyz
+  - ns2.4netguides.org
+  # @null31
+  - doh.seby.io
+  # Absolight
+  - adl.adfilter.net
+  - per.adfilter.net
+  - syd.adfilter.net
+  # AdFilter
+  - adfreedns.top
+  # AdGuard
+  - dns.akbxr.com
+  # Adfreedns
+  - dns.adguard-dns.com
+  - family.adguard-dns.com
+  - unfiltered.adguard-dns.com
+  # AliDNS
+  - doh.kel.pe
+  # Andrews & Arnold
+  - doh.angry.im
+  # André Kelpe
+  - dns.aa.net.uk
+  # Angry.im
+  - dns.anon.no
+  # Arashi DNS
+  - nsec.arnor.org
+  # Asteri Moon
+  - secure.avastdns.com
+  # Avast DNS
+  - dns.a47.me
+  # BITServices
+  - dns.blokada.org
+  # Belnet
+  - dns.bmwhocking.com
+  # Ben Hocking
+  - dns.bitdefender.net
+  # Bitdefender
+  - dns.bitservices.io
+  # Blokada DNS
+  - rfree1.blue-shield.at
+  - rfree2.blue-shield.at
+  # Blue Shield Umbrella
+  - dns.brahma.world
+  # Brahma World
+  - dns.brembeck.cloud
+  # CCTLD.KG
+  - dns.cert.ee
+  # CERT Estonia
+  - doh-01.spectrum.com
+  - doh-02.spectrum.com
+  # CIRA Canadian Shield
+  - doh.familyshield.opendns.com
+  - doh.opendns.com
+  - doh.umbrella.com
+  # CSA-IT
+  - dns.csa-rz.de
+  # CSS Working Group
+  - dns.cynthialabs.net
+  # CZ.NIC
+  - ns.data.haus
+  # Canarypwn
+  - dns.caspervk.net
+  # Charter
+  - dns.chenu.ch
+  # Christer Warén
+  - dns.chunghwamc.com
+  # ChunghwaMC
+  - family.canadianshield.cira.ca
+  - private.canadianshield.cira.ca
+  - protected.canadianshield.cira.ca
+  # Cisco Umbrella (OpenDNS)
+  - doh.cleanbrowsing.org
+  # CleanBrowsing
+  - dns1.techniverse.net
+  # CleverAdmin
+  - cloudflare-dns.com
+  - dns64.cloudflare-dns.com
+  - family.cloudflare-dns.com
+  - mozilla.cloudflare-dns.com
+  - security.cloudflare-dns.com
+  # Cloudflare
+  - dns.comss.one
+  - router.comss.one
+  # Comss.one DNS
+  - freedns.controld.com
+  # Control D
+  - cryptostorm.is
+  # Cryptostorm
+  - dns.csaonline.de
+  # CynthiaLabs
+  - odvr.nic.cz
+  # DNS.SB
+  - doh.dns4all.eu
+  # DNS4all
+  - child-noads.joindns4.eu
+  - child.joindns4.eu
+  - noads.joindns4.eu
+  - protective.joindns4.eu
+  - unfiltered.joindns4.eu
+  # DNSPod
+  - doh.beauty
+  # Digitale Gesellschaft
+  - doh.disconnect.app
+  # Disconnect.app
+  - dns.digitalsize.net
+  # Dom!nic
+  - doh.domreg.lt
+  # Dukun.de
+  - xn--durhre-yxa.de
+  # DynX
+  - dns.d94.xyz
+  # ELIV DNS
+  - dns.faked.org
+  # Elemental Software
+  - dns.eliv.kr
+  # FBI NICS E-Check
+  - ns0.fdn.fr
+  - ns1.fdn.fr
+  # FDN
+  - doh.li
+  # FLY_MC
+  - doh.applied-privacy.net
+  # Fancyorg.at
+  - dns.farshidhakimy.de
+  # Feroz
+  - doh.ffmuc.net
+  # Foundation for Applied Privacy
+  - de-f1.foxyfy.net
+  - dns.foxyfy.net
+  - es-ma.foxyfy.net
+  # Foxyfy DNS
+  - dns.froth.zone
+  # Froth.zone
+  - doh.futa.gg
+  # FutaDNS
+  - dns.gamban.com
+  # Gamban
+  - gibblets.top
+  # Google
+  - dns.glf.wtf
+  # Gottlieb Freitag
+  - dns.guard.io
+  # Guardio
+  - secure.hafnova.com
+  # HaGeZi DNS
+  - dns.haka.se
+  # Hafnova
+  - juuri.hagezi.org
+  - root.hagezi.org
+  - wurzn.hagezi.org
+  # Hakase
+  - doth.huque.com
+  # Huque
+  - imperio.top
+  # In-Berlin
+  - dns.inforlogia.com
+  # Inforlogia
+  - public.dns.iij.jp
+  # Internet Initiative Japan
+  - dns.kapite.in
+  # Kernel Error
+  - dns.kescher.at
+  # Koala
+  - dns.kosan.moe
+  # Kosan
+  - adblock.krctech.dev
+  # La Contre-Voie
+  - eu1.dns.lavate.ch
+  # LavaDNS
+  - dns.liberador.net
+  # Liberador.net
+  - doh.libredns.gr
+  # LibreDNS
+  - loadlow.me
+  # LobbyGod
+  - dns.luma-medien.com
+  # LuMa Medien
+  - dns.l337.site
+  # MZJ Technology
+  - ae-fuj-w-p-1.nashkan.net
+  - ae-fuj-w-p-2.nashkan.net
+  - ae-fuj-w-p-3.nashkan.net
+  - au-syd-w-f-1.nashkan.net
+  - gb-lon-w-p-2.nashkan.net
+  - ro-buc-w-p-1.nashkan.net
+  - sg-w-p-1.nashkan.net
+  - us-chi-w-f-1.nashkan.net
+  - us-chi-w-p-1.nashkan.net
+  - us-jac-w-f-1.nashkan.net
+  - us-jac-w-p-1.nashkan.net
+  - us-kan-w-p-1.nashkan.net
+  - us-nyc-w-p-1.nashkan.net
+  # Marbled Fennec Networks / FurrIX
+  - masters-of-cloud.de
+  # Marco Fox
+  - dns.marbledfennec.net
+  # Masters of Cloud
+  - dns.mateo.ovh
+  # Mayx
+  - adguard.meddy94.de
+  # Mullvad
+  - adblock.mydns.network
+  - family.mydns.network
+  - freedom.mydns.network
+  - paranoia.mydns.network
+  # NIC.LV
+  - doh-own-recursion.nicolas-dorriere.fr
+  - doh-random-upstream.nicolas-dorriere.fr
+  # NextDNS
+  - dns.nick-slowinski.de
+  # NiYaWe
+  - dns.njal.la
+  # Nick Slowinski
+  - doh.lv
+  - doh.nic.lv
+  # Nicolas Dorriere
+  - dns.ningkelle.id
+  - family.dns.ningkelle.id
+  # Ningkelle
+  - doh.niyawe.de
+  # Njalla
+  - dns.novg.net
+  # OpenBLD.net
+  - ag.apollohct.com
+  # OpenLoop
+  - ns1.opennameserver.org
+  # PaesaDNS
+  - dns.paulo.nom.za
+  # Paulo
+  - dns.decky.eu
+  # Pavol Decky
+  - dns.petqa.ru
+  # PlumeDNS
+  - pooblet.co.za
+  # Pubhole
+  - dns.quad9.net
+  - dns10.quad9.net
+  - dns11.quad9.net
+  - dns12.quad9.net
+  - dns9.quad9.net
+  # QWER DNS
+  - dns.redhosting.com.ar
+  # Quad9
+  - dns.quiet.rocks
+  # Quiet Rocks
+  - dog.dns.qwer.pw
+  - frog.dns.qwer.pw
+  - lion.dns.qwer.pw
+  - tiger.dns.qwer.pw
+  # Restena
+  - dns.retakecs.com
+  # RetakeCS
+  - sky.rethinkdns.com
+  # RethinkDNS
+  - revelio.top
+  # RobinGroppe.de
+  - dns.roedel.cloud
+  # SZ DNS
+  - dns.stirringphoto.com
+  # SafeServe
+  - dns.sheggi.ch
+  # Sheggi
+  - adguard.shoupperuser.com
+  # Slinkyman.net
+  - dns.smartguard.io
+  # SmartGuard
+  - adg.geili.me
+  # Startup Stack
+  - doh.sz-dns.com
+  # StormyCloud
+  - dns.surfsharkdns.com
+  # Sunet DNS
+  - sunnygyl.com
+  # Surfshark DNS
+  - dns.suhaila.dev
+  # Switch
+  - dns.szpadel.ovh
+  # TWNIC
+  - doh.tiar.app
+  # Telekom Deutschland
+  - dns.tipsy.coffee
+  # Tiarap
+  - resolver.dnsprivacy.org.uk
+  # TipsyCoffee
+  - dns.tls-data.de
+  # Tls-data.de
+  - dns.twnic.tw
+  # UK DNS Privacy Project
+  - anycast.uncensoreddns.org
+  # UncensoredDNS
+  - dns.unx.io
+  # Usable Privacy
+  - v.recipes
+  # VIA
+  - abel.waringer-atg.de
+  # W3C TAG
+  - dns.xlion.tw
+  # Wikimedia DNS
+  - dns.w3ctag.org
+  # Yarp
+  - dns.yuu-g.net
+  # Yuu528
+  - zdn.ro
+  # a47.me
+  - bazooki-infra.dev
+  # anon.no
+  - dns.applewebkit.dev
+  # applewebkit.dev
+  - arashi.net.eu.org
+  - ns.net.kg
+  # arnor.org
+  - dns.asterimoon.com
+  # bazooki-infra.dev
+  - dns.belnet.be
+  # brembeck.cloud
+  - dns.busold.ws
+  # busold.ws
+  - doh.aaaab3n.moe
+  # caspervk.net
+  - dns.cctld.kg
+  # chenu.ch
+  - dns.christerwaren.fi
+  # csa-rz.de
+  - dns.csswg.org
+  # d94.xyz
+  - dns.elemental.software
+  # data.haus
+  - dns.datenquark.de
+  # datenquark.de
+  - dns.dev-umbrellagov.com
+  # dev-umbrellagov
+  - dns.digitale-gesellschaft.ch
+  # dns.digitalsize.net
+  - doh.dns.sb
+  # dns.flatuslifir.is
+  - dns.dnshome.de
+  # dns4me
+  - abn01.dnscry.pt
+  - ath01.dnscry.pt
+  - atl01.dnscry.pt
+  - bne01.dnscry.pt
+  - bog01.dnscry.pt
+  - bom01.dnscry.pt
+  - bru01.dnscry.pt
+  - bts01.dnscry.pt
+  - cph01.dnscry.pt
+  - cvt01.dnscry.pt
+  - dub01.dnscry.pt
+  - evn01.dnscry.pt
+  - fra01.dnscry.pt
+  - fra02.dnscry.pt
+  - geg01.dnscry.pt
+  - gru01.dnscry.pt
+  - gva01.dnscry.pt
+  - haf01.dnscry.pt
+  - han01.dnscry.pt
+  - ist01.dnscry.pt
+  - kiv01.dnscry.pt
+  - las01.dnscry.pt
+  - lon01.dnscry.pt
+  - mad01.dnscry.pt
+  - mil01.dnscry.pt
+  - nue01.dnscry.pt
+  - omr01.dnscry.pt
+  - par01.dnscry.pt
+  - pdx01.dnscry.pt
+  - phl01.dnscry.pt
+  - phx01.dnscry.pt
+  - rdd01.dnscry.pt
+  - sea01.dnscry.pt
+  - sgn01.dnscry.pt
+  - sin03.dnscry.pt
+  - sjc01.dnscry.pt
+  - slc01.dnscry.pt
+  - sof01.dnscry.pt
+  - sto01.dnscry.pt
+  - syd02.dnscry.pt
+  - tbs01.dnscry.pt
+  - tll01.dnscry.pt
+  - tpa01.dnscry.pt
+  - trf01.dnscry.pt
+  - tsm01.dnscry.pt
+  - vie01.dnscry.pt
+  - vno01.dnscry.pt
+  - waw02.dnscry.pt
+  - yhz01.dnscry.pt
+  - yvr01.dnscry.pt
+  - yyc01.dnscry.pt
+  - yyz01.dnscry.pt
+  # dnsHome.de
+  - dnslow.me
+  # dnscry.pt
+  - dnsdoh.art
+  # dnsdoh.art
+  - dns.flatuslifir.is
+  # dnslow.me
+  - chuncheon.dnsovertor.cc
+  - japan.dnsovertor.cc
+  - seoul.dnsovertor.cc
+  # doh.beauty
+  - doh.buzz
+  # doh.buzz
+  - 3dns.eu
+  # domreg.lt
+  - dns.dremaxx.de
+  # dremaxx.de
+  - agh.dshubham.xyz
+  # dshubham.xyz
+  - dukun.de
+  # duröhre.de
+  - dns.dynx.pro
+  # faked.org
+  - dnsvps.familiamv.net
+  # familiamv.net
+  - dns.fancyorg.at
+  # ffmuc.net
+  - fidelius.top
+  # fidelius.top
+  - dns.floriantinney.de
+  # floriantinney.de
+  - dns.flymc.cc
+  # gibblets.top
+  - dns.girino.org
+  # girino.org
+  - glacius.top
+  # glacius.top
+  - 8888.google
+  - dns.google
+  - dns64.dns.google
+  # imperio.top
+  - dns1.in-berlin.de
+  - dns2.in-berlin.de
+  # kapite.in
+  - dns.kernel-error.de
+  # kescher
+  - pihole.aws.ketan.dev
+  # ketan.dev
+  - adg.khon.dev
+  # khon.dev
+  - dns.koala.us.to
+  # krctech.dev
+  - doh.lacontrevoie.fr
+  # l337.site
+  - dns.marasov.id
+  # loadlow.me
+  - dns.lobbygod.com
+  # m-it.ro
+  - doh.mmmalia.com
+  # marasov.id
+  - dns.technologycage.com
+  # mateo.ovh
+  - dns.mayx.eu.org
+  # meddy94.de
+  - dns.mh4ckt3mh4ckt1c4s.xyz
+  # mh4ckt3mh4ckt1c4s.xyz
+  - addns1.m-it.ro
+  # mmmalia.com
+  - dns.mnet-online.de
+  # mnet-online.de
+  - adblock.dns.mullvad.net
+  - all.dns.mullvad.net
+  - base.dns.mullvad.net
+  - dns.mullvad.net
+  - extended.dns.mullvad.net
+  - family.dns.mullvad.net
+  # mydns.network
+  - dns.mzjtechnology.com
+  # nashkan.net
+  - dns.neeb.it
+  # neeb.it
+  - dns.nextdns.io
+  # novg.net
+  - dns.ofdoom.net
+  # o2cloud.fr
+  - dns.paesa.es
+  # ofdoom.net
+  - ada.openbld.net
+  # opennameserver.org
+  - dns4eu.online
+  # petqa.ru
+  - helios.plan9-dns.com
+  - kronos.plan9-dns.com
+  - pluton.plan9-dns.com
+  # plan9-dns
+  - privacy.plumedns.com
+  # pooblet.co.za
+  - doh.archuser.org
+  # redhosting.com.ar
+  - regiopolis.cloud
+  # regiopolis.cloud
+  - renardbleu.dev
+  # renardbleu.dev
+  - dnspub.restena.lu
+  # revelio.top
+  - dns.rbn.gr
+  # roedel.cloud
+  - safeservedns.com
+  # shoupperuser.com
+  - dns.silen.org
+  # silen.org
+  - dns.skrep.eu
+  # skrep.eu
+  - dns.slinkyman.net
+  # smilence
+  - dns.startupstack.tech
+  # stirringphoto.com
+  - dns.stormycloud.org
+  # suhaila.dev
+  - resolver.sunet.se
+  # sunnygyl.com
+  - dns.superstefan.win
+  # superstefan.win
+  - dns.switch.ch
+  # szpadel.ovh
+  - dns.t53.de
+  # t53.de
+  - dns.telekom.de
+  # unx.io
+  - adfree.usableprivacy.net
+  # v.recipes
+  - dns.vaioswolke.xyz
+  # vaioswolke.xyz
+  - doh.viatech.com.tw
+  # waringer-atg.de
+  - wikimedia-dns.org
+  # xlion.tw
+  - yarp.lefolgoc.net
+  # zdn.ro
+  - doh.zknt.org

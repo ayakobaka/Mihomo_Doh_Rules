@@ -1,0 +1,748 @@
+# DoH Servers Ruleset - 境外 DoH (建议代理)
+# Auto-generated from curl/curl wiki
+# Generated at: 2026-01-17 20:42:57
+# Total rules: 323
+
+# **0-9**
+DOMAIN-SUFFIX,123000123.xyz
+
+# **Others**
+DOMAIN-SUFFIX,ibuki.cgnat.net
+
+# 123000123.xyz
+DOMAIN-SUFFIX,ns2.4netguides.org
+
+# @null31
+DOMAIN-SUFFIX,doh.seby.io
+
+# Absolight
+DOMAIN-SUFFIX,adl.adfilter.net
+DOMAIN-SUFFIX,per.adfilter.net
+DOMAIN-SUFFIX,syd.adfilter.net
+
+# AdFilter
+DOMAIN-SUFFIX,adfreedns.top
+
+# AdGuard
+DOMAIN-SUFFIX,dns.akbxr.com
+
+# Adfreedns
+DOMAIN-SUFFIX,dns.adguard-dns.com
+DOMAIN-SUFFIX,family.adguard-dns.com
+DOMAIN-SUFFIX,unfiltered.adguard-dns.com
+
+# AliDNS
+DOMAIN-SUFFIX,doh.kel.pe
+
+# Andrews & Arnold
+DOMAIN-SUFFIX,doh.angry.im
+
+# André Kelpe
+DOMAIN-SUFFIX,dns.aa.net.uk
+
+# Angry.im
+DOMAIN-SUFFIX,dns.anon.no
+
+# Arashi DNS
+DOMAIN-SUFFIX,nsec.arnor.org
+
+# Asteri Moon
+DOMAIN-SUFFIX,secure.avastdns.com
+
+# Avast DNS
+DOMAIN-SUFFIX,dns.a47.me
+
+# BITServices
+DOMAIN-SUFFIX,dns.blokada.org
+
+# Belnet
+DOMAIN-SUFFIX,dns.bmwhocking.com
+
+# Ben Hocking
+DOMAIN-SUFFIX,dns.bitdefender.net
+
+# Bitdefender
+DOMAIN-SUFFIX,dns.bitservices.io
+
+# Blokada DNS
+DOMAIN-SUFFIX,rfree1.blue-shield.at
+DOMAIN-SUFFIX,rfree2.blue-shield.at
+
+# Blue Shield Umbrella
+DOMAIN-SUFFIX,dns.brahma.world
+
+# Brahma World
+DOMAIN-SUFFIX,dns.brembeck.cloud
+
+# CCTLD.KG
+DOMAIN-SUFFIX,dns.cert.ee
+
+# CERT Estonia
+DOMAIN-SUFFIX,doh-01.spectrum.com
+DOMAIN-SUFFIX,doh-02.spectrum.com
+
+# CIRA Canadian Shield
+DOMAIN-SUFFIX,doh.familyshield.opendns.com
+DOMAIN-SUFFIX,doh.opendns.com
+DOMAIN-SUFFIX,doh.umbrella.com
+
+# CSA-IT
+DOMAIN-SUFFIX,dns.csa-rz.de
+
+# CSS Working Group
+DOMAIN-SUFFIX,dns.cynthialabs.net
+
+# CZ.NIC
+DOMAIN-SUFFIX,ns.data.haus
+
+# Canarypwn
+DOMAIN-SUFFIX,dns.caspervk.net
+
+# Charter
+DOMAIN-SUFFIX,dns.chenu.ch
+
+# Christer Warén
+DOMAIN-SUFFIX,dns.chunghwamc.com
+
+# ChunghwaMC
+DOMAIN-SUFFIX,family.canadianshield.cira.ca
+DOMAIN-SUFFIX,private.canadianshield.cira.ca
+DOMAIN-SUFFIX,protected.canadianshield.cira.ca
+
+# Cisco Umbrella (OpenDNS)
+DOMAIN-SUFFIX,doh.cleanbrowsing.org
+
+# CleanBrowsing
+DOMAIN-SUFFIX,dns1.techniverse.net
+
+# CleverAdmin
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,dns64.cloudflare-dns.com
+DOMAIN-SUFFIX,family.cloudflare-dns.com
+DOMAIN-SUFFIX,mozilla.cloudflare-dns.com
+DOMAIN-SUFFIX,security.cloudflare-dns.com
+
+# Cloudflare
+DOMAIN-SUFFIX,dns.comss.one
+DOMAIN-SUFFIX,router.comss.one
+
+# Comss.one DNS
+DOMAIN-SUFFIX,freedns.controld.com
+
+# Control D
+DOMAIN-SUFFIX,cryptostorm.is
+
+# Cryptostorm
+DOMAIN-SUFFIX,dns.csaonline.de
+
+# CynthiaLabs
+DOMAIN-SUFFIX,odvr.nic.cz
+
+# DNS.SB
+DOMAIN-SUFFIX,doh.dns4all.eu
+
+# DNS4all
+DOMAIN-SUFFIX,child-noads.joindns4.eu
+DOMAIN-SUFFIX,child.joindns4.eu
+DOMAIN-SUFFIX,noads.joindns4.eu
+DOMAIN-SUFFIX,protective.joindns4.eu
+DOMAIN-SUFFIX,unfiltered.joindns4.eu
+
+# DNSPod
+DOMAIN-SUFFIX,doh.beauty
+
+# Digitale Gesellschaft
+DOMAIN-SUFFIX,doh.disconnect.app
+
+# Disconnect.app
+DOMAIN-SUFFIX,dns.digitalsize.net
+
+# Dom!nic
+DOMAIN-SUFFIX,doh.domreg.lt
+
+# Dukun.de
+DOMAIN-SUFFIX,xn--durhre-yxa.de
+
+# DynX
+DOMAIN-SUFFIX,dns.d94.xyz
+
+# ELIV DNS
+DOMAIN-SUFFIX,dns.faked.org
+
+# Elemental Software
+DOMAIN-SUFFIX,dns.eliv.kr
+
+# FBI NICS E-Check
+DOMAIN-SUFFIX,ns0.fdn.fr
+DOMAIN-SUFFIX,ns1.fdn.fr
+
+# FDN
+DOMAIN-SUFFIX,doh.li
+
+# FLY_MC
+DOMAIN-SUFFIX,doh.applied-privacy.net
+
+# Fancyorg.at
+DOMAIN-SUFFIX,dns.farshidhakimy.de
+
+# Feroz
+DOMAIN-SUFFIX,doh.ffmuc.net
+
+# Foundation for Applied Privacy
+DOMAIN-SUFFIX,de-f1.foxyfy.net
+DOMAIN-SUFFIX,dns.foxyfy.net
+DOMAIN-SUFFIX,es-ma.foxyfy.net
+
+# Foxyfy DNS
+DOMAIN-SUFFIX,dns.froth.zone
+
+# Froth.zone
+DOMAIN-SUFFIX,doh.futa.gg
+
+# FutaDNS
+DOMAIN-SUFFIX,dns.gamban.com
+
+# Gamban
+DOMAIN-SUFFIX,gibblets.top
+
+# Google
+DOMAIN-SUFFIX,dns.glf.wtf
+
+# Gottlieb Freitag
+DOMAIN-SUFFIX,dns.guard.io
+
+# Guardio
+DOMAIN-SUFFIX,secure.hafnova.com
+
+# HaGeZi DNS
+DOMAIN-SUFFIX,dns.haka.se
+
+# Hafnova
+DOMAIN-SUFFIX,juuri.hagezi.org
+DOMAIN-SUFFIX,root.hagezi.org
+DOMAIN-SUFFIX,wurzn.hagezi.org
+
+# Hakase
+DOMAIN-SUFFIX,doth.huque.com
+
+# Huque
+DOMAIN-SUFFIX,imperio.top
+
+# In-Berlin
+DOMAIN-SUFFIX,dns.inforlogia.com
+
+# Inforlogia
+DOMAIN-SUFFIX,public.dns.iij.jp
+
+# Internet Initiative Japan
+DOMAIN-SUFFIX,dns.kapite.in
+
+# Kernel Error
+DOMAIN-SUFFIX,dns.kescher.at
+
+# Koala
+DOMAIN-SUFFIX,dns.kosan.moe
+
+# Kosan
+DOMAIN-SUFFIX,adblock.krctech.dev
+
+# La Contre-Voie
+DOMAIN-SUFFIX,eu1.dns.lavate.ch
+
+# LavaDNS
+DOMAIN-SUFFIX,dns.liberador.net
+
+# Liberador.net
+DOMAIN-SUFFIX,doh.libredns.gr
+
+# LibreDNS
+DOMAIN-SUFFIX,loadlow.me
+
+# LobbyGod
+DOMAIN-SUFFIX,dns.luma-medien.com
+
+# LuMa Medien
+DOMAIN-SUFFIX,dns.l337.site
+
+# MZJ Technology
+DOMAIN-SUFFIX,ae-fuj-w-p-1.nashkan.net
+DOMAIN-SUFFIX,ae-fuj-w-p-2.nashkan.net
+DOMAIN-SUFFIX,ae-fuj-w-p-3.nashkan.net
+DOMAIN-SUFFIX,au-syd-w-f-1.nashkan.net
+DOMAIN-SUFFIX,gb-lon-w-p-2.nashkan.net
+DOMAIN-SUFFIX,ro-buc-w-p-1.nashkan.net
+DOMAIN-SUFFIX,sg-w-p-1.nashkan.net
+DOMAIN-SUFFIX,us-chi-w-f-1.nashkan.net
+DOMAIN-SUFFIX,us-chi-w-p-1.nashkan.net
+DOMAIN-SUFFIX,us-jac-w-f-1.nashkan.net
+DOMAIN-SUFFIX,us-jac-w-p-1.nashkan.net
+DOMAIN-SUFFIX,us-kan-w-p-1.nashkan.net
+DOMAIN-SUFFIX,us-nyc-w-p-1.nashkan.net
+
+# Marbled Fennec Networks / FurrIX
+DOMAIN-SUFFIX,masters-of-cloud.de
+
+# Marco Fox
+DOMAIN-SUFFIX,dns.marbledfennec.net
+
+# Masters of Cloud
+DOMAIN-SUFFIX,dns.mateo.ovh
+
+# Mayx
+DOMAIN-SUFFIX,adguard.meddy94.de
+
+# Mullvad
+DOMAIN-SUFFIX,adblock.mydns.network
+DOMAIN-SUFFIX,family.mydns.network
+DOMAIN-SUFFIX,freedom.mydns.network
+DOMAIN-SUFFIX,paranoia.mydns.network
+
+# NIC.LV
+DOMAIN-SUFFIX,doh-own-recursion.nicolas-dorriere.fr
+DOMAIN-SUFFIX,doh-random-upstream.nicolas-dorriere.fr
+
+# NextDNS
+DOMAIN-SUFFIX,dns.nick-slowinski.de
+
+# NiYaWe
+DOMAIN-SUFFIX,dns.njal.la
+
+# Nick Slowinski
+DOMAIN-SUFFIX,doh.lv
+DOMAIN-SUFFIX,doh.nic.lv
+
+# Nicolas Dorriere
+DOMAIN-SUFFIX,dns.ningkelle.id
+DOMAIN-SUFFIX,family.dns.ningkelle.id
+
+# Ningkelle
+DOMAIN-SUFFIX,doh.niyawe.de
+
+# Njalla
+DOMAIN-SUFFIX,dns.novg.net
+
+# OpenBLD.net
+DOMAIN-SUFFIX,ag.apollohct.com
+
+# OpenLoop
+DOMAIN-SUFFIX,ns1.opennameserver.org
+
+# PaesaDNS
+DOMAIN-SUFFIX,dns.paulo.nom.za
+
+# Paulo
+DOMAIN-SUFFIX,dns.decky.eu
+
+# Pavol Decky
+DOMAIN-SUFFIX,dns.petqa.ru
+
+# PlumeDNS
+DOMAIN-SUFFIX,pooblet.co.za
+
+# Pubhole
+DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,dns10.quad9.net
+DOMAIN-SUFFIX,dns11.quad9.net
+DOMAIN-SUFFIX,dns12.quad9.net
+DOMAIN-SUFFIX,dns9.quad9.net
+
+# QWER DNS
+DOMAIN-SUFFIX,dns.redhosting.com.ar
+
+# Quad9
+DOMAIN-SUFFIX,dns.quiet.rocks
+
+# Quiet Rocks
+DOMAIN-SUFFIX,dog.dns.qwer.pw
+DOMAIN-SUFFIX,frog.dns.qwer.pw
+DOMAIN-SUFFIX,lion.dns.qwer.pw
+DOMAIN-SUFFIX,tiger.dns.qwer.pw
+
+# Restena
+DOMAIN-SUFFIX,dns.retakecs.com
+
+# RetakeCS
+DOMAIN-SUFFIX,sky.rethinkdns.com
+
+# RethinkDNS
+DOMAIN-SUFFIX,revelio.top
+
+# RobinGroppe.de
+DOMAIN-SUFFIX,dns.roedel.cloud
+
+# SZ DNS
+DOMAIN-SUFFIX,dns.stirringphoto.com
+
+# SafeServe
+DOMAIN-SUFFIX,dns.sheggi.ch
+
+# Sheggi
+DOMAIN-SUFFIX,adguard.shoupperuser.com
+
+# Slinkyman.net
+DOMAIN-SUFFIX,dns.smartguard.io
+
+# SmartGuard
+DOMAIN-SUFFIX,adg.geili.me
+
+# Startup Stack
+DOMAIN-SUFFIX,doh.sz-dns.com
+
+# StormyCloud
+DOMAIN-SUFFIX,dns.surfsharkdns.com
+
+# Sunet DNS
+DOMAIN-SUFFIX,sunnygyl.com
+
+# Surfshark DNS
+DOMAIN-SUFFIX,dns.suhaila.dev
+
+# Switch
+DOMAIN-SUFFIX,dns.szpadel.ovh
+
+# TWNIC
+DOMAIN-SUFFIX,doh.tiar.app
+
+# Telekom Deutschland
+DOMAIN-SUFFIX,dns.tipsy.coffee
+
+# Tiarap
+DOMAIN-SUFFIX,resolver.dnsprivacy.org.uk
+
+# TipsyCoffee
+DOMAIN-SUFFIX,dns.tls-data.de
+
+# Tls-data.de
+DOMAIN-SUFFIX,dns.twnic.tw
+
+# UK DNS Privacy Project
+DOMAIN-SUFFIX,anycast.uncensoreddns.org
+
+# UncensoredDNS
+DOMAIN-SUFFIX,dns.unx.io
+
+# Usable Privacy
+DOMAIN-SUFFIX,v.recipes
+
+# VIA
+DOMAIN-SUFFIX,abel.waringer-atg.de
+
+# W3C TAG
+DOMAIN-SUFFIX,dns.xlion.tw
+
+# Wikimedia DNS
+DOMAIN-SUFFIX,dns.w3ctag.org
+
+# Yarp
+DOMAIN-SUFFIX,dns.yuu-g.net
+
+# Yuu528
+DOMAIN-SUFFIX,zdn.ro
+
+# a47.me
+DOMAIN-SUFFIX,bazooki-infra.dev
+
+# anon.no
+DOMAIN-SUFFIX,dns.applewebkit.dev
+
+# applewebkit.dev
+DOMAIN-SUFFIX,arashi.net.eu.org
+DOMAIN-SUFFIX,ns.net.kg
+
+# arnor.org
+DOMAIN-SUFFIX,dns.asterimoon.com
+
+# bazooki-infra.dev
+DOMAIN-SUFFIX,dns.belnet.be
+
+# brembeck.cloud
+DOMAIN-SUFFIX,dns.busold.ws
+
+# busold.ws
+DOMAIN-SUFFIX,doh.aaaab3n.moe
+
+# caspervk.net
+DOMAIN-SUFFIX,dns.cctld.kg
+
+# chenu.ch
+DOMAIN-SUFFIX,dns.christerwaren.fi
+
+# csa-rz.de
+DOMAIN-SUFFIX,dns.csswg.org
+
+# d94.xyz
+DOMAIN-SUFFIX,dns.elemental.software
+
+# data.haus
+DOMAIN-SUFFIX,dns.datenquark.de
+
+# datenquark.de
+DOMAIN-SUFFIX,dns.dev-umbrellagov.com
+
+# dev-umbrellagov
+DOMAIN-SUFFIX,dns.digitale-gesellschaft.ch
+
+# dns.digitalsize.net
+DOMAIN-SUFFIX,doh.dns.sb
+
+# dns.flatuslifir.is
+DOMAIN-SUFFIX,dns.dnshome.de
+
+# dns4me
+DOMAIN-SUFFIX,abn01.dnscry.pt
+DOMAIN-SUFFIX,ath01.dnscry.pt
+DOMAIN-SUFFIX,atl01.dnscry.pt
+DOMAIN-SUFFIX,bne01.dnscry.pt
+DOMAIN-SUFFIX,bog01.dnscry.pt
+DOMAIN-SUFFIX,bom01.dnscry.pt
+DOMAIN-SUFFIX,bru01.dnscry.pt
+DOMAIN-SUFFIX,bts01.dnscry.pt
+DOMAIN-SUFFIX,cph01.dnscry.pt
+DOMAIN-SUFFIX,cvt01.dnscry.pt
+DOMAIN-SUFFIX,dub01.dnscry.pt
+DOMAIN-SUFFIX,evn01.dnscry.pt
+DOMAIN-SUFFIX,fra01.dnscry.pt
+DOMAIN-SUFFIX,fra02.dnscry.pt
+DOMAIN-SUFFIX,geg01.dnscry.pt
+DOMAIN-SUFFIX,gru01.dnscry.pt
+DOMAIN-SUFFIX,gva01.dnscry.pt
+DOMAIN-SUFFIX,haf01.dnscry.pt
+DOMAIN-SUFFIX,han01.dnscry.pt
+DOMAIN-SUFFIX,ist01.dnscry.pt
+DOMAIN-SUFFIX,kiv01.dnscry.pt
+DOMAIN-SUFFIX,las01.dnscry.pt
+DOMAIN-SUFFIX,lon01.dnscry.pt
+DOMAIN-SUFFIX,mad01.dnscry.pt
+DOMAIN-SUFFIX,mil01.dnscry.pt
+DOMAIN-SUFFIX,nue01.dnscry.pt
+DOMAIN-SUFFIX,omr01.dnscry.pt
+DOMAIN-SUFFIX,par01.dnscry.pt
+DOMAIN-SUFFIX,pdx01.dnscry.pt
+DOMAIN-SUFFIX,phl01.dnscry.pt
+DOMAIN-SUFFIX,phx01.dnscry.pt
+DOMAIN-SUFFIX,rdd01.dnscry.pt
+DOMAIN-SUFFIX,sea01.dnscry.pt
+DOMAIN-SUFFIX,sgn01.dnscry.pt
+DOMAIN-SUFFIX,sin03.dnscry.pt
+DOMAIN-SUFFIX,sjc01.dnscry.pt
+DOMAIN-SUFFIX,slc01.dnscry.pt
+DOMAIN-SUFFIX,sof01.dnscry.pt
+DOMAIN-SUFFIX,sto01.dnscry.pt
+DOMAIN-SUFFIX,syd02.dnscry.pt
+DOMAIN-SUFFIX,tbs01.dnscry.pt
+DOMAIN-SUFFIX,tll01.dnscry.pt
+DOMAIN-SUFFIX,tpa01.dnscry.pt
+DOMAIN-SUFFIX,trf01.dnscry.pt
+DOMAIN-SUFFIX,tsm01.dnscry.pt
+DOMAIN-SUFFIX,vie01.dnscry.pt
+DOMAIN-SUFFIX,vno01.dnscry.pt
+DOMAIN-SUFFIX,waw02.dnscry.pt
+DOMAIN-SUFFIX,yhz01.dnscry.pt
+DOMAIN-SUFFIX,yvr01.dnscry.pt
+DOMAIN-SUFFIX,yyc01.dnscry.pt
+DOMAIN-SUFFIX,yyz01.dnscry.pt
+
+# dnsHome.de
+DOMAIN-SUFFIX,dnslow.me
+
+# dnscry.pt
+DOMAIN-SUFFIX,dnsdoh.art
+
+# dnsdoh.art
+DOMAIN-SUFFIX,dns.flatuslifir.is
+
+# dnslow.me
+DOMAIN-SUFFIX,chuncheon.dnsovertor.cc
+DOMAIN-SUFFIX,japan.dnsovertor.cc
+DOMAIN-SUFFIX,seoul.dnsovertor.cc
+
+# doh.beauty
+DOMAIN-SUFFIX,doh.buzz
+
+# doh.buzz
+DOMAIN-SUFFIX,3dns.eu
+
+# domreg.lt
+DOMAIN-SUFFIX,dns.dremaxx.de
+
+# dremaxx.de
+DOMAIN-SUFFIX,agh.dshubham.xyz
+
+# dshubham.xyz
+DOMAIN-SUFFIX,dukun.de
+
+# duröhre.de
+DOMAIN-SUFFIX,dns.dynx.pro
+
+# faked.org
+DOMAIN-SUFFIX,dnsvps.familiamv.net
+
+# familiamv.net
+DOMAIN-SUFFIX,dns.fancyorg.at
+
+# ffmuc.net
+DOMAIN-SUFFIX,fidelius.top
+
+# fidelius.top
+DOMAIN-SUFFIX,dns.floriantinney.de
+
+# floriantinney.de
+DOMAIN-SUFFIX,dns.flymc.cc
+
+# gibblets.top
+DOMAIN-SUFFIX,dns.girino.org
+
+# girino.org
+DOMAIN-SUFFIX,glacius.top
+
+# glacius.top
+DOMAIN-SUFFIX,8888.google
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,dns64.dns.google
+
+# imperio.top
+DOMAIN-SUFFIX,dns1.in-berlin.de
+DOMAIN-SUFFIX,dns2.in-berlin.de
+
+# kapite.in
+DOMAIN-SUFFIX,dns.kernel-error.de
+
+# kescher
+DOMAIN-SUFFIX,pihole.aws.ketan.dev
+
+# ketan.dev
+DOMAIN-SUFFIX,adg.khon.dev
+
+# khon.dev
+DOMAIN-SUFFIX,dns.koala.us.to
+
+# krctech.dev
+DOMAIN-SUFFIX,doh.lacontrevoie.fr
+
+# l337.site
+DOMAIN-SUFFIX,dns.marasov.id
+
+# loadlow.me
+DOMAIN-SUFFIX,dns.lobbygod.com
+
+# m-it.ro
+DOMAIN-SUFFIX,doh.mmmalia.com
+
+# marasov.id
+DOMAIN-SUFFIX,dns.technologycage.com
+
+# mateo.ovh
+DOMAIN-SUFFIX,dns.mayx.eu.org
+
+# meddy94.de
+DOMAIN-SUFFIX,dns.mh4ckt3mh4ckt1c4s.xyz
+
+# mh4ckt3mh4ckt1c4s.xyz
+DOMAIN-SUFFIX,addns1.m-it.ro
+
+# mmmalia.com
+DOMAIN-SUFFIX,dns.mnet-online.de
+
+# mnet-online.de
+DOMAIN-SUFFIX,adblock.dns.mullvad.net
+DOMAIN-SUFFIX,all.dns.mullvad.net
+DOMAIN-SUFFIX,base.dns.mullvad.net
+DOMAIN-SUFFIX,dns.mullvad.net
+DOMAIN-SUFFIX,extended.dns.mullvad.net
+DOMAIN-SUFFIX,family.dns.mullvad.net
+
+# mydns.network
+DOMAIN-SUFFIX,dns.mzjtechnology.com
+
+# nashkan.net
+DOMAIN-SUFFIX,dns.neeb.it
+
+# neeb.it
+DOMAIN-SUFFIX,dns.nextdns.io
+
+# novg.net
+DOMAIN-SUFFIX,dns.ofdoom.net
+
+# o2cloud.fr
+DOMAIN-SUFFIX,dns.paesa.es
+
+# ofdoom.net
+DOMAIN-SUFFIX,ada.openbld.net
+
+# opennameserver.org
+DOMAIN-SUFFIX,dns4eu.online
+
+# petqa.ru
+DOMAIN-SUFFIX,helios.plan9-dns.com
+DOMAIN-SUFFIX,kronos.plan9-dns.com
+DOMAIN-SUFFIX,pluton.plan9-dns.com
+
+# plan9-dns
+DOMAIN-SUFFIX,privacy.plumedns.com
+
+# pooblet.co.za
+DOMAIN-SUFFIX,doh.archuser.org
+
+# redhosting.com.ar
+DOMAIN-SUFFIX,regiopolis.cloud
+
+# regiopolis.cloud
+DOMAIN-SUFFIX,renardbleu.dev
+
+# renardbleu.dev
+DOMAIN-SUFFIX,dnspub.restena.lu
+
+# revelio.top
+DOMAIN-SUFFIX,dns.rbn.gr
+
+# roedel.cloud
+DOMAIN-SUFFIX,safeservedns.com
+
+# shoupperuser.com
+DOMAIN-SUFFIX,dns.silen.org
+
+# silen.org
+DOMAIN-SUFFIX,dns.skrep.eu
+
+# skrep.eu
+DOMAIN-SUFFIX,dns.slinkyman.net
+
+# smilence
+DOMAIN-SUFFIX,dns.startupstack.tech
+
+# stirringphoto.com
+DOMAIN-SUFFIX,dns.stormycloud.org
+
+# suhaila.dev
+DOMAIN-SUFFIX,resolver.sunet.se
+
+# sunnygyl.com
+DOMAIN-SUFFIX,dns.superstefan.win
+
+# superstefan.win
+DOMAIN-SUFFIX,dns.switch.ch
+
+# szpadel.ovh
+DOMAIN-SUFFIX,dns.t53.de
+
+# t53.de
+DOMAIN-SUFFIX,dns.telekom.de
+
+# unx.io
+DOMAIN-SUFFIX,adfree.usableprivacy.net
+
+# v.recipes
+DOMAIN-SUFFIX,dns.vaioswolke.xyz
+
+# vaioswolke.xyz
+DOMAIN-SUFFIX,doh.viatech.com.tw
+
+# waringer-atg.de
+DOMAIN-SUFFIX,wikimedia-dns.org
+
+# xlion.tw
+DOMAIN-SUFFIX,yarp.lefolgoc.net
+
+# zdn.ro
+DOMAIN-SUFFIX,doh.zknt.org
+
