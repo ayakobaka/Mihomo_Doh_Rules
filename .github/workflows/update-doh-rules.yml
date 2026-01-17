@@ -42,6 +42,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: 🗂️ Prepare output directory
+        run: |
+          # 如果 rules 是文件，删除它
+          if [ -f rules ]; then
+            echo "⚠️  检测到 rules 是文件，删除中..."
+            rm rules
+          fi
+          
+          # 如果 rules 目录不存在，创建它
+          if [ ! -d rules ]; then
+            echo "✓ 创建 rules 目录"
+            mkdir -p rules
+          fi
+          
+          echo "✓ rules 目录准备完成"
+      
       - name: 🌍 Generate DoH rulesets
         run: |
           echo "开始生成 DoH 规则集..."
