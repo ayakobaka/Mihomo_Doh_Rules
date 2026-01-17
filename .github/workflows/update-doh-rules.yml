@@ -61,7 +61,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add rules/
+          git add rules/*.yaml rules/*.list
           git commit -m "🤖 Auto-update DoH rules - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
       
@@ -69,7 +69,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: doh-rules-${{ github.run_number }}
-          path: rules/
+          path: |
+            rules/doh_foreign.yaml
+            rules/doh_china.yaml
+            rules/doh_foreign.list
+            rules/doh_china.list
           retention-days: 30
       
       - name: 🏷️ Create release (optional)
@@ -89,7 +93,6 @@ jobs:
             - `doh_china.yaml` - 国内 DoH (建议直连)
             - `doh_foreign.list` - 境外 DoH (DOMAIN-SUFFIX 格式)
             - `doh_china.list` - 国内 DoH (DOMAIN-SUFFIX 格式)
-            - `classification_log.txt` - 分类详情日志
             
             ### 🔗 使用方法
             在 Mihomo 配置中添加:
@@ -110,6 +113,5 @@ jobs:
             rules/doh_china.yaml
             rules/doh_foreign.list
             rules/doh_china.list
-            rules/classification_log.txt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
