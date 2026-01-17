@@ -1,4 +1,4 @@
-# DoH Ruleset Generator for Mihomo
+# Mihomo_Doh_Rules
 
 自动从 [curl/curl wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS) 抓取 DoH 服务器列表，使用 GeoIP 分类国内外服务器，生成 Mihomo 格式的规则集。
 
@@ -13,7 +13,7 @@
 ## 📂 项目结构
 
 ```
-doh-ruleset-generator/
+Mihomo_Doh_Rules/
 ├── .github/workflows/
 │   └── update-doh-rules.yml      # GitHub Actions 自动化
 ├── src/
@@ -214,4 +214,5 @@ MIT License
 
 - [curl/curl DoH Wiki](https://github.com/curl/curl/wiki/DNS-over-HTTPS)
 - [Mihomo (Clash Meta)](https://github.com/MetaCubeX/mihomo)
+
 - [ip-api.com](https://ip-api.com/)
