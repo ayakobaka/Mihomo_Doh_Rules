@@ -1,0 +1,115 @@
+name: Update DoH Rules
+
+on:
+  # 每天 UTC 00:00 自动运行 (北京时间 08:00)
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 允许手动触发
+  workflow_dispatch:
+  
+  # 当配置文件或脚本更新时运行
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'main.py'
+      - '.github/workflows/update-doh-rules.yml'
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 🌍 Run DoH ruleset generator
+        run: |
+          python main.py
+      
+      - name: 📊 Show statistics
+        run: |
+          echo "=== 生成的规则文件 ==="
+          ls -lh rules/
+          echo ""
+          echo "=== 境外 DoH 数量 ==="
+          grep -c "^  - " rules/doh_foreign.yaml || echo "0"
+          echo ""
+          echo "=== 国内 DoH 数量 ==="
+          grep -c "^  - " rules/doh_china.yaml || echo "0"
+      
+      - name: 🔍 Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet rules/ || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: 💾 Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add rules/
+          git commit -m "🤖 Auto-update DoH rules - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+      
+      - name: 📋 Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: doh-rules-${{ github.run_number }}
+          path: rules/
+          retention-days: 30
+      
+      - name: 🏷️ Create release (optional)
+        if: steps.check_changes.outputs.changed == 'true' && github.event_name == 'schedule'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ github.run_number }}
+          name: DoH Rules Update - ${{ github.run_number }}
+          body: |
+            ## 📋 DoH 规则集自动更新
+            
+            **更新时间**: ${{ github.event.repository.updated_at }}
+            **触发方式**: 定时任务
+            
+            ### 📦 包含文件
+            - `doh_foreign.yaml` - 境外 DoH (建议代理)
+            - `doh_china.yaml` - 国内 DoH (建议直连)
+            - `doh_foreign.list` - 境外 DoH (DOMAIN-SUFFIX 格式)
+            - `doh_china.list` - 国内 DoH (DOMAIN-SUFFIX 格式)
+            - `classification_log.txt` - 分类详情日志
+            
+            ### 🔗 使用方法
+            在 Mihomo 配置中添加:
+            ```yaml
+            rule-providers:
+              doh-foreign:
+                type: http
+                behavior: domain
+                url: "https://raw.githubusercontent.com/${{ github.repository }}/main/rules/doh_foreign.yaml"
+                path: ./ruleset/doh_foreign.yaml
+                interval: 86400
+            
+            rules:
+              - RULE-SET,doh-foreign,🚀 节点选择
+            ```
+          files: |
+            rules/doh_foreign.yaml
+            rules/doh_china.yaml
+            rules/doh_foreign.list
+            rules/doh_china.list
+            rules/classification_log.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
