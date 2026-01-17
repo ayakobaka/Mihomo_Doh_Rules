@@ -54,7 +54,9 @@ jobs:
       - name: 🔍 Check for changes
         id: check_changes
         run: |
-          git diff --quiet rules/ || echo "changed=true" >> $GITHUB_OUTPUT
+          if [ -d "rules" ] && [ -n "$(git status --porcelain rules/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: 💾 Commit and push if changed
         if: steps.check_changes.outputs.changed == 'true'
