@@ -69,7 +69,10 @@ jobs:
       - name: 🔍 Check for changes
         id: check_changes
         run: |
-          git add rules/*.dat rules/*_info.txt
+          # 添加存在的文件
+          git add rules/*.dat 2>/dev/null || true
+          git add rules/*_info.txt 2>/dev/null || true
+          
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "ℹ️  DAT 文件无变化，跳过提交"
@@ -87,12 +90,24 @@ jobs:
           # 拉取最新更改
           git pull --rebase origin main || echo "无法 rebase，继续..."
           
-          # 统计信息
-          FOREIGN_SIZE=$(ls -lh rules/doh_foreign.dat | awk '{print $5}')
-          CHINA_SIZE=$(ls -lh rules/doh_china.dat 2>/dev/null | awk '{print $5}' || echo "0")
+          # 统计信息（检查文件是否存在）
+          if [ -f rules/doh_foreign.dat ]; then
+            FOREIGN_SIZE=$(ls -lh rules/doh_foreign.dat | awk '{print $5}')
+          else
+            FOREIGN_SIZE="N/A"
+          fi
+          
+          if [ -f rules/doh_china.dat ]; then
+            CHINA_SIZE=$(ls -lh rules/doh_china.dat | awk '{print $5}')
+          else
+            CHINA_SIZE="N/A"
+          fi
+          
+          # 添加所有生成的文件
+          git add rules/*.dat 2>/dev/null || true
+          git add rules/*_info.txt 2>/dev/null || true
           
           # 提交 DAT 文件
-          git add rules/*.dat rules/*_info.txt
           git commit -m "🔄 Auto-convert to geosite.dat format
 
           - doh_foreign.dat (${FOREIGN_SIZE})
