@@ -1,0 +1,116 @@
+name: Convert DoH List to Geosite
+
+on:
+  # 当 Update DoH Rules 工作流运行完成后自动触发
+  workflow_run:
+    workflows: ["Update DoH Rules"]
+    types:
+      - completed
+
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  convert-geosite:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🔁 Convert .list to geosite format
+        run: |
+          python - << 'PY'
+          import os
+          from datetime import datetime
+
+          RULES_DIR = "rules"
+          INPUT_FILES = ["doh_foreign.list", "doh_china.list"]
+
+          type_mapping = {
+              "DOMAIN-SUFFIX": "domain-suffix",
+              "DOMAIN": "domain",
+              "FULL": "full",
+              "KEYWORD": "keyword",
+          }
+
+          if not os.path.isdir(RULES_DIR):
+              print(f"❌ rules 目录不存在，跳过转换: {RULES_DIR}")
+              raise SystemExit(0)
+
+          for name in INPUT_FILES:
+              src = os.path.join(RULES_DIR, name)
+              if not os.path.exists(src):
+                  print(f"⚠️ 源文件不存在，跳过: {src}")
+                  continue
+
+              dst = os.path.join(RULES_DIR, name.replace(".list", ".geosite"))
+
+              print(f"🔧 正在转换 {src} -> {dst}")
+
+              with open(src, "r", encoding="utf-8") as f:
+                  lines = f.readlines()
+
+              out_lines = []
+              out_lines.append("# DoH Servers Ruleset - Geosite 格式 (用于 Mihomo)\n")
+              out_lines.append(f"# Source: {name}\n")
+              out_lines.append(f"# Converted at: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
+              out_lines.append("# Format: geosite text list (type:value)\n\n")
+
+              for line in lines:
+                  raw = line.rstrip("\n")
+                  stripped = raw.strip()
+
+                  # 注释或空行原样保留
+                  if not stripped or stripped.startswith("#"):
+                      out_lines.append(raw + "\n")
+                      continue
+
+                  if "," not in stripped:
+                      # 非标准行，直接跳过
+                      continue
+
+                  rule_type, value = [part.strip() for part in stripped.split(",", 1)]
+                  mapped_type = type_mapping.get(rule_type.upper())
+                  if not mapped_type or not value:
+                      # 未知类型或无值，跳过
+                      continue
+
+                  out_lines.append(f"{mapped_type}:{value}\n")
+
+              with open(dst, "w", encoding="utf-8") as f:
+                  f.writelines(out_lines)
+
+              print(f"✅ 已生成: {dst}")
+
+          PY
+
+      - name: 🔍 Check for changes
+        id: check_changes
+        run: |
+          if [ -d "rules" ] && [ -n "$(git status --porcelain rules/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 💾 Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add rules/*.geosite
+          git commit -m "🤖 Auto-convert DoH .list to geosite format - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+
+      - name: 📋 Upload geosite artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: doh-geosite-${{ github.run_number }}
+          path: |
+            rules/doh_foreign.geosite
+            rules/doh_china.geosite
+          retention-days: 30
