@@ -38,10 +38,12 @@ jobs:
         run: |
           python - << 'PY'
           import os
+          import shutil
           from pathlib import Path
 
           rules_dir = Path("rules")
           dlc_data_dir = Path("dlc") / "data"
+          preview_file = rules_dir / "geosite_preview.txt"
 
           mapping = {
               "DOMAIN-SUFFIX": "domain",
@@ -58,7 +60,12 @@ jobs:
           if not rules_dir.is_dir():
               raise SystemExit("rules 目录不存在，跳过")
 
+          # 清空 dlc/data 目录，只保留我们生成的 DoH 规则，避免混入无关数据
+          if dlc_data_dir.exists():
+              shutil.rmtree(dlc_data_dir)
           dlc_data_dir.mkdir(parents=True, exist_ok=True)
+
+          preview_lines = ["# Geosite Content Preview (Text Format)\n# This file is for preview only. The actual database is geosite.dat (binary).\n"]
 
           for src_name, code_name in inputs:
               src = rules_dir / src_name
@@ -76,10 +83,18 @@ jobs:
                   if not mapped or not value:
                       continue
                   values.append(f"{mapped}:{value}")
-
+              
+              content = "\n".join(sorted(set(values))) + "\n"
+              
+              # 写入 geosite 源文件
               out = dlc_data_dir / code_name
-              out.write_text("\n".join(sorted(set(values))) + "\n", encoding="utf-8")
-
+              out.write_text(content, encoding="utf-8")
+              
+              # 写入预览文件
+              preview_lines.append(f"\n# Category: {code_name}\n")
+              preview_lines.append(content)
+          
+          preview_file.write_text("".join(preview_lines), encoding="utf-8")
           PY
 
           cd dlc
@@ -102,7 +117,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add rules/geosite.dat rules/geosite.dat.sha256sum
+          git add rules/geosite.dat rules/geosite.dat.sha256sum rules/geosite_preview.txt
           git commit -m "🤖 Auto-build geosite.dat with DoH lists - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push origin HEAD:main
 
@@ -113,4 +128,5 @@ jobs:
           path: |
             rules/geosite.dat
             rules/geosite.dat.sha256sum
+            rules/geosite_preview.txt
           retention-days: 30
