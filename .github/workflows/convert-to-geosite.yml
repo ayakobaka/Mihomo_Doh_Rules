@@ -32,10 +32,32 @@ jobs:
         with:
           python-version: '3.11'
       
+      - name: 🔍 Debug - Check files before conversion
+        run: |
+          echo "当前目录结构:"
+          ls -la
+          echo ""
+          echo "rules 目录内容:"
+          ls -lah rules/ || echo "rules 目录不存在"
+          echo ""
+          echo "src 目录内容:"
+          ls -lah src/ || echo "src 目录不存在"
+      
       - name: 🔄 Convert to Geosite DAT format
         run: |
           echo "开始转换 .list 规则为 geosite .dat 格式..."
+          echo ""
+          echo "检查输入文件："
+          ls -lh rules/*.list || echo "⚠️  未找到 .list 文件"
+          echo ""
+          
+          # 运行转换脚本
           python src/geosite_converter.py
+          
+          echo ""
+          echo "检查输出文件："
+          ls -lh rules/*.dat 2>/dev/null || echo "⚠️  未生成 .dat 文件"
+          ls -lh rules/*_info.txt 2>/dev/null || echo "⚠️  未生成 info 文件"
           echo ""
           echo "转换完成！"
       
