@@ -104,7 +104,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add rules/geosite.dat rules/geosite.dat.sha256sum
           git commit -m "🤖 Auto-build geosite.dat with DoH lists - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          git push
+          git push origin HEAD:main
 
       - name: 📋 Upload geosite artifacts
         uses: actions/upload-artifact@v4
