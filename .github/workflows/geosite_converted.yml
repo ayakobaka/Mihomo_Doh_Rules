@@ -1,5 +1,8 @@
 name: Convert DoH List to Geosite
 
+permissions:
+  contents: write
+
 on:
   # 当 Update DoH Rules 工作流运行完成后自动触发
   workflow_run:
