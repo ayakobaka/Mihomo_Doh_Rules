@@ -86,15 +86,17 @@ jobs:
               
               content = "\n".join(sorted(set(values))) + "\n"
               
-              # 写入 geosite 源文件
+              # 写入 geosite 源文件 (必须使用 LF 换行符，否则 go run ./ 会出错)
               out = dlc_data_dir / code_name
-              out.write_text(content, encoding="utf-8")
+              with out.open("w", encoding="utf-8", newline='\n') as f:
+                  f.write(content)
               
               # 写入预览文件
               preview_lines.append(f"\n# Category: {code_name}\n")
               preview_lines.append(content)
           
-          preview_file.write_text("".join(preview_lines), encoding="utf-8")
+          with preview_file.open("w", encoding="utf-8", newline='\n') as f:
+              f.write("".join(preview_lines))
           PY
 
           cd dlc
