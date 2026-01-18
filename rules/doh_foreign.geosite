@@ -1,0 +1,753 @@
+# DoH Servers Ruleset - Geosite 格式 (用于 Mihomo)
+# Source: doh_foreign.list
+# Converted at: 2026-01-18 01:08:38 UTC
+# Format: geosite text list (type:value)
+
+# DoH Servers Ruleset - 境外 DoH (建议代理)
+# Auto-generated from curl/curl wiki
+# Generated at: 2026-01-17 20:42:57
+# Total rules: 323
+
+# **0-9**
+domain-suffix:123000123.xyz
+
+# **Others**
+domain-suffix:ibuki.cgnat.net
+
+# 123000123.xyz
+domain-suffix:ns2.4netguides.org
+
+# @null31
+domain-suffix:doh.seby.io
+
+# Absolight
+domain-suffix:adl.adfilter.net
+domain-suffix:per.adfilter.net
+domain-suffix:syd.adfilter.net
+
+# AdFilter
+domain-suffix:adfreedns.top
+
+# AdGuard
+domain-suffix:dns.akbxr.com
+
+# Adfreedns
+domain-suffix:dns.adguard-dns.com
+domain-suffix:family.adguard-dns.com
+domain-suffix:unfiltered.adguard-dns.com
+
+# AliDNS
+domain-suffix:doh.kel.pe
+
+# Andrews & Arnold
+domain-suffix:doh.angry.im
+
+# André Kelpe
+domain-suffix:dns.aa.net.uk
+
+# Angry.im
+domain-suffix:dns.anon.no
+
+# Arashi DNS
+domain-suffix:nsec.arnor.org
+
+# Asteri Moon
+domain-suffix:secure.avastdns.com
+
+# Avast DNS
+domain-suffix:dns.a47.me
+
+# BITServices
+domain-suffix:dns.blokada.org
+
+# Belnet
+domain-suffix:dns.bmwhocking.com
+
+# Ben Hocking
+domain-suffix:dns.bitdefender.net
+
+# Bitdefender
+domain-suffix:dns.bitservices.io
+
+# Blokada DNS
+domain-suffix:rfree1.blue-shield.at
+domain-suffix:rfree2.blue-shield.at
+
+# Blue Shield Umbrella
+domain-suffix:dns.brahma.world
+
+# Brahma World
+domain-suffix:dns.brembeck.cloud
+
+# CCTLD.KG
+domain-suffix:dns.cert.ee
+
+# CERT Estonia
+domain-suffix:doh-01.spectrum.com
+domain-suffix:doh-02.spectrum.com
+
+# CIRA Canadian Shield
+domain-suffix:doh.familyshield.opendns.com
+domain-suffix:doh.opendns.com
+domain-suffix:doh.umbrella.com
+
+# CSA-IT
+domain-suffix:dns.csa-rz.de
+
+# CSS Working Group
+domain-suffix:dns.cynthialabs.net
+
+# CZ.NIC
+domain-suffix:ns.data.haus
+
+# Canarypwn
+domain-suffix:dns.caspervk.net
+
+# Charter
+domain-suffix:dns.chenu.ch
+
+# Christer Warén
+domain-suffix:dns.chunghwamc.com
+
+# ChunghwaMC
+domain-suffix:family.canadianshield.cira.ca
+domain-suffix:private.canadianshield.cira.ca
+domain-suffix:protected.canadianshield.cira.ca
+
+# Cisco Umbrella (OpenDNS)
+domain-suffix:doh.cleanbrowsing.org
+
+# CleanBrowsing
+domain-suffix:dns1.techniverse.net
+
+# CleverAdmin
+domain-suffix:cloudflare-dns.com
+domain-suffix:dns64.cloudflare-dns.com
+domain-suffix:family.cloudflare-dns.com
+domain-suffix:mozilla.cloudflare-dns.com
+domain-suffix:security.cloudflare-dns.com
+
+# Cloudflare
+domain-suffix:dns.comss.one
+domain-suffix:router.comss.one
+
+# Comss.one DNS
+domain-suffix:freedns.controld.com
+
+# Control D
+domain-suffix:cryptostorm.is
+
+# Cryptostorm
+domain-suffix:dns.csaonline.de
+
+# CynthiaLabs
+domain-suffix:odvr.nic.cz
+
+# DNS.SB
+domain-suffix:doh.dns4all.eu
+
+# DNS4all
+domain-suffix:child-noads.joindns4.eu
+domain-suffix:child.joindns4.eu
+domain-suffix:noads.joindns4.eu
+domain-suffix:protective.joindns4.eu
+domain-suffix:unfiltered.joindns4.eu
+
+# DNSPod
+domain-suffix:doh.beauty
+
+# Digitale Gesellschaft
+domain-suffix:doh.disconnect.app
+
+# Disconnect.app
+domain-suffix:dns.digitalsize.net
+
+# Dom!nic
+domain-suffix:doh.domreg.lt
+
+# Dukun.de
+domain-suffix:xn--durhre-yxa.de
+
+# DynX
+domain-suffix:dns.d94.xyz
+
+# ELIV DNS
+domain-suffix:dns.faked.org
+
+# Elemental Software
+domain-suffix:dns.eliv.kr
+
+# FBI NICS E-Check
+domain-suffix:ns0.fdn.fr
+domain-suffix:ns1.fdn.fr
+
+# FDN
+domain-suffix:doh.li
+
+# FLY_MC
+domain-suffix:doh.applied-privacy.net
+
+# Fancyorg.at
+domain-suffix:dns.farshidhakimy.de
+
+# Feroz
+domain-suffix:doh.ffmuc.net
+
+# Foundation for Applied Privacy
+domain-suffix:de-f1.foxyfy.net
+domain-suffix:dns.foxyfy.net
+domain-suffix:es-ma.foxyfy.net
+
+# Foxyfy DNS
+domain-suffix:dns.froth.zone
+
+# Froth.zone
+domain-suffix:doh.futa.gg
+
+# FutaDNS
+domain-suffix:dns.gamban.com
+
+# Gamban
+domain-suffix:gibblets.top
+
+# Google
+domain-suffix:dns.glf.wtf
+
+# Gottlieb Freitag
+domain-suffix:dns.guard.io
+
+# Guardio
+domain-suffix:secure.hafnova.com
+
+# HaGeZi DNS
+domain-suffix:dns.haka.se
+
+# Hafnova
+domain-suffix:juuri.hagezi.org
+domain-suffix:root.hagezi.org
+domain-suffix:wurzn.hagezi.org
+
+# Hakase
+domain-suffix:doth.huque.com
+
+# Huque
+domain-suffix:imperio.top
+
+# In-Berlin
+domain-suffix:dns.inforlogia.com
+
+# Inforlogia
+domain-suffix:public.dns.iij.jp
+
+# Internet Initiative Japan
+domain-suffix:dns.kapite.in
+
+# Kernel Error
+domain-suffix:dns.kescher.at
+
+# Koala
+domain-suffix:dns.kosan.moe
+
+# Kosan
+domain-suffix:adblock.krctech.dev
+
+# La Contre-Voie
+domain-suffix:eu1.dns.lavate.ch
+
+# LavaDNS
+domain-suffix:dns.liberador.net
+
+# Liberador.net
+domain-suffix:doh.libredns.gr
+
+# LibreDNS
+domain-suffix:loadlow.me
+
+# LobbyGod
+domain-suffix:dns.luma-medien.com
+
+# LuMa Medien
+domain-suffix:dns.l337.site
+
+# MZJ Technology
+domain-suffix:ae-fuj-w-p-1.nashkan.net
+domain-suffix:ae-fuj-w-p-2.nashkan.net
+domain-suffix:ae-fuj-w-p-3.nashkan.net
+domain-suffix:au-syd-w-f-1.nashkan.net
+domain-suffix:gb-lon-w-p-2.nashkan.net
+domain-suffix:ro-buc-w-p-1.nashkan.net
+domain-suffix:sg-w-p-1.nashkan.net
+domain-suffix:us-chi-w-f-1.nashkan.net
+domain-suffix:us-chi-w-p-1.nashkan.net
+domain-suffix:us-jac-w-f-1.nashkan.net
+domain-suffix:us-jac-w-p-1.nashkan.net
+domain-suffix:us-kan-w-p-1.nashkan.net
+domain-suffix:us-nyc-w-p-1.nashkan.net
+
+# Marbled Fennec Networks / FurrIX
+domain-suffix:masters-of-cloud.de
+
+# Marco Fox
+domain-suffix:dns.marbledfennec.net
+
+# Masters of Cloud
+domain-suffix:dns.mateo.ovh
+
+# Mayx
+domain-suffix:adguard.meddy94.de
+
+# Mullvad
+domain-suffix:adblock.mydns.network
+domain-suffix:family.mydns.network
+domain-suffix:freedom.mydns.network
+domain-suffix:paranoia.mydns.network
+
+# NIC.LV
+domain-suffix:doh-own-recursion.nicolas-dorriere.fr
+domain-suffix:doh-random-upstream.nicolas-dorriere.fr
+
+# NextDNS
+domain-suffix:dns.nick-slowinski.de
+
+# NiYaWe
+domain-suffix:dns.njal.la
+
+# Nick Slowinski
+domain-suffix:doh.lv
+domain-suffix:doh.nic.lv
+
+# Nicolas Dorriere
+domain-suffix:dns.ningkelle.id
+domain-suffix:family.dns.ningkelle.id
+
+# Ningkelle
+domain-suffix:doh.niyawe.de
+
+# Njalla
+domain-suffix:dns.novg.net
+
+# OpenBLD.net
+domain-suffix:ag.apollohct.com
+
+# OpenLoop
+domain-suffix:ns1.opennameserver.org
+
+# PaesaDNS
+domain-suffix:dns.paulo.nom.za
+
+# Paulo
+domain-suffix:dns.decky.eu
+
+# Pavol Decky
+domain-suffix:dns.petqa.ru
+
+# PlumeDNS
+domain-suffix:pooblet.co.za
+
+# Pubhole
+domain-suffix:dns.quad9.net
+domain-suffix:dns10.quad9.net
+domain-suffix:dns11.quad9.net
+domain-suffix:dns12.quad9.net
+domain-suffix:dns9.quad9.net
+
+# QWER DNS
+domain-suffix:dns.redhosting.com.ar
+
+# Quad9
+domain-suffix:dns.quiet.rocks
+
+# Quiet Rocks
+domain-suffix:dog.dns.qwer.pw
+domain-suffix:frog.dns.qwer.pw
+domain-suffix:lion.dns.qwer.pw
+domain-suffix:tiger.dns.qwer.pw
+
+# Restena
+domain-suffix:dns.retakecs.com
+
+# RetakeCS
+domain-suffix:sky.rethinkdns.com
+
+# RethinkDNS
+domain-suffix:revelio.top
+
+# RobinGroppe.de
+domain-suffix:dns.roedel.cloud
+
+# SZ DNS
+domain-suffix:dns.stirringphoto.com
+
+# SafeServe
+domain-suffix:dns.sheggi.ch
+
+# Sheggi
+domain-suffix:adguard.shoupperuser.com
+
+# Slinkyman.net
+domain-suffix:dns.smartguard.io
+
+# SmartGuard
+domain-suffix:adg.geili.me
+
+# Startup Stack
+domain-suffix:doh.sz-dns.com
+
+# StormyCloud
+domain-suffix:dns.surfsharkdns.com
+
+# Sunet DNS
+domain-suffix:sunnygyl.com
+
+# Surfshark DNS
+domain-suffix:dns.suhaila.dev
+
+# Switch
+domain-suffix:dns.szpadel.ovh
+
+# TWNIC
+domain-suffix:doh.tiar.app
+
+# Telekom Deutschland
+domain-suffix:dns.tipsy.coffee
+
+# Tiarap
+domain-suffix:resolver.dnsprivacy.org.uk
+
+# TipsyCoffee
+domain-suffix:dns.tls-data.de
+
+# Tls-data.de
+domain-suffix:dns.twnic.tw
+
+# UK DNS Privacy Project
+domain-suffix:anycast.uncensoreddns.org
+
+# UncensoredDNS
+domain-suffix:dns.unx.io
+
+# Usable Privacy
+domain-suffix:v.recipes
+
+# VIA
+domain-suffix:abel.waringer-atg.de
+
+# W3C TAG
+domain-suffix:dns.xlion.tw
+
+# Wikimedia DNS
+domain-suffix:dns.w3ctag.org
+
+# Yarp
+domain-suffix:dns.yuu-g.net
+
+# Yuu528
+domain-suffix:zdn.ro
+
+# a47.me
+domain-suffix:bazooki-infra.dev
+
+# anon.no
+domain-suffix:dns.applewebkit.dev
+
+# applewebkit.dev
+domain-suffix:arashi.net.eu.org
+domain-suffix:ns.net.kg
+
+# arnor.org
+domain-suffix:dns.asterimoon.com
+
+# bazooki-infra.dev
+domain-suffix:dns.belnet.be
+
+# brembeck.cloud
+domain-suffix:dns.busold.ws
+
+# busold.ws
+domain-suffix:doh.aaaab3n.moe
+
+# caspervk.net
+domain-suffix:dns.cctld.kg
+
+# chenu.ch
+domain-suffix:dns.christerwaren.fi
+
+# csa-rz.de
+domain-suffix:dns.csswg.org
+
+# d94.xyz
+domain-suffix:dns.elemental.software
+
+# data.haus
+domain-suffix:dns.datenquark.de
+
+# datenquark.de
+domain-suffix:dns.dev-umbrellagov.com
+
+# dev-umbrellagov
+domain-suffix:dns.digitale-gesellschaft.ch
+
+# dns.digitalsize.net
+domain-suffix:doh.dns.sb
+
+# dns.flatuslifir.is
+domain-suffix:dns.dnshome.de
+
+# dns4me
+domain-suffix:abn01.dnscry.pt
+domain-suffix:ath01.dnscry.pt
+domain-suffix:atl01.dnscry.pt
+domain-suffix:bne01.dnscry.pt
+domain-suffix:bog01.dnscry.pt
+domain-suffix:bom01.dnscry.pt
+domain-suffix:bru01.dnscry.pt
+domain-suffix:bts01.dnscry.pt
+domain-suffix:cph01.dnscry.pt
+domain-suffix:cvt01.dnscry.pt
+domain-suffix:dub01.dnscry.pt
+domain-suffix:evn01.dnscry.pt
+domain-suffix:fra01.dnscry.pt
+domain-suffix:fra02.dnscry.pt
+domain-suffix:geg01.dnscry.pt
+domain-suffix:gru01.dnscry.pt
+domain-suffix:gva01.dnscry.pt
+domain-suffix:haf01.dnscry.pt
+domain-suffix:han01.dnscry.pt
+domain-suffix:ist01.dnscry.pt
+domain-suffix:kiv01.dnscry.pt
+domain-suffix:las01.dnscry.pt
+domain-suffix:lon01.dnscry.pt
+domain-suffix:mad01.dnscry.pt
+domain-suffix:mil01.dnscry.pt
+domain-suffix:nue01.dnscry.pt
+domain-suffix:omr01.dnscry.pt
+domain-suffix:par01.dnscry.pt
+domain-suffix:pdx01.dnscry.pt
+domain-suffix:phl01.dnscry.pt
+domain-suffix:phx01.dnscry.pt
+domain-suffix:rdd01.dnscry.pt
+domain-suffix:sea01.dnscry.pt
+domain-suffix:sgn01.dnscry.pt
+domain-suffix:sin03.dnscry.pt
+domain-suffix:sjc01.dnscry.pt
+domain-suffix:slc01.dnscry.pt
+domain-suffix:sof01.dnscry.pt
+domain-suffix:sto01.dnscry.pt
+domain-suffix:syd02.dnscry.pt
+domain-suffix:tbs01.dnscry.pt
+domain-suffix:tll01.dnscry.pt
+domain-suffix:tpa01.dnscry.pt
+domain-suffix:trf01.dnscry.pt
+domain-suffix:tsm01.dnscry.pt
+domain-suffix:vie01.dnscry.pt
+domain-suffix:vno01.dnscry.pt
+domain-suffix:waw02.dnscry.pt
+domain-suffix:yhz01.dnscry.pt
+domain-suffix:yvr01.dnscry.pt
+domain-suffix:yyc01.dnscry.pt
+domain-suffix:yyz01.dnscry.pt
+
+# dnsHome.de
+domain-suffix:dnslow.me
+
+# dnscry.pt
+domain-suffix:dnsdoh.art
+
+# dnsdoh.art
+domain-suffix:dns.flatuslifir.is
+
+# dnslow.me
+domain-suffix:chuncheon.dnsovertor.cc
+domain-suffix:japan.dnsovertor.cc
+domain-suffix:seoul.dnsovertor.cc
+
+# doh.beauty
+domain-suffix:doh.buzz
+
+# doh.buzz
+domain-suffix:3dns.eu
+
+# domreg.lt
+domain-suffix:dns.dremaxx.de
+
+# dremaxx.de
+domain-suffix:agh.dshubham.xyz
+
+# dshubham.xyz
+domain-suffix:dukun.de
+
+# duröhre.de
+domain-suffix:dns.dynx.pro
+
+# faked.org
+domain-suffix:dnsvps.familiamv.net
+
+# familiamv.net
+domain-suffix:dns.fancyorg.at
+
+# ffmuc.net
+domain-suffix:fidelius.top
+
+# fidelius.top
+domain-suffix:dns.floriantinney.de
+
+# floriantinney.de
+domain-suffix:dns.flymc.cc
+
+# gibblets.top
+domain-suffix:dns.girino.org
+
+# girino.org
+domain-suffix:glacius.top
+
+# glacius.top
+domain-suffix:8888.google
+domain-suffix:dns.google
+domain-suffix:dns64.dns.google
+
+# imperio.top
+domain-suffix:dns1.in-berlin.de
+domain-suffix:dns2.in-berlin.de
+
+# kapite.in
+domain-suffix:dns.kernel-error.de
+
+# kescher
+domain-suffix:pihole.aws.ketan.dev
+
+# ketan.dev
+domain-suffix:adg.khon.dev
+
+# khon.dev
+domain-suffix:dns.koala.us.to
+
+# krctech.dev
+domain-suffix:doh.lacontrevoie.fr
+
+# l337.site
+domain-suffix:dns.marasov.id
+
+# loadlow.me
+domain-suffix:dns.lobbygod.com
+
+# m-it.ro
+domain-suffix:doh.mmmalia.com
+
+# marasov.id
+domain-suffix:dns.technologycage.com
+
+# mateo.ovh
+domain-suffix:dns.mayx.eu.org
+
+# meddy94.de
+domain-suffix:dns.mh4ckt3mh4ckt1c4s.xyz
+
+# mh4ckt3mh4ckt1c4s.xyz
+domain-suffix:addns1.m-it.ro
+
+# mmmalia.com
+domain-suffix:dns.mnet-online.de
+
+# mnet-online.de
+domain-suffix:adblock.dns.mullvad.net
+domain-suffix:all.dns.mullvad.net
+domain-suffix:base.dns.mullvad.net
+domain-suffix:dns.mullvad.net
+domain-suffix:extended.dns.mullvad.net
+domain-suffix:family.dns.mullvad.net
+
+# mydns.network
+domain-suffix:dns.mzjtechnology.com
+
+# nashkan.net
+domain-suffix:dns.neeb.it
+
+# neeb.it
+domain-suffix:dns.nextdns.io
+
+# novg.net
+domain-suffix:dns.ofdoom.net
+
+# o2cloud.fr
+domain-suffix:dns.paesa.es
+
+# ofdoom.net
+domain-suffix:ada.openbld.net
+
+# opennameserver.org
+domain-suffix:dns4eu.online
+
+# petqa.ru
+domain-suffix:helios.plan9-dns.com
+domain-suffix:kronos.plan9-dns.com
+domain-suffix:pluton.plan9-dns.com
+
+# plan9-dns
+domain-suffix:privacy.plumedns.com
+
+# pooblet.co.za
+domain-suffix:doh.archuser.org
+
+# redhosting.com.ar
+domain-suffix:regiopolis.cloud
+
+# regiopolis.cloud
+domain-suffix:renardbleu.dev
+
+# renardbleu.dev
+domain-suffix:dnspub.restena.lu
+
+# revelio.top
+domain-suffix:dns.rbn.gr
+
+# roedel.cloud
+domain-suffix:safeservedns.com
+
+# shoupperuser.com
+domain-suffix:dns.silen.org
+
+# silen.org
+domain-suffix:dns.skrep.eu
+
+# skrep.eu
+domain-suffix:dns.slinkyman.net
+
+# smilence
+domain-suffix:dns.startupstack.tech
+
+# stirringphoto.com
+domain-suffix:dns.stormycloud.org
+
+# suhaila.dev
+domain-suffix:resolver.sunet.se
+
+# sunnygyl.com
+domain-suffix:dns.superstefan.win
+
+# superstefan.win
+domain-suffix:dns.switch.ch
+
+# szpadel.ovh
+domain-suffix:dns.t53.de
+
+# t53.de
+domain-suffix:dns.telekom.de
+
+# unx.io
+domain-suffix:adfree.usableprivacy.net
+
+# v.recipes
+domain-suffix:dns.vaioswolke.xyz
+
+# vaioswolke.xyz
+domain-suffix:doh.viatech.com.tw
+
+# waringer-atg.de
+domain-suffix:wikimedia-dns.org
+
+# xlion.tw
+domain-suffix:yarp.lefolgoc.net
+
+# zdn.ro
+domain-suffix:doh.zknt.org
+
