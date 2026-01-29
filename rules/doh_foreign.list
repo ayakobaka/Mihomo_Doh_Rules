@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-01-28 02:15:00
-# Total rules: 323
+# Generated at: 2026-01-29 02:36:55
+# Total rules: 317
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -73,9 +73,6 @@ DOMAIN-SUFFIX,dns.brahma.world
 
 # Brahma World
 DOMAIN-SUFFIX,dns.brembeck.cloud
-
-# CCTLD.KG
-DOMAIN-SUFFIX,dns.cert.ee
 
 # CERT Estonia
 DOMAIN-SUFFIX,doh-01.spectrum.com
@@ -163,9 +160,6 @@ DOMAIN-SUFFIX,doh.domreg.lt
 # Dukun.de
 DOMAIN-SUFFIX,xn--durhre-yxa.de
 
-# DynX
-DOMAIN-SUFFIX,dns.d94.xyz
-
 # ELIV DNS
 DOMAIN-SUFFIX,dns.faked.org
 
@@ -181,9 +175,6 @@ DOMAIN-SUFFIX,doh.li
 
 # FLY_MC
 DOMAIN-SUFFIX,doh.applied-privacy.net
-
-# Fancyorg.at
-DOMAIN-SUFFIX,dns.farshidhakimy.de
 
 # Feroz
 DOMAIN-SUFFIX,doh.ffmuc.net
@@ -281,9 +272,6 @@ DOMAIN-SUFFIX,us-nyc-w-p-1.nashkan.net
 
 # Marbled Fennec Networks / FurrIX
 DOMAIN-SUFFIX,masters-of-cloud.de
-
-# Marco Fox
-DOMAIN-SUFFIX,dns.marbledfennec.net
 
 # Masters of Cloud
 DOMAIN-SUFFIX,dns.mateo.ovh
@@ -400,9 +388,6 @@ DOMAIN-SUFFIX,dns.suhaila.dev
 # Switch
 DOMAIN-SUFFIX,dns.szpadel.ovh
 
-# TWNIC
-DOMAIN-SUFFIX,doh.tiar.app
-
 # Telekom Deutschland
 DOMAIN-SUFFIX,dns.tipsy.coffee
 
@@ -413,7 +398,7 @@ DOMAIN-SUFFIX,resolver.dnsprivacy.org.uk
 DOMAIN-SUFFIX,dns.tls-data.de
 
 # Tls-data.de
-DOMAIN-SUFFIX,dns.twnic.tw
+DOMAIN-SUFFIX,doh.tiar.app
 
 # UK DNS Privacy Project
 DOMAIN-SUFFIX,anycast.uncensoreddns.org
@@ -462,7 +447,7 @@ DOMAIN-SUFFIX,dns.busold.ws
 DOMAIN-SUFFIX,doh.aaaab3n.moe
 
 # caspervk.net
-DOMAIN-SUFFIX,dns.cctld.kg
+DOMAIN-SUFFIX,dns.cert.ee
 
 # chenu.ch
 DOMAIN-SUFFIX,dns.christerwaren.fi
@@ -572,13 +557,13 @@ DOMAIN-SUFFIX,agh.dshubham.xyz
 DOMAIN-SUFFIX,dukun.de
 
 # duröhre.de
-DOMAIN-SUFFIX,dns.dynx.pro
+DOMAIN-SUFFIX,dns.d94.xyz
 
 # faked.org
 DOMAIN-SUFFIX,dnsvps.familiamv.net
 
 # familiamv.net
-DOMAIN-SUFFIX,dns.fancyorg.at
+DOMAIN-SUFFIX,dns.farshidhakimy.de
 
 # ffmuc.net
 DOMAIN-SUFFIX,fidelius.top
@@ -590,9 +575,6 @@ DOMAIN-SUFFIX,dns.floriantinney.de
 DOMAIN-SUFFIX,dns.flymc.cc
 
 # gibblets.top
-DOMAIN-SUFFIX,dns.girino.org
-
-# girino.org
 DOMAIN-SUFFIX,glacius.top
 
 # glacius.top
@@ -629,7 +611,7 @@ DOMAIN-SUFFIX,dns.lobbygod.com
 DOMAIN-SUFFIX,doh.mmmalia.com
 
 # marasov.id
-DOMAIN-SUFFIX,dns.technologycage.com
+DOMAIN-SUFFIX,dns.marbledfennec.net
 
 # mateo.ovh
 DOMAIN-SUFFIX,dns.mayx.eu.org

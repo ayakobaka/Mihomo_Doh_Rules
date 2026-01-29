@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-01-28 02:15:00
-# Total domains: 323
+# Generated at: 2026-01-29 02:36:55
+# Total domains: 317
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -54,8 +54,6 @@ payload:
   - dns.brahma.world
   # Brahma World
   - dns.brembeck.cloud
-  # CCTLD.KG
-  - dns.cert.ee
   # CERT Estonia
   - doh-01.spectrum.com
   - doh-02.spectrum.com
@@ -118,8 +116,6 @@ payload:
   - doh.domreg.lt
   # Dukun.de
   - xn--durhre-yxa.de
-  # DynX
-  - dns.d94.xyz
   # ELIV DNS
   - dns.faked.org
   # Elemental Software
@@ -131,8 +127,6 @@ payload:
   - doh.li
   # FLY_MC
   - doh.applied-privacy.net
-  # Fancyorg.at
-  - dns.farshidhakimy.de
   # Feroz
   - doh.ffmuc.net
   # Foundation for Applied Privacy
@@ -203,8 +197,6 @@ payload:
   - us-nyc-w-p-1.nashkan.net
   # Marbled Fennec Networks / FurrIX
   - masters-of-cloud.de
-  # Marco Fox
-  - dns.marbledfennec.net
   # Masters of Cloud
   - dns.mateo.ovh
   # Mayx
@@ -286,8 +278,6 @@ payload:
   - dns.suhaila.dev
   # Switch
   - dns.szpadel.ovh
-  # TWNIC
-  - doh.tiar.app
   # Telekom Deutschland
   - dns.tipsy.coffee
   # Tiarap
@@ -295,7 +285,7 @@ payload:
   # TipsyCoffee
   - dns.tls-data.de
   # Tls-data.de
-  - dns.twnic.tw
+  - doh.tiar.app
   # UK DNS Privacy Project
   - anycast.uncensoreddns.org
   # UncensoredDNS
@@ -328,7 +318,7 @@ payload:
   # busold.ws
   - doh.aaaab3n.moe
   # caspervk.net
-  - dns.cctld.kg
+  - dns.cert.ee
   # chenu.ch
   - dns.christerwaren.fi
   # csa-rz.de
@@ -419,11 +409,11 @@ payload:
   # dshubham.xyz
   - dukun.de
   # duröhre.de
-  - dns.dynx.pro
+  - dns.d94.xyz
   # faked.org
   - dnsvps.familiamv.net
   # familiamv.net
-  - dns.fancyorg.at
+  - dns.farshidhakimy.de
   # ffmuc.net
   - fidelius.top
   # fidelius.top
@@ -431,8 +421,6 @@ payload:
   # floriantinney.de
   - dns.flymc.cc
   # gibblets.top
-  - dns.girino.org
-  # girino.org
   - glacius.top
   # glacius.top
   - 8888.google
@@ -458,7 +446,7 @@ payload:
   # m-it.ro
   - doh.mmmalia.com
   # marasov.id
-  - dns.technologycage.com
+  - dns.marbledfennec.net
   # mateo.ovh
   - dns.mayx.eu.org
   # meddy94.de
