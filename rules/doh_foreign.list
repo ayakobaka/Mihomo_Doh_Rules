@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-02-03 02:43:45
-# Total rules: 317
+# Generated at: 2026-02-04 02:37:52
+# Total rules: 315
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -47,9 +47,6 @@ DOMAIN-SUFFIX,dns.anon.no
 DOMAIN-SUFFIX,nsec.arnor.org
 
 # Asteri Moon
-DOMAIN-SUFFIX,secure.avastdns.com
-
-# Avast DNS
 DOMAIN-SUFFIX,dns.a47.me
 
 # BITServices
@@ -161,7 +158,7 @@ DOMAIN-SUFFIX,doh.domreg.lt
 DOMAIN-SUFFIX,xn--durhre-yxa.de
 
 # ELIV DNS
-DOMAIN-SUFFIX,dns.faked.org
+DOMAIN-SUFFIX,dns.envs.net
 
 # Elemental Software
 DOMAIN-SUFFIX,dns.eliv.kr
@@ -392,16 +389,13 @@ DOMAIN-SUFFIX,dns.szpadel.ovh
 DOMAIN-SUFFIX,dns.tipsy.coffee
 
 # Tiarap
-DOMAIN-SUFFIX,resolver.dnsprivacy.org.uk
+DOMAIN-SUFFIX,anycast.uncensoreddns.org
 
 # TipsyCoffee
 DOMAIN-SUFFIX,dns.tls-data.de
 
 # Tls-data.de
 DOMAIN-SUFFIX,doh.tiar.app
-
-# UK DNS Privacy Project
-DOMAIN-SUFFIX,anycast.uncensoreddns.org
 
 # UncensoredDNS
 DOMAIN-SUFFIX,dns.unx.io
@@ -417,9 +411,6 @@ DOMAIN-SUFFIX,dns.xlion.tw
 
 # Wikimedia DNS
 DOMAIN-SUFFIX,dns.w3ctag.org
-
-# Yarp
-DOMAIN-SUFFIX,dns.yuu-g.net
 
 # Yuu528
 DOMAIN-SUFFIX,zdn.ro
@@ -558,6 +549,9 @@ DOMAIN-SUFFIX,dukun.de
 
 # duröhre.de
 DOMAIN-SUFFIX,dns.d94.xyz
+
+# envs.net
+DOMAIN-SUFFIX,dns.faked.org
 
 # faked.org
 DOMAIN-SUFFIX,dnsvps.familiamv.net
@@ -723,7 +717,7 @@ DOMAIN-SUFFIX,doh.viatech.com.tw
 DOMAIN-SUFFIX,wikimedia-dns.org
 
 # xlion.tw
-DOMAIN-SUFFIX,yarp.lefolgoc.net
+DOMAIN-SUFFIX,dns.yuu-g.net
 
 # zdn.ro
 DOMAIN-SUFFIX,doh.zknt.org

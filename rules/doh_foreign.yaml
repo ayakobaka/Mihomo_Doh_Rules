@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-02-03 02:43:45
-# Total domains: 317
+# Generated at: 2026-02-04 02:37:52
+# Total domains: 315
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -36,8 +36,6 @@ payload:
   # Arashi DNS
   - nsec.arnor.org
   # Asteri Moon
-  - secure.avastdns.com
-  # Avast DNS
   - dns.a47.me
   # BITServices
   - dns.blokada.org
@@ -117,7 +115,7 @@ payload:
   # Dukun.de
   - xn--durhre-yxa.de
   # ELIV DNS
-  - dns.faked.org
+  - dns.envs.net
   # Elemental Software
   - dns.eliv.kr
   # FBI NICS E-Check
@@ -281,13 +279,11 @@ payload:
   # Telekom Deutschland
   - dns.tipsy.coffee
   # Tiarap
-  - resolver.dnsprivacy.org.uk
+  - anycast.uncensoreddns.org
   # TipsyCoffee
   - dns.tls-data.de
   # Tls-data.de
   - doh.tiar.app
-  # UK DNS Privacy Project
-  - anycast.uncensoreddns.org
   # UncensoredDNS
   - dns.unx.io
   # Usable Privacy
@@ -298,8 +294,6 @@ payload:
   - dns.xlion.tw
   # Wikimedia DNS
   - dns.w3ctag.org
-  # Yarp
-  - dns.yuu-g.net
   # Yuu528
   - zdn.ro
   # a47.me
@@ -410,6 +404,8 @@ payload:
   - dukun.de
   # duröhre.de
   - dns.d94.xyz
+  # envs.net
+  - dns.faked.org
   # faked.org
   - dnsvps.familiamv.net
   # familiamv.net
@@ -523,6 +519,6 @@ payload:
   # waringer-atg.de
   - wikimedia-dns.org
   # xlion.tw
-  - yarp.lefolgoc.net
+  - dns.yuu-g.net
   # zdn.ro
   - doh.zknt.org
