@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-02-04 02:37:52
-# Total domains: 315
+# Generated at: 2026-02-05 02:39:48
+# Total domains: 314
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -450,8 +450,6 @@ payload:
   # mh4ckt3mh4ckt1c4s.xyz
   - addns1.m-it.ro
   # mmmalia.com
-  - dns.mnet-online.de
-  # mnet-online.de
   - adblock.dns.mullvad.net
   - all.dns.mullvad.net
   - base.dns.mullvad.net

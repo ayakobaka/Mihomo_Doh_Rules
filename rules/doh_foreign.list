@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-02-04 02:37:52
-# Total rules: 315
+# Generated at: 2026-02-05 02:39:48
+# Total rules: 314
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -617,9 +617,6 @@ DOMAIN-SUFFIX,dns.mh4ckt3mh4ckt1c4s.xyz
 DOMAIN-SUFFIX,addns1.m-it.ro
 
 # mmmalia.com
-DOMAIN-SUFFIX,dns.mnet-online.de
-
-# mnet-online.de
 DOMAIN-SUFFIX,adblock.dns.mullvad.net
 DOMAIN-SUFFIX,all.dns.mullvad.net
 DOMAIN-SUFFIX,base.dns.mullvad.net
