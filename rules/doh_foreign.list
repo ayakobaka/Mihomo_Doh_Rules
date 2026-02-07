@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-02-06 02:39:51
-# Total rules: 314
+# Generated at: 2026-02-07 02:35:33
+# Total rules: 312
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -42,9 +42,6 @@ DOMAIN-SUFFIX,dns.aa.net.uk
 
 # Angry.im
 DOMAIN-SUFFIX,dns.anon.no
-
-# Arashi DNS
-DOMAIN-SUFFIX,nsec.arnor.org
 
 # Asteri Moon
 DOMAIN-SUFFIX,dns.a47.me
@@ -324,6 +321,9 @@ DOMAIN-SUFFIX,dns.petqa.ru
 # PlumeDNS
 DOMAIN-SUFFIX,pooblet.co.za
 
+# Practically Unhackable
+DOMAIN-SUFFIX,doh.archuser.org
+
 # Pubhole
 DOMAIN-SUFFIX,dns.quad9.net
 DOMAIN-SUFFIX,dns10.quad9.net
@@ -422,8 +422,7 @@ DOMAIN-SUFFIX,bazooki-infra.dev
 DOMAIN-SUFFIX,dns.applewebkit.dev
 
 # applewebkit.dev
-DOMAIN-SUFFIX,arashi.net.eu.org
-DOMAIN-SUFFIX,ns.net.kg
+DOMAIN-SUFFIX,nsec.arnor.org
 
 # arnor.org
 DOMAIN-SUFFIX,dns.asterimoon.com
@@ -476,7 +475,6 @@ DOMAIN-SUFFIX,bts01.dnscry.pt
 DOMAIN-SUFFIX,cph01.dnscry.pt
 DOMAIN-SUFFIX,cvt01.dnscry.pt
 DOMAIN-SUFFIX,dub01.dnscry.pt
-DOMAIN-SUFFIX,evn01.dnscry.pt
 DOMAIN-SUFFIX,fra01.dnscry.pt
 DOMAIN-SUFFIX,fra02.dnscry.pt
 DOMAIN-SUFFIX,geg01.dnscry.pt
@@ -654,7 +652,7 @@ DOMAIN-SUFFIX,pluton.plan9-dns.com
 DOMAIN-SUFFIX,privacy.plumedns.com
 
 # pooblet.co.za
-DOMAIN-SUFFIX,doh.archuser.org
+DOMAIN-SUFFIX,dns.practicallyunhackable.com
 
 # redhosting.com.ar
 DOMAIN-SUFFIX,regiopolis.cloud

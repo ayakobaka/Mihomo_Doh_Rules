@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-02-06 02:39:51
-# Total domains: 314
+# Generated at: 2026-02-07 02:35:33
+# Total domains: 312
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -33,8 +33,6 @@ payload:
   - dns.aa.net.uk
   # Angry.im
   - dns.anon.no
-  # Arashi DNS
-  - nsec.arnor.org
   # Asteri Moon
   - dns.a47.me
   # BITServices
@@ -233,6 +231,8 @@ payload:
   - dns.petqa.ru
   # PlumeDNS
   - pooblet.co.za
+  # Practically Unhackable
+  - doh.archuser.org
   # Pubhole
   - dns.quad9.net
   - dns10.quad9.net
@@ -301,8 +301,7 @@ payload:
   # anon.no
   - dns.applewebkit.dev
   # applewebkit.dev
-  - arashi.net.eu.org
-  - ns.net.kg
+  - nsec.arnor.org
   # arnor.org
   - dns.asterimoon.com
   # bazooki-infra.dev
@@ -341,7 +340,6 @@ payload:
   - cph01.dnscry.pt
   - cvt01.dnscry.pt
   - dub01.dnscry.pt
-  - evn01.dnscry.pt
   - fra01.dnscry.pt
   - fra02.dnscry.pt
   - geg01.dnscry.pt
@@ -477,7 +475,7 @@ payload:
   # plan9-dns
   - privacy.plumedns.com
   # pooblet.co.za
-  - doh.archuser.org
+  - dns.practicallyunhackable.com
   # redhosting.com.ar
   - regiopolis.cloud
   # regiopolis.cloud
