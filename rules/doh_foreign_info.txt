@@ -1,6 +1,6 @@
 # Geosite: doh-foreign
-# Generated at: 2026-03-17 02:40:53
-# Total domains: 312
+# Generated at: 2026-03-18 02:47:33
+# Total domains: 313
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
@@ -24,4 +24,4 @@ Domains (first 20):
   ae-fuj-w-p-1.nashkan.net
   ae-fuj-w-p-2.nashkan.net
   ae-fuj-w-p-3.nashkan.net
-  ... and 292 more domains
+  ... and 293 more domains
