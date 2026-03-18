@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-03-17 02:40:39
-# Total domains: 312
+# Generated at: 2026-03-18 02:47:22
+# Total domains: 313
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -289,7 +289,7 @@ payload:
   # Usable Privacy
   - v.recipes
   # VIA
-  - abel.waringer-atg.de
+  - v0dka.ru
   # W3C TAG
   - dns.xlion.tw
   # Wikimedia DNS
@@ -510,6 +510,8 @@ payload:
   - adfree.usableprivacy.net
   # v.recipes
   - dns.vaioswolke.xyz
+  # v0dka.ru
+  - abel.waringer-atg.de
   # vaioswolke.xyz
   - doh.viatech.com.tw
   # waringer-atg.de

@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-03-17 02:40:39
-# Total rules: 312
+# Generated at: 2026-03-18 02:47:22
+# Total rules: 313
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -404,7 +404,7 @@ DOMAIN-SUFFIX,dns.unx.io
 DOMAIN-SUFFIX,v.recipes
 
 # VIA
-DOMAIN-SUFFIX,abel.waringer-atg.de
+DOMAIN-SUFFIX,v0dka.ru
 
 # W3C TAG
 DOMAIN-SUFFIX,dns.xlion.tw
@@ -704,6 +704,9 @@ DOMAIN-SUFFIX,adfree.usableprivacy.net
 
 # v.recipes
 DOMAIN-SUFFIX,dns.vaioswolke.xyz
+
+# v0dka.ru
+DOMAIN-SUFFIX,abel.waringer-atg.de
 
 # vaioswolke.xyz
 DOMAIN-SUFFIX,doh.viatech.com.tw
