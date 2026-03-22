@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-03-21 02:33:33
-# Total domains: 313
+# Generated at: 2026-03-22 02:49:16
+# Total domains: 314
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -13,6 +13,8 @@ payload:
   - ns2.4netguides.org
   # @null31
   - doh.seby.io
+  # ADnull DNS
+  - dns.akbxr.com
   # Absolight
   - adl.adfilter.net
   - per.adfilter.net
@@ -20,7 +22,7 @@ payload:
   # AdFilter
   - adfreedns.top
   # AdGuard
-  - dns.akbxr.com
+  - dns.adnull.com
   # Adfreedns
   - dns.adguard-dns.com
   - family.adguard-dns.com
