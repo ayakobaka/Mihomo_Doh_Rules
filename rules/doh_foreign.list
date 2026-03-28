@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-03-27 02:55:50
-# Total rules: 314
+# Generated at: 2026-03-28 02:45:05
+# Total rules: 305
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -83,9 +83,6 @@ DOMAIN-SUFFIX,doh.umbrella.com
 # CSA-IT
 DOMAIN-SUFFIX,dns.csa-rz.de
 
-# CSS Working Group
-DOMAIN-SUFFIX,dns.cynthialabs.net
-
 # CZ.NIC
 DOMAIN-SUFFIX,ns.data.haus
 
@@ -157,11 +154,8 @@ DOMAIN-SUFFIX,doh.domreg.lt
 # Dukun.de
 DOMAIN-SUFFIX,xn--durhre-yxa.de
 
-# ELIV DNS
-DOMAIN-SUFFIX,dns.envs.net
-
 # Elemental Software
-DOMAIN-SUFFIX,dns.eliv.kr
+DOMAIN-SUFFIX,dns.envs.net
 
 # FBI NICS E-Check
 DOMAIN-SUFFIX,ns0.fdn.fr
@@ -182,9 +176,6 @@ DOMAIN-SUFFIX,dns.foxyfy.net
 DOMAIN-SUFFIX,es-ma.foxyfy.net
 
 # Foxyfy DNS
-DOMAIN-SUFFIX,dns.froth.zone
-
-# Froth.zone
 DOMAIN-SUFFIX,doh.futa.gg
 
 # FutaDNS
@@ -297,10 +288,6 @@ DOMAIN-SUFFIX,doh.lv
 DOMAIN-SUFFIX,doh.nic.lv
 
 # Nicolas Dorriere
-DOMAIN-SUFFIX,dns.ningkelle.id
-DOMAIN-SUFFIX,family.dns.ningkelle.id
-
-# Ningkelle
 DOMAIN-SUFFIX,doh.niyawe.de
 
 # Njalla
@@ -342,7 +329,6 @@ DOMAIN-SUFFIX,dns.quiet.rocks
 
 # Quiet Rocks
 DOMAIN-SUFFIX,dog.dns.qwer.pw
-DOMAIN-SUFFIX,frog.dns.qwer.pw
 DOMAIN-SUFFIX,lion.dns.qwer.pw
 DOMAIN-SUFFIX,tiger.dns.qwer.pw
 
@@ -446,7 +432,7 @@ DOMAIN-SUFFIX,dns.cert.ee
 DOMAIN-SUFFIX,dns.christerwaren.fi
 
 # csa-rz.de
-DOMAIN-SUFFIX,dns.csswg.org
+DOMAIN-SUFFIX,dns.cynthialabs.net
 
 # d94.xyz
 DOMAIN-SUFFIX,dns.elemental.software
@@ -499,7 +485,6 @@ DOMAIN-SUFFIX,phl01.dnscry.pt
 DOMAIN-SUFFIX,phx01.dnscry.pt
 DOMAIN-SUFFIX,rdd01.dnscry.pt
 DOMAIN-SUFFIX,sea01.dnscry.pt
-DOMAIN-SUFFIX,sgn01.dnscry.pt
 DOMAIN-SUFFIX,sin03.dnscry.pt
 DOMAIN-SUFFIX,sjc01.dnscry.pt
 DOMAIN-SUFFIX,slc01.dnscry.pt
@@ -523,9 +508,6 @@ DOMAIN-SUFFIX,yyz01.dnscry.pt
 DOMAIN-SUFFIX,dnslow.me
 
 # dnscry.pt
-DOMAIN-SUFFIX,dnsdoh.art
-
-# dnsdoh.art
 DOMAIN-SUFFIX,dns.flatuslifir.is
 
 # dnslow.me
@@ -588,9 +570,6 @@ DOMAIN-SUFFIX,dns.kernel-error.de
 DOMAIN-SUFFIX,pihole.aws.ketan.dev
 
 # ketan.dev
-DOMAIN-SUFFIX,adg.khon.dev
-
-# khon.dev
 DOMAIN-SUFFIX,dns.koala.us.to
 
 # krctech.dev

@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-03-27 02:55:50
-# Total domains: 314
+# Generated at: 2026-03-28 02:45:05
+# Total domains: 305
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -61,8 +61,6 @@ payload:
   - doh.umbrella.com
   # CSA-IT
   - dns.csa-rz.de
-  # CSS Working Group
-  - dns.cynthialabs.net
   # CZ.NIC
   - ns.data.haus
   # Canarypwn
@@ -114,10 +112,8 @@ payload:
   - doh.domreg.lt
   # Dukun.de
   - xn--durhre-yxa.de
-  # ELIV DNS
-  - dns.envs.net
   # Elemental Software
-  - dns.eliv.kr
+  - dns.envs.net
   # FBI NICS E-Check
   - ns0.fdn.fr
   - ns1.fdn.fr
@@ -132,8 +128,6 @@ payload:
   - dns.foxyfy.net
   - es-ma.foxyfy.net
   # Foxyfy DNS
-  - dns.froth.zone
-  # Froth.zone
   - doh.futa.gg
   # FutaDNS
   - dns.gamban.com
@@ -215,9 +209,6 @@ payload:
   - doh.lv
   - doh.nic.lv
   # Nicolas Dorriere
-  - dns.ningkelle.id
-  - family.dns.ningkelle.id
-  # Ningkelle
   - doh.niyawe.de
   # Njalla
   - dns.novg.net
@@ -247,7 +238,6 @@ payload:
   - dns.quiet.rocks
   # Quiet Rocks
   - dog.dns.qwer.pw
-  - frog.dns.qwer.pw
   - lion.dns.qwer.pw
   - tiger.dns.qwer.pw
   # Restena
@@ -317,7 +307,7 @@ payload:
   # chenu.ch
   - dns.christerwaren.fi
   # csa-rz.de
-  - dns.csswg.org
+  - dns.cynthialabs.net
   # d94.xyz
   - dns.elemental.software
   # data.haus
@@ -363,7 +353,6 @@ payload:
   - phx01.dnscry.pt
   - rdd01.dnscry.pt
   - sea01.dnscry.pt
-  - sgn01.dnscry.pt
   - sin03.dnscry.pt
   - sjc01.dnscry.pt
   - slc01.dnscry.pt
@@ -385,8 +374,6 @@ payload:
   # dnsHome.de
   - dnslow.me
   # dnscry.pt
-  - dnsdoh.art
-  # dnsdoh.art
   - dns.flatuslifir.is
   # dnslow.me
   - chuncheon.dnsovertor.cc
@@ -430,8 +417,6 @@ payload:
   # kescher
   - pihole.aws.ketan.dev
   # ketan.dev
-  - adg.khon.dev
-  # khon.dev
   - dns.koala.us.to
   # krctech.dev
   - doh.lacontrevoie.fr
