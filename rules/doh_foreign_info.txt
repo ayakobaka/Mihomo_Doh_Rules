@@ -1,6 +1,6 @@
 # Geosite: doh-foreign
-# Generated at: 2026-03-27 02:56:02
-# Total domains: 314
+# Generated at: 2026-03-28 02:45:15
+# Total domains: 305
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
@@ -17,11 +17,11 @@ Domains (first 20):
   adfree.usableprivacy.net
   adfreedns.top
   adg.geili.me
-  adg.khon.dev
   adguard.meddy94.de
   adguard.shoupperuser.com
   adl.adfilter.net
   ae-fuj-w-p-1.nashkan.net
   ae-fuj-w-p-2.nashkan.net
   ae-fuj-w-p-3.nashkan.net
-  ... and 294 more domains
+  ag.apollohct.com
+  ... and 285 more domains
