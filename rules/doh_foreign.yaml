@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-04-10 03:23:38
-# Total domains: 305
+# Generated at: 2026-04-11 02:48:33
+# Total domains: 306
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -146,6 +146,8 @@ payload:
   - root.hagezi.org
   - wurzn.hagezi.org
   # Hakase
+  - dns.hostux.net
+  # Hostux.net
   - doth.huque.com
   # Huque
   - imperio.top
