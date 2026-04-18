@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-04-17 03:24:35
-# Total rules: 306
+# Generated at: 2026-04-18 02:56:40
+# Total rules: 307
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -354,6 +354,9 @@ DOMAIN-SUFFIX,dns.stirringphoto.com
 DOMAIN-SUFFIX,dns.sheggi.ch
 
 # Sheggi
+DOMAIN-SUFFIX,shitblocker.com
+
+# Shit Blocker
 DOMAIN-SUFFIX,adguard.shoupperuser.com
 
 # Slinkyman.net
