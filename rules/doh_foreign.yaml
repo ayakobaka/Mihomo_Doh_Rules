@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-05 03:32:45
-# Total domains: 307
+# Generated at: 2026-05-06 03:43:46
+# Total domains: 300
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -60,7 +60,7 @@ payload:
   - doh.opendns.com
   - doh.umbrella.com
   # CSA-IT
-  - dns.csa-rz.de
+  - dns.cynthialabs.net
   # CZ.NIC
   - ns.data.haus
   # Canarypwn
@@ -102,8 +102,6 @@ payload:
   - noads.joindns4.eu
   - protective.joindns4.eu
   - unfiltered.joindns4.eu
-  # DNSPod
-  - doh.beauty
   # Digitale Gesellschaft
   - doh.disconnect.app
   # Disconnect.app
@@ -125,7 +123,6 @@ payload:
   - doh.ffmuc.net
   # Foundation for Applied Privacy
   - de-f1.foxyfy.net
-  - dns.foxyfy.net
   - es-ma.foxyfy.net
   # Foxyfy DNS
   - doh.futa.gg
@@ -164,8 +161,6 @@ payload:
   # Kosan
   - adblock.krctech.dev
   # La Contre-Voie
-  - eu1.dns.lavate.ch
-  # LavaDNS
   - dns.liberador.net
   # Liberador.net
   - doh.libredns.gr
@@ -310,8 +305,6 @@ payload:
   - dns.cert.ee
   # chenu.ch
   - dns.christerwaren.fi
-  # csa-rz.de
-  - dns.cynthialabs.net
   # d94.xyz
   - dns.elemental.software
   # data.haus
@@ -353,7 +346,6 @@ payload:
   - omr01.dnscry.pt
   - par01.dnscry.pt
   - pdx01.dnscry.pt
-  - phl01.dnscry.pt
   - phx01.dnscry.pt
   - rdd01.dnscry.pt
   - sea01.dnscry.pt
@@ -383,8 +375,6 @@ payload:
   - chuncheon.dnsovertor.cc
   - japan.dnsovertor.cc
   - seoul.dnsovertor.cc
-  # doh.beauty
-  - doh.buzz
   # doh.buzz
   - 3dns.eu
   # domreg.lt
@@ -509,5 +499,3 @@ payload:
   - wikimedia-dns.org
   # xlion.tw
   - dns.yuu-g.net
-  # zdn.ro
-  - doh.zknt.org

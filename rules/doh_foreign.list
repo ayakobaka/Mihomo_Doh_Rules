@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-05 03:32:45
-# Total rules: 307
+# Generated at: 2026-05-06 03:43:46
+# Total rules: 300
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -81,7 +81,7 @@ DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,doh.umbrella.com
 
 # CSA-IT
-DOMAIN-SUFFIX,dns.csa-rz.de
+DOMAIN-SUFFIX,dns.cynthialabs.net
 
 # CZ.NIC
 DOMAIN-SUFFIX,ns.data.haus
@@ -139,9 +139,6 @@ DOMAIN-SUFFIX,noads.joindns4.eu
 DOMAIN-SUFFIX,protective.joindns4.eu
 DOMAIN-SUFFIX,unfiltered.joindns4.eu
 
-# DNSPod
-DOMAIN-SUFFIX,doh.beauty
-
 # Digitale Gesellschaft
 DOMAIN-SUFFIX,doh.disconnect.app
 
@@ -172,7 +169,6 @@ DOMAIN-SUFFIX,doh.ffmuc.net
 
 # Foundation for Applied Privacy
 DOMAIN-SUFFIX,de-f1.foxyfy.net
-DOMAIN-SUFFIX,dns.foxyfy.net
 DOMAIN-SUFFIX,es-ma.foxyfy.net
 
 # Foxyfy DNS
@@ -229,9 +225,6 @@ DOMAIN-SUFFIX,dns.kosan.moe
 DOMAIN-SUFFIX,adblock.krctech.dev
 
 # La Contre-Voie
-DOMAIN-SUFFIX,eu1.dns.lavate.ch
-
-# LavaDNS
 DOMAIN-SUFFIX,dns.liberador.net
 
 # Liberador.net
@@ -437,9 +430,6 @@ DOMAIN-SUFFIX,dns.cert.ee
 # chenu.ch
 DOMAIN-SUFFIX,dns.christerwaren.fi
 
-# csa-rz.de
-DOMAIN-SUFFIX,dns.cynthialabs.net
-
 # d94.xyz
 DOMAIN-SUFFIX,dns.elemental.software
 
@@ -487,7 +477,6 @@ DOMAIN-SUFFIX,nue01.dnscry.pt
 DOMAIN-SUFFIX,omr01.dnscry.pt
 DOMAIN-SUFFIX,par01.dnscry.pt
 DOMAIN-SUFFIX,pdx01.dnscry.pt
-DOMAIN-SUFFIX,phl01.dnscry.pt
 DOMAIN-SUFFIX,phx01.dnscry.pt
 DOMAIN-SUFFIX,rdd01.dnscry.pt
 DOMAIN-SUFFIX,sea01.dnscry.pt
@@ -520,9 +509,6 @@ DOMAIN-SUFFIX,dns.flatuslifir.is
 DOMAIN-SUFFIX,chuncheon.dnsovertor.cc
 DOMAIN-SUFFIX,japan.dnsovertor.cc
 DOMAIN-SUFFIX,seoul.dnsovertor.cc
-
-# doh.beauty
-DOMAIN-SUFFIX,doh.buzz
 
 # doh.buzz
 DOMAIN-SUFFIX,3dns.eu
@@ -704,7 +690,4 @@ DOMAIN-SUFFIX,wikimedia-dns.org
 
 # xlion.tw
 DOMAIN-SUFFIX,dns.yuu-g.net
-
-# zdn.ro
-DOMAIN-SUFFIX,doh.zknt.org
 
