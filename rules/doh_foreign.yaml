@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-06 03:43:46
-# Total domains: 300
+# Generated at: 2026-05-07 03:43:22
+# Total domains: 302
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -102,6 +102,8 @@ payload:
   - noads.joindns4.eu
   - protective.joindns4.eu
   - unfiltered.joindns4.eu
+  # DNSPod
+  - doh.beauty
   # Digitale Gesellschaft
   - doh.disconnect.app
   # Disconnect.app
@@ -375,6 +377,8 @@ payload:
   - chuncheon.dnsovertor.cc
   - japan.dnsovertor.cc
   - seoul.dnsovertor.cc
+  # doh.beauty
+  - doh.buzz
   # doh.buzz
   - 3dns.eu
   # domreg.lt

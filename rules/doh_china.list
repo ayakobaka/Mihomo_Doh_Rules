@@ -1,17 +1,11 @@
 # DoH Servers Ruleset - 国内 DoH (建议直连)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-06 03:43:46
-# Total rules: 4
+# Generated at: 2026-05-07 03:43:22
+# Total rules: 2
 
 # AKBXR DNS
 DOMAIN-SUFFIX,dns.alidns.com
 
 # DNS over Tor
 DOMAIN-SUFFIX,dns.pub
-
-# DNSPod
-DOMAIN-SUFFIX,doh.beauty
-
-# doh.beauty
-DOMAIN-SUFFIX,doh.buzz
 
