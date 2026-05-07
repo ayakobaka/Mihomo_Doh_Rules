@@ -1,10 +1,8 @@
 # Geosite: doh-china
-# Generated at: 2026-05-06 03:43:56
-# Total domains: 4
+# Generated at: 2026-05-07 03:43:34
+# Total domains: 2
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
   dns.alidns.com
   dns.pub
-  doh.beauty
-  doh.buzz
