@@ -1,6 +1,6 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-22 04:11:19
+# Generated at: 2026-05-23 03:48:07
 # Total rules: 302
 
 # **0-9**
@@ -175,6 +175,9 @@ DOMAIN-SUFFIX,de-f1.foxyfy.net
 DOMAIN-SUFFIX,es-ma.foxyfy.net
 
 # Foxyfy DNS
+DOMAIN-SUFFIX,dns.furrix.zone
+
+# FurrIX vIX
 DOMAIN-SUFFIX,doh.futa.gg
 
 # FutaDNS
@@ -256,9 +259,6 @@ DOMAIN-SUFFIX,us-jac-w-f-1.nashkan.net
 DOMAIN-SUFFIX,us-jac-w-p-1.nashkan.net
 DOMAIN-SUFFIX,us-kan-w-p-1.nashkan.net
 DOMAIN-SUFFIX,us-nyc-w-p-1.nashkan.net
-
-# Marbled Fennec Networks / FurrIX
-DOMAIN-SUFFIX,masters-of-cloud.de
 
 # Masters of Cloud
 DOMAIN-SUFFIX,dns.mateo.ovh
@@ -583,7 +583,7 @@ DOMAIN-SUFFIX,dns.lobbygod.com
 DOMAIN-SUFFIX,doh.mmmalia.com
 
 # marasov.id
-DOMAIN-SUFFIX,dns.marbledfennec.net
+DOMAIN-SUFFIX,masters-of-cloud.de
 
 # mateo.ovh
 DOMAIN-SUFFIX,dns.mayx.eu.org

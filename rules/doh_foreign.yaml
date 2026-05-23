@@ -1,6 +1,6 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-22 04:11:19
+# Generated at: 2026-05-23 03:48:07
 # Total domains: 302
 # Format: Mihomo rule-provider (behavior: domain)
 
@@ -127,6 +127,8 @@ payload:
   - de-f1.foxyfy.net
   - es-ma.foxyfy.net
   # Foxyfy DNS
+  - dns.furrix.zone
+  # FurrIX vIX
   - doh.futa.gg
   # FutaDNS
   - dns.gamban.com
@@ -186,8 +188,6 @@ payload:
   - us-jac-w-p-1.nashkan.net
   - us-kan-w-p-1.nashkan.net
   - us-nyc-w-p-1.nashkan.net
-  # Marbled Fennec Networks / FurrIX
-  - masters-of-cloud.de
   # Masters of Cloud
   - dns.mateo.ovh
   # Mayx
@@ -425,7 +425,7 @@ payload:
   # m-it.ro
   - doh.mmmalia.com
   # marasov.id
-  - dns.marbledfennec.net
+  - masters-of-cloud.de
   # mateo.ovh
   - dns.mayx.eu.org
   # meddy94.de
