@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-24 04:10:17
-# Total domains: 302
+# Generated at: 2026-05-25 04:21:40
+# Total domains: 298
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -119,8 +119,6 @@ payload:
   - ns1.fdn.fr
   # FDN
   - doh.li
-  # FLY_MC
-  - doh.applied-privacy.net
   # Feroz
   - doh.ffmuc.net
   # Foundation for Applied Privacy
@@ -198,8 +196,8 @@ payload:
   - freedom.mydns.network
   - paranoia.mydns.network
   # NIC.LV
-  - doh-own-recursion.nicolas-dorriere.fr
-  - doh-random-upstream.nicolas-dorriere.fr
+  - doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
+  - doh-recursive-to-root.technitium.nicolas-dorriere.fr
   # NextDNS
   - dns.nick-slowinski.de
   # NiYaWe
@@ -250,10 +248,6 @@ payload:
   # SZ DNS
   - dns.stirringphoto.com
   # SafeServe
-  - dns.sheggi.ch
-  # Sheggi
-  - shitblocker.com
-  # Shit Blocker
   - adguard.shoupperuser.com
   # Slinkyman.net
   - dns.smartguard.io
@@ -266,7 +260,7 @@ payload:
   # Sunet DNS
   - sunnygyl.com
   # Surfshark DNS
-  - dns.suhaila.dev
+  - resolver.sunet.se
   # Switch
   - dns.szpadel.ovh
   # Telekom Deutschland
@@ -400,7 +394,7 @@ payload:
   # fidelius.top
   - dns.floriantinney.de
   # floriantinney.de
-  - dns.flymc.cc
+  - doh.applied-privacy.net
   # gibblets.top
   - glacius.top
   # glacius.top
@@ -481,8 +475,6 @@ payload:
   - dns.startupstack.tech
   # stirringphoto.com
   - dns.stormycloud.org
-  # suhaila.dev
-  - resolver.sunet.se
   # sunnygyl.com
   - dns.superstefan.win
   # superstefan.win

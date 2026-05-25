@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-24 04:10:17
-# Total rules: 302
+# Generated at: 2026-05-25 04:21:40
+# Total rules: 298
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -164,9 +164,6 @@ DOMAIN-SUFFIX,ns1.fdn.fr
 # FDN
 DOMAIN-SUFFIX,doh.li
 
-# FLY_MC
-DOMAIN-SUFFIX,doh.applied-privacy.net
-
 # Feroz
 DOMAIN-SUFFIX,doh.ffmuc.net
 
@@ -273,8 +270,8 @@ DOMAIN-SUFFIX,freedom.mydns.network
 DOMAIN-SUFFIX,paranoia.mydns.network
 
 # NIC.LV
-DOMAIN-SUFFIX,doh-own-recursion.nicolas-dorriere.fr
-DOMAIN-SUFFIX,doh-random-upstream.nicolas-dorriere.fr
+DOMAIN-SUFFIX,doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
+DOMAIN-SUFFIX,doh-recursive-to-root.technitium.nicolas-dorriere.fr
 
 # NextDNS
 DOMAIN-SUFFIX,dns.nick-slowinski.de
@@ -347,12 +344,6 @@ DOMAIN-SUFFIX,dns.roedel.cloud
 DOMAIN-SUFFIX,dns.stirringphoto.com
 
 # SafeServe
-DOMAIN-SUFFIX,dns.sheggi.ch
-
-# Sheggi
-DOMAIN-SUFFIX,shitblocker.com
-
-# Shit Blocker
 DOMAIN-SUFFIX,adguard.shoupperuser.com
 
 # Slinkyman.net
@@ -371,7 +362,7 @@ DOMAIN-SUFFIX,dns.surfsharkdns.com
 DOMAIN-SUFFIX,sunnygyl.com
 
 # Surfshark DNS
-DOMAIN-SUFFIX,dns.suhaila.dev
+DOMAIN-SUFFIX,resolver.sunet.se
 
 # Switch
 DOMAIN-SUFFIX,dns.szpadel.ovh
@@ -547,7 +538,7 @@ DOMAIN-SUFFIX,fidelius.top
 DOMAIN-SUFFIX,dns.floriantinney.de
 
 # floriantinney.de
-DOMAIN-SUFFIX,dns.flymc.cc
+DOMAIN-SUFFIX,doh.applied-privacy.net
 
 # gibblets.top
 DOMAIN-SUFFIX,glacius.top
@@ -663,9 +654,6 @@ DOMAIN-SUFFIX,dns.startupstack.tech
 
 # stirringphoto.com
 DOMAIN-SUFFIX,dns.stormycloud.org
-
-# suhaila.dev
-DOMAIN-SUFFIX,resolver.sunet.se
 
 # sunnygyl.com
 DOMAIN-SUFFIX,dns.superstefan.win
