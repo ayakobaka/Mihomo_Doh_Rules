@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-27 04:20:59
-# Total domains: 298
+# Generated at: 2026-05-28 04:09:03
+# Total domains: 290
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -15,10 +15,6 @@ payload:
   - doh.seby.io
   # ADnull DNS
   - dns.akbxr.com
-  # Absolight
-  - adl.adfilter.net
-  - per.adfilter.net
-  - syd.adfilter.net
   # AdFilter
   - adfreedns.top
   # AdGuard
@@ -191,10 +187,7 @@ payload:
   # Mayx
   - adguard.meddy94.de
   # Mullvad
-  - adblock.mydns.network
-  - family.mydns.network
-  - freedom.mydns.network
-  - paranoia.mydns.network
+  - dns.mzjtechnology.com
   # NIC.LV
   - doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
   - doh-recursive-to-root.technitium.nicolas-dorriere.fr
@@ -252,7 +245,7 @@ payload:
   # Slinkyman.net
   - dns.smartguard.io
   # SmartGuard
-  - adg.geili.me
+  - dns.startupstack.tech
   # Startup Stack
   - doh.sz-dns.com
   # StormyCloud
@@ -433,8 +426,6 @@ payload:
   - dns.mullvad.net
   - extended.dns.mullvad.net
   - family.dns.mullvad.net
-  # mydns.network
-  - dns.mzjtechnology.com
   # nashkan.net
   - dns.neeb.it
   # neeb.it
@@ -471,8 +462,6 @@ payload:
   - dns.skrep.eu
   # skrep.eu
   - dns.slinkyman.net
-  # smilence
-  - dns.startupstack.tech
   # stirringphoto.com
   - dns.stormycloud.org
   # sunnygyl.com

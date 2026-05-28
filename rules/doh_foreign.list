@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-27 04:20:59
-# Total rules: 298
+# Generated at: 2026-05-28 04:09:03
+# Total rules: 290
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -17,11 +17,6 @@ DOMAIN-SUFFIX,doh.seby.io
 
 # ADnull DNS
 DOMAIN-SUFFIX,dns.akbxr.com
-
-# Absolight
-DOMAIN-SUFFIX,adl.adfilter.net
-DOMAIN-SUFFIX,per.adfilter.net
-DOMAIN-SUFFIX,syd.adfilter.net
 
 # AdFilter
 DOMAIN-SUFFIX,adfreedns.top
@@ -264,10 +259,7 @@ DOMAIN-SUFFIX,dns.mateo.ovh
 DOMAIN-SUFFIX,adguard.meddy94.de
 
 # Mullvad
-DOMAIN-SUFFIX,adblock.mydns.network
-DOMAIN-SUFFIX,family.mydns.network
-DOMAIN-SUFFIX,freedom.mydns.network
-DOMAIN-SUFFIX,paranoia.mydns.network
+DOMAIN-SUFFIX,dns.mzjtechnology.com
 
 # NIC.LV
 DOMAIN-SUFFIX,doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
@@ -350,7 +342,7 @@ DOMAIN-SUFFIX,adguard.shoupperuser.com
 DOMAIN-SUFFIX,dns.smartguard.io
 
 # SmartGuard
-DOMAIN-SUFFIX,adg.geili.me
+DOMAIN-SUFFIX,dns.startupstack.tech
 
 # Startup Stack
 DOMAIN-SUFFIX,doh.sz-dns.com
@@ -593,9 +585,6 @@ DOMAIN-SUFFIX,dns.mullvad.net
 DOMAIN-SUFFIX,extended.dns.mullvad.net
 DOMAIN-SUFFIX,family.dns.mullvad.net
 
-# mydns.network
-DOMAIN-SUFFIX,dns.mzjtechnology.com
-
 # nashkan.net
 DOMAIN-SUFFIX,dns.neeb.it
 
@@ -648,9 +637,6 @@ DOMAIN-SUFFIX,dns.skrep.eu
 
 # skrep.eu
 DOMAIN-SUFFIX,dns.slinkyman.net
-
-# smilence
-DOMAIN-SUFFIX,dns.startupstack.tech
 
 # stirringphoto.com
 DOMAIN-SUFFIX,dns.stormycloud.org
