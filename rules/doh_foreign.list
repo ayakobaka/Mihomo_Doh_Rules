@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-28 04:09:03
-# Total rules: 290
+# Generated at: 2026-05-29 04:11:15
+# Total rules: 289
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -503,9 +503,6 @@ DOMAIN-SUFFIX,doh.buzz
 DOMAIN-SUFFIX,3dns.eu
 
 # domreg.lt
-DOMAIN-SUFFIX,dns.dremaxx.de
-
-# dremaxx.de
 DOMAIN-SUFFIX,agh.dshubham.xyz
 
 # dshubham.xyz

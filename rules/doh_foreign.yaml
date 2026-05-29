@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-28 04:09:03
-# Total domains: 290
+# Generated at: 2026-05-29 04:11:15
+# Total domains: 289
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -369,8 +369,6 @@ payload:
   # doh.buzz
   - 3dns.eu
   # domreg.lt
-  - dns.dremaxx.de
-  # dremaxx.de
   - agh.dshubham.xyz
   # dshubham.xyz
   - dukun.de
