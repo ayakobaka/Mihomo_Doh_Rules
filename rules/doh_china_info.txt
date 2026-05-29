@@ -1,5 +1,5 @@
 # Geosite: doh-china
-# Generated at: 2026-05-28 04:09:17
+# Generated at: 2026-05-29 04:11:29
 # Total domains: 2
 # Format: Protocol Buffers binary (.dat)
 
