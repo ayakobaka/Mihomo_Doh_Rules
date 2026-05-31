@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-30 03:58:16
-# Total domains: 289
+# Generated at: 2026-05-31 04:23:04
+# Total domains: 287
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -190,7 +190,6 @@ payload:
   - dns.mzjtechnology.com
   # NIC.LV
   - doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
-  - doh-recursive-to-root.technitium.nicolas-dorriere.fr
   # NextDNS
   - dns.nick-slowinski.de
   # NiYaWe
@@ -274,8 +273,6 @@ payload:
   - dns.xlion.tw
   # Wikimedia DNS
   - dns.w3ctag.org
-  # Yuu528
-  - zdn.ro
   # a47.me
   - bazooki-infra.dev
   # anon.no
@@ -481,4 +478,4 @@ payload:
   # waringer-atg.de
   - wikimedia-dns.org
   # xlion.tw
-  - dns.yuu-g.net
+  - zdn.ro

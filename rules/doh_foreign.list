@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-05-30 03:58:16
-# Total rules: 289
+# Generated at: 2026-05-31 04:23:04
+# Total rules: 287
 
 # **0-9**
 DOMAIN-SUFFIX,123000123.xyz
@@ -263,7 +263,6 @@ DOMAIN-SUFFIX,dns.mzjtechnology.com
 
 # NIC.LV
 DOMAIN-SUFFIX,doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
-DOMAIN-SUFFIX,doh-recursive-to-root.technitium.nicolas-dorriere.fr
 
 # NextDNS
 DOMAIN-SUFFIX,dns.nick-slowinski.de
@@ -385,9 +384,6 @@ DOMAIN-SUFFIX,dns.xlion.tw
 
 # Wikimedia DNS
 DOMAIN-SUFFIX,dns.w3ctag.org
-
-# Yuu528
-DOMAIN-SUFFIX,zdn.ro
 
 # a47.me
 DOMAIN-SUFFIX,bazooki-infra.dev
@@ -666,5 +662,5 @@ DOMAIN-SUFFIX,doh.viatech.com.tw
 DOMAIN-SUFFIX,wikimedia-dns.org
 
 # xlion.tw
-DOMAIN-SUFFIX,dns.yuu-g.net
+DOMAIN-SUFFIX,zdn.ro
 
