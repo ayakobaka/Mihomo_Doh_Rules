@@ -1,16 +1,13 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-02 04:30:34
-# Total rules: 287
+# Generated at: 2026-06-03 04:50:04
+# Total rules: 286
 
 # **0-9**
-DOMAIN-SUFFIX,123000123.xyz
+DOMAIN-SUFFIX,ns2.4netguides.org
 
 # **Others**
 DOMAIN-SUFFIX,ibuki.cgnat.net
-
-# 123000123.xyz
-DOMAIN-SUFFIX,ns2.4netguides.org
 
 # @null31
 DOMAIN-SUFFIX,doh.seby.io
