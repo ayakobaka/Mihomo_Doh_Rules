@@ -1,10 +1,9 @@
 # Geosite: doh-foreign
-# Generated at: 2026-06-02 04:30:46
-# Total domains: 287
+# Generated at: 2026-06-03 04:50:16
+# Total domains: 286
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
-  123000123.xyz
   3dns.eu
   8888.google
   abel.waringer-atg.de
@@ -24,4 +23,5 @@ Domains (first 20):
   agh.dshubham.xyz
   all.dns.mullvad.net
   anycast.uncensoreddns.org
-  ... and 267 more domains
+  ath01.dnscry.pt
+  ... and 266 more domains
