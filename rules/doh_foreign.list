@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-08 04:32:01
-# Total rules: 286
+# Generated at: 2026-06-09 04:04:16
+# Total rules: 285
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -281,7 +281,7 @@ DOMAIN-SUFFIX,dns.novg.net
 DOMAIN-SUFFIX,ag.apollohct.com
 
 # OpenLoop
-DOMAIN-SUFFIX,ns1.opennameserver.org
+DOMAIN-SUFFIX,dns4eu.online
 
 # PaesaDNS
 DOMAIN-SUFFIX,dns.paulo.nom.za
@@ -589,9 +589,6 @@ DOMAIN-SUFFIX,dns.paesa.es
 
 # ofdoom.net
 DOMAIN-SUFFIX,ada.openbld.net
-
-# opennameserver.org
-DOMAIN-SUFFIX,dns4eu.online
 
 # petqa.ru
 DOMAIN-SUFFIX,helios.plan9-dns.com

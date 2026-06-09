@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-08 04:32:01
-# Total domains: 286
+# Generated at: 2026-06-09 04:04:16
+# Total domains: 285
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -202,7 +202,7 @@ payload:
   # OpenBLD.net
   - ag.apollohct.com
   # OpenLoop
-  - ns1.opennameserver.org
+  - dns4eu.online
   # PaesaDNS
   - dns.paulo.nom.za
   # Paulo
@@ -429,8 +429,6 @@ payload:
   - dns.paesa.es
   # ofdoom.net
   - ada.openbld.net
-  # opennameserver.org
-  - dns4eu.online
   # petqa.ru
   - helios.plan9-dns.com
   - kronos.plan9-dns.com
