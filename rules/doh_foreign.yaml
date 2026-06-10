@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-09 04:04:16
-# Total domains: 285
+# Generated at: 2026-06-10 04:15:14
+# Total domains: 283
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -268,7 +268,7 @@ payload:
   # VIA
   - v0dka.ru
   # W3C TAG
-  - dns.xlion.tw
+  - zdn.ro
   # Wikimedia DNS
   - dns.w3ctag.org
   # a47.me
@@ -303,7 +303,6 @@ payload:
   - dns.dnshome.de
   # dns4me
   - abn01.dnscry.pt
-  - ath01.dnscry.pt
   - atl01.dnscry.pt
   - bne01.dnscry.pt
   - bog01.dnscry.pt
@@ -473,5 +472,3 @@ payload:
   - doh.viatech.com.tw
   # waringer-atg.de
   - wikimedia-dns.org
-  # xlion.tw
-  - zdn.ro
