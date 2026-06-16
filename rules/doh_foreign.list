@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-15 05:01:30
-# Total rules: 283
+# Generated at: 2026-06-16 04:59:03
+# Total rules: 281
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -48,9 +48,6 @@ DOMAIN-SUFFIX,dns.blokada.org
 DOMAIN-SUFFIX,dns.bmwhocking.com
 
 # Ben Hocking
-DOMAIN-SUFFIX,dns.bitdefender.net
-
-# Bitdefender
 DOMAIN-SUFFIX,dns.bitservices.io
 
 # Blokada DNS
@@ -592,7 +589,6 @@ DOMAIN-SUFFIX,ada.openbld.net
 # petqa.ru
 DOMAIN-SUFFIX,helios.plan9-dns.com
 DOMAIN-SUFFIX,kronos.plan9-dns.com
-DOMAIN-SUFFIX,pluton.plan9-dns.com
 
 # plan9-dns
 DOMAIN-SUFFIX,privacy.plumedns.com

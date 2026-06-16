@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-15 05:01:30
-# Total domains: 283
+# Generated at: 2026-06-16 04:59:03
+# Total domains: 281
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -36,8 +36,6 @@ payload:
   # Belnet
   - dns.bmwhocking.com
   # Ben Hocking
-  - dns.bitdefender.net
-  # Bitdefender
   - dns.bitservices.io
   # Blokada DNS
   - rfree1.blue-shield.at
@@ -431,7 +429,6 @@ payload:
   # petqa.ru
   - helios.plan9-dns.com
   - kronos.plan9-dns.com
-  - pluton.plan9-dns.com
   # plan9-dns
   - privacy.plumedns.com
   # pooblet.co.za
