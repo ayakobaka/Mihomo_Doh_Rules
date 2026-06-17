@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-16 04:59:03
-# Total rules: 281
+# Generated at: 2026-06-17 04:47:16
+# Total rules: 280
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -69,9 +69,6 @@ DOMAIN-SUFFIX,doh.familyshield.opendns.com
 DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,doh.umbrella.com
 
-# CSA-IT
-DOMAIN-SUFFIX,dns.cynthialabs.net
-
 # CZ.NIC
 DOMAIN-SUFFIX,ns.data.haus
 
@@ -113,7 +110,7 @@ DOMAIN-SUFFIX,freedns.controld.com
 DOMAIN-SUFFIX,cryptostorm.is
 
 # Cryptostorm
-DOMAIN-SUFFIX,dns.csaonline.de
+DOMAIN-SUFFIX,dns.cynthialabs.net
 
 # CynthiaLabs
 DOMAIN-SUFFIX,odvr.nic.cz

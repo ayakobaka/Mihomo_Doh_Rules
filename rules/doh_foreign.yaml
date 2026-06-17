@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-16 04:59:03
-# Total domains: 281
+# Generated at: 2026-06-17 04:47:16
+# Total domains: 280
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -51,8 +51,6 @@ payload:
   - doh.familyshield.opendns.com
   - doh.opendns.com
   - doh.umbrella.com
-  # CSA-IT
-  - dns.cynthialabs.net
   # CZ.NIC
   - ns.data.haus
   # Canarypwn
@@ -83,7 +81,7 @@ payload:
   # Control D
   - cryptostorm.is
   # Cryptostorm
-  - dns.csaonline.de
+  - dns.cynthialabs.net
   # CynthiaLabs
   - odvr.nic.cz
   # DNS.SB
