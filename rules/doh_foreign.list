@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-24 04:05:30
-# Total rules: 280
+# Generated at: 2026-06-25 04:06:15
+# Total rules: 278
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -101,7 +101,6 @@ DOMAIN-SUFFIX,security.cloudflare-dns.com
 
 # Cloudflare
 DOMAIN-SUFFIX,dns.comss.one
-DOMAIN-SUFFIX,router.comss.one
 
 # Comss.one DNS
 DOMAIN-SUFFIX,freedns.controld.com
@@ -435,7 +434,6 @@ DOMAIN-SUFFIX,dub01.dnscry.pt
 DOMAIN-SUFFIX,fra01.dnscry.pt
 DOMAIN-SUFFIX,fra02.dnscry.pt
 DOMAIN-SUFFIX,geg01.dnscry.pt
-DOMAIN-SUFFIX,gru01.dnscry.pt
 DOMAIN-SUFFIX,gva01.dnscry.pt
 DOMAIN-SUFFIX,haf01.dnscry.pt
 DOMAIN-SUFFIX,han01.dnscry.pt

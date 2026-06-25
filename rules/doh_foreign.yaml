@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-24 04:05:30
-# Total domains: 280
+# Generated at: 2026-06-25 04:06:15
+# Total domains: 278
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -75,7 +75,6 @@ payload:
   - security.cloudflare-dns.com
   # Cloudflare
   - dns.comss.one
-  - router.comss.one
   # Comss.one DNS
   - freedns.controld.com
   # Control D
@@ -311,7 +310,6 @@ payload:
   - fra01.dnscry.pt
   - fra02.dnscry.pt
   - geg01.dnscry.pt
-  - gru01.dnscry.pt
   - gva01.dnscry.pt
   - haf01.dnscry.pt
   - han01.dnscry.pt
