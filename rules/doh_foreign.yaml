@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-30 04:08:14
-# Total domains: 278
+# Generated at: 2026-07-01 04:24:02
+# Total domains: 279
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -22,11 +22,9 @@ payload:
   - family.adguard-dns.com
   - unfiltered.adguard-dns.com
   # AliDNS
-  - doh.kel.pe
+  - dns.aa.net.uk
   # Andrews & Arnold
   - doh.angry.im
-  # André Kelpe
-  - dns.aa.net.uk
   # Angry.im
   - dns.anon.no
   # Asteri Moon
@@ -180,7 +178,10 @@ payload:
   # Mayx
   - adguard.meddy94.de
   # Mullvad
-  - dns.mzjtechnology.com
+  - adblock.mydns.network
+  - family.mydns.network
+  - freedom.mydns.network
+  - paranoia.mydns.network
   # NIC.LV
   - doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
   # NextDNS
@@ -336,7 +337,6 @@ payload:
   - tll01.dnscry.pt
   - tpa01.dnscry.pt
   - trf01.dnscry.pt
-  - tsm01.dnscry.pt
   - vie01.dnscry.pt
   - vno01.dnscry.pt
   - waw02.dnscry.pt
@@ -412,6 +412,8 @@ payload:
   - dns.mullvad.net
   - extended.dns.mullvad.net
   - family.dns.mullvad.net
+  # mydns.network
+  - dns.mzjtechnology.com
   # nashkan.net
   - dns.neeb.it
   # neeb.it
@@ -448,8 +450,6 @@ payload:
   # stirringphoto.com
   - dns.stormycloud.org
   # sunnygyl.com
-  - dns.superstefan.win
-  # superstefan.win
   - dns.switch.ch
   # szpadel.ovh
   - dns.t53.de

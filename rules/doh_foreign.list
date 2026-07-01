@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-06-30 04:08:14
-# Total rules: 278
+# Generated at: 2026-07-01 04:24:02
+# Total rules: 279
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -27,13 +27,10 @@ DOMAIN-SUFFIX,family.adguard-dns.com
 DOMAIN-SUFFIX,unfiltered.adguard-dns.com
 
 # AliDNS
-DOMAIN-SUFFIX,doh.kel.pe
+DOMAIN-SUFFIX,dns.aa.net.uk
 
 # Andrews & Arnold
 DOMAIN-SUFFIX,doh.angry.im
-
-# André Kelpe
-DOMAIN-SUFFIX,dns.aa.net.uk
 
 # Angry.im
 DOMAIN-SUFFIX,dns.anon.no
@@ -249,7 +246,10 @@ DOMAIN-SUFFIX,dns.mateo.ovh
 DOMAIN-SUFFIX,adguard.meddy94.de
 
 # Mullvad
-DOMAIN-SUFFIX,dns.mzjtechnology.com
+DOMAIN-SUFFIX,adblock.mydns.network
+DOMAIN-SUFFIX,family.mydns.network
+DOMAIN-SUFFIX,freedom.mydns.network
+DOMAIN-SUFFIX,paranoia.mydns.network
 
 # NIC.LV
 DOMAIN-SUFFIX,doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
@@ -460,7 +460,6 @@ DOMAIN-SUFFIX,tbs01.dnscry.pt
 DOMAIN-SUFFIX,tll01.dnscry.pt
 DOMAIN-SUFFIX,tpa01.dnscry.pt
 DOMAIN-SUFFIX,trf01.dnscry.pt
-DOMAIN-SUFFIX,tsm01.dnscry.pt
 DOMAIN-SUFFIX,vie01.dnscry.pt
 DOMAIN-SUFFIX,vno01.dnscry.pt
 DOMAIN-SUFFIX,waw02.dnscry.pt
@@ -566,6 +565,9 @@ DOMAIN-SUFFIX,dns.mullvad.net
 DOMAIN-SUFFIX,extended.dns.mullvad.net
 DOMAIN-SUFFIX,family.dns.mullvad.net
 
+# mydns.network
+DOMAIN-SUFFIX,dns.mzjtechnology.com
+
 # nashkan.net
 DOMAIN-SUFFIX,dns.neeb.it
 
@@ -619,9 +621,6 @@ DOMAIN-SUFFIX,dns.slinkyman.net
 DOMAIN-SUFFIX,dns.stormycloud.org
 
 # sunnygyl.com
-DOMAIN-SUFFIX,dns.superstefan.win
-
-# superstefan.win
 DOMAIN-SUFFIX,dns.switch.ch
 
 # szpadel.ovh
