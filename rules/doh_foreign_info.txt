@@ -1,6 +1,6 @@
 # Geosite: doh-foreign
-# Generated at: 2026-06-30 04:08:27
-# Total domains: 278
+# Generated at: 2026-07-01 04:24:14
+# Total domains: 279
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
@@ -11,6 +11,7 @@ Domains (first 20):
   ada.openbld.net
   adblock.dns.mullvad.net
   adblock.krctech.dev
+  adblock.mydns.network
   addns1.m-it.ro
   adfree.usableprivacy.net
   adfreedns.top
@@ -23,5 +24,4 @@ Domains (first 20):
   agh.dshubham.xyz
   all.dns.mullvad.net
   anycast.uncensoreddns.org
-  atl01.dnscry.pt
-  ... and 258 more domains
+  ... and 259 more domains
