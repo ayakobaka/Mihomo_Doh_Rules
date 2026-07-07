@@ -1,6 +1,6 @@
 # Geosite: doh-foreign
-# Generated at: 2026-07-05 03:59:15
-# Total domains: 279
+# Generated at: 2026-07-07 03:56:45
+# Total domains: 276
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
@@ -24,4 +24,4 @@ Domains (first 20):
   agh.dshubham.xyz
   all.dns.mullvad.net
   anycast.uncensoreddns.org
-  ... and 259 more domains
+  ... and 256 more domains
