@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-08 03:23:41
-# Total domains: 276
+# Generated at: 2026-07-09 03:48:44
+# Total domains: 275
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -34,6 +34,8 @@ payload:
   # Belnet
   - dns.bmwhocking.com
   # Ben Hocking
+  - dns.bezmezhau.com
+  # Bezmezhau DNS
   - dns.bitservices.io
   # Blokada DNS
   - rfree1.blue-shield.at
@@ -247,7 +249,7 @@ payload:
   # Surfshark DNS
   - resolver.sunet.se
   # Switch
-  - dns.szpadel.ovh
+  - dns.t53.de
   # Telekom Deutschland
   - dns.tipsy.coffee
   # Tiarap
@@ -329,7 +331,6 @@ payload:
   - sjc01.dnscry.pt
   - slc01.dnscry.pt
   - sof01.dnscry.pt
-  - sto01.dnscry.pt
   - syd02.dnscry.pt
   - tbs01.dnscry.pt
   - tll01.dnscry.pt
@@ -447,8 +448,6 @@ payload:
   - dns.stormycloud.org
   # sunnygyl.com
   - dns.switch.ch
-  # szpadel.ovh
-  - dns.t53.de
   # t53.de
   - dns.telekom.de
   # unx.io

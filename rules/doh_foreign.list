@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-08 03:23:41
-# Total rules: 276
+# Generated at: 2026-07-09 03:48:44
+# Total rules: 275
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -45,6 +45,9 @@ DOMAIN-SUFFIX,dns.blokada.org
 DOMAIN-SUFFIX,dns.bmwhocking.com
 
 # Ben Hocking
+DOMAIN-SUFFIX,dns.bezmezhau.com
+
+# Bezmezhau DNS
 DOMAIN-SUFFIX,dns.bitservices.io
 
 # Blokada DNS
@@ -345,7 +348,7 @@ DOMAIN-SUFFIX,sunnygyl.com
 DOMAIN-SUFFIX,resolver.sunet.se
 
 # Switch
-DOMAIN-SUFFIX,dns.szpadel.ovh
+DOMAIN-SUFFIX,dns.t53.de
 
 # Telekom Deutschland
 DOMAIN-SUFFIX,dns.tipsy.coffee
@@ -452,7 +455,6 @@ DOMAIN-SUFFIX,sin03.dnscry.pt
 DOMAIN-SUFFIX,sjc01.dnscry.pt
 DOMAIN-SUFFIX,slc01.dnscry.pt
 DOMAIN-SUFFIX,sof01.dnscry.pt
-DOMAIN-SUFFIX,sto01.dnscry.pt
 DOMAIN-SUFFIX,syd02.dnscry.pt
 DOMAIN-SUFFIX,tbs01.dnscry.pt
 DOMAIN-SUFFIX,tll01.dnscry.pt
@@ -617,9 +619,6 @@ DOMAIN-SUFFIX,dns.stormycloud.org
 
 # sunnygyl.com
 DOMAIN-SUFFIX,dns.switch.ch
-
-# szpadel.ovh
-DOMAIN-SUFFIX,dns.t53.de
 
 # t53.de
 DOMAIN-SUFFIX,dns.telekom.de
