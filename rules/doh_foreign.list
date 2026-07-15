@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-14 02:55:27
-# Total rules: 275
+# Generated at: 2026-07-15 02:53:56
+# Total rules: 230
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -153,7 +153,6 @@ DOMAIN-SUFFIX,doh.li
 DOMAIN-SUFFIX,doh.ffmuc.net
 
 # Foundation for Applied Privacy
-DOMAIN-SUFFIX,de-f1.foxyfy.net
 DOMAIN-SUFFIX,es-ma.foxyfy.net
 
 # Foxyfy DNS
@@ -423,56 +422,10 @@ DOMAIN-SUFFIX,doh.dns.sb
 DOMAIN-SUFFIX,dns.dnshome.de
 
 # dns4me
-DOMAIN-SUFFIX,abn01.dnscry.pt
-DOMAIN-SUFFIX,atl01.dnscry.pt
-DOMAIN-SUFFIX,bne01.dnscry.pt
-DOMAIN-SUFFIX,bog01.dnscry.pt
-DOMAIN-SUFFIX,bru01.dnscry.pt
-DOMAIN-SUFFIX,bts01.dnscry.pt
-DOMAIN-SUFFIX,cph01.dnscry.pt
-DOMAIN-SUFFIX,cvt01.dnscry.pt
-DOMAIN-SUFFIX,dub01.dnscry.pt
-DOMAIN-SUFFIX,fra01.dnscry.pt
-DOMAIN-SUFFIX,fra02.dnscry.pt
-DOMAIN-SUFFIX,geg01.dnscry.pt
-DOMAIN-SUFFIX,gva01.dnscry.pt
-DOMAIN-SUFFIX,haf01.dnscry.pt
-DOMAIN-SUFFIX,han01.dnscry.pt
-DOMAIN-SUFFIX,ist01.dnscry.pt
-DOMAIN-SUFFIX,kiv01.dnscry.pt
-DOMAIN-SUFFIX,las01.dnscry.pt
-DOMAIN-SUFFIX,lon01.dnscry.pt
-DOMAIN-SUFFIX,mad01.dnscry.pt
-DOMAIN-SUFFIX,mil01.dnscry.pt
-DOMAIN-SUFFIX,nue01.dnscry.pt
-DOMAIN-SUFFIX,omr01.dnscry.pt
-DOMAIN-SUFFIX,par01.dnscry.pt
-DOMAIN-SUFFIX,pdx01.dnscry.pt
-DOMAIN-SUFFIX,phx01.dnscry.pt
-DOMAIN-SUFFIX,rdd01.dnscry.pt
-DOMAIN-SUFFIX,sea01.dnscry.pt
-DOMAIN-SUFFIX,sin03.dnscry.pt
-DOMAIN-SUFFIX,sjc01.dnscry.pt
-DOMAIN-SUFFIX,slc01.dnscry.pt
-DOMAIN-SUFFIX,sof01.dnscry.pt
-DOMAIN-SUFFIX,syd02.dnscry.pt
-DOMAIN-SUFFIX,tbs01.dnscry.pt
-DOMAIN-SUFFIX,tll01.dnscry.pt
-DOMAIN-SUFFIX,tpa01.dnscry.pt
-DOMAIN-SUFFIX,trf01.dnscry.pt
-DOMAIN-SUFFIX,vie01.dnscry.pt
-DOMAIN-SUFFIX,vno01.dnscry.pt
-DOMAIN-SUFFIX,waw02.dnscry.pt
-DOMAIN-SUFFIX,yhz01.dnscry.pt
-DOMAIN-SUFFIX,yvr01.dnscry.pt
-DOMAIN-SUFFIX,yyc01.dnscry.pt
-DOMAIN-SUFFIX,yyz01.dnscry.pt
+DOMAIN-SUFFIX,dns.flatuslifir.is
 
 # dnsHome.de
 DOMAIN-SUFFIX,dnslow.me
-
-# dnscry.pt
-DOMAIN-SUFFIX,dns.flatuslifir.is
 
 # dnslow.me
 DOMAIN-SUFFIX,chuncheon.dnsovertor.cc
