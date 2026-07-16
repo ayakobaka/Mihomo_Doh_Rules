@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-15 02:53:56
-# Total domains: 230
+# Generated at: 2026-07-16 03:00:08
+# Total domains: 226
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -34,15 +34,11 @@ payload:
   # Belnet
   - dns.bmwhocking.com
   # Ben Hocking
-  - dns.bezmezhau.com
-  # Bezmezhau DNS
   - dns.bitservices.io
   # Blokada DNS
   - rfree1.blue-shield.at
   - rfree2.blue-shield.at
   # Blue Shield Umbrella
-  - dns.brahma.world
-  # Brahma World
   - dns.brembeck.cloud
   # CERT Estonia
   - doh-01.spectrum.com
@@ -209,8 +205,6 @@ payload:
   # PlumeDNS
   - pooblet.co.za
   # Practically Unhackable
-  - doh.archuser.org
-  # Pubhole
   - dns.quad9.net
   - dns10.quad9.net
   - dns11.quad9.net
@@ -241,8 +235,6 @@ payload:
   - dns.startupstack.tech
   # Startup Stack
   - doh.sz-dns.com
-  # StormyCloud
-  - dns.surfsharkdns.com
   # Sunet DNS
   - sunnygyl.com
   # Surfshark DNS
@@ -399,7 +391,7 @@ payload:
   # skrep.eu
   - dns.slinkyman.net
   # stirringphoto.com
-  - dns.stormycloud.org
+  - dns.surfsharkdns.com
   # sunnygyl.com
   - dns.switch.ch
   # t53.de

@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-15 02:53:56
-# Total rules: 230
+# Generated at: 2026-07-16 03:00:08
+# Total rules: 226
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -45,9 +45,6 @@ DOMAIN-SUFFIX,dns.blokada.org
 DOMAIN-SUFFIX,dns.bmwhocking.com
 
 # Ben Hocking
-DOMAIN-SUFFIX,dns.bezmezhau.com
-
-# Bezmezhau DNS
 DOMAIN-SUFFIX,dns.bitservices.io
 
 # Blokada DNS
@@ -55,9 +52,6 @@ DOMAIN-SUFFIX,rfree1.blue-shield.at
 DOMAIN-SUFFIX,rfree2.blue-shield.at
 
 # Blue Shield Umbrella
-DOMAIN-SUFFIX,dns.brahma.world
-
-# Brahma World
 DOMAIN-SUFFIX,dns.brembeck.cloud
 
 # CERT Estonia
@@ -291,9 +285,6 @@ DOMAIN-SUFFIX,dns.petqa.ru
 DOMAIN-SUFFIX,pooblet.co.za
 
 # Practically Unhackable
-DOMAIN-SUFFIX,doh.archuser.org
-
-# Pubhole
 DOMAIN-SUFFIX,dns.quad9.net
 DOMAIN-SUFFIX,dns10.quad9.net
 DOMAIN-SUFFIX,dns11.quad9.net
@@ -336,9 +327,6 @@ DOMAIN-SUFFIX,dns.startupstack.tech
 
 # Startup Stack
 DOMAIN-SUFFIX,doh.sz-dns.com
-
-# StormyCloud
-DOMAIN-SUFFIX,dns.surfsharkdns.com
 
 # Sunet DNS
 DOMAIN-SUFFIX,sunnygyl.com
@@ -568,7 +556,7 @@ DOMAIN-SUFFIX,dns.skrep.eu
 DOMAIN-SUFFIX,dns.slinkyman.net
 
 # stirringphoto.com
-DOMAIN-SUFFIX,dns.stormycloud.org
+DOMAIN-SUFFIX,dns.surfsharkdns.com
 
 # sunnygyl.com
 DOMAIN-SUFFIX,dns.switch.ch
