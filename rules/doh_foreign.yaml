@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-25 03:17:36
-# Total domains: 226
+# Generated at: 2026-07-26 03:31:21
+# Total domains: 227
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -387,6 +387,8 @@ payload:
   # shoupperuser.com
   - dns.silen.org
   # silen.org
+  - dns.simplylinux.ch
+  # simplylinux.ch
   - dns.skrep.eu
   # skrep.eu
   - dns.slinkyman.net

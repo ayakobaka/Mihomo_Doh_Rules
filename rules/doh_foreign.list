@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-25 03:17:36
-# Total rules: 226
+# Generated at: 2026-07-26 03:31:21
+# Total rules: 227
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -550,6 +550,9 @@ DOMAIN-SUFFIX,safeservedns.com
 DOMAIN-SUFFIX,dns.silen.org
 
 # silen.org
+DOMAIN-SUFFIX,dns.simplylinux.ch
+
+# simplylinux.ch
 DOMAIN-SUFFIX,dns.skrep.eu
 
 # skrep.eu
