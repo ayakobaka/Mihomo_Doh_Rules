@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-28 02:55:51
-# Total domains: 227
+# Generated at: 2026-07-29 03:15:48
+# Total domains: 226
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -74,8 +74,6 @@ payload:
   # Comss.one DNS
   - freedns.controld.com
   # Control D
-  - cryptostorm.is
-  # Cryptostorm
   - dns.cynthialabs.net
   # CynthiaLabs
   - odvr.nic.cz

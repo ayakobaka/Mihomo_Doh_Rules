@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-07-28 02:55:51
-# Total rules: 227
+# Generated at: 2026-07-29 03:15:48
+# Total rules: 226
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -100,9 +100,6 @@ DOMAIN-SUFFIX,dns.comss.one
 DOMAIN-SUFFIX,freedns.controld.com
 
 # Control D
-DOMAIN-SUFFIX,cryptostorm.is
-
-# Cryptostorm
 DOMAIN-SUFFIX,dns.cynthialabs.net
 
 # CynthiaLabs
