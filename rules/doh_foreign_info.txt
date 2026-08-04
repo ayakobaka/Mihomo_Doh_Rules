@@ -1,10 +1,9 @@
 # Geosite: doh-foreign
-# Generated at: 2026-08-03 03:31:08
-# Total domains: 226
+# Generated at: 2026-08-04 02:59:54
+# Total domains: 225
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
-  3dns.eu
   8888.google
   abel.waringer-atg.de
   ada.openbld.net
@@ -24,4 +23,5 @@ Domains (first 20):
   all.dns.mullvad.net
   anycast.uncensoreddns.org
   au-syd-w-f-1.nashkan.net
-  ... and 206 more domains
+  base.dns.mullvad.net
+  ... and 205 more domains
