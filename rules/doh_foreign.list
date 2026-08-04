@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-03 03:30:57
-# Total rules: 226
+# Generated at: 2026-08-04 02:59:35
+# Total rules: 225
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -123,9 +123,6 @@ DOMAIN-SUFFIX,doh.disconnect.app
 
 # Disconnect.app
 DOMAIN-SUFFIX,dns.digitalsize.net
-
-# Dom!nic
-DOMAIN-SUFFIX,doh.domreg.lt
 
 # Dukun.de
 DOMAIN-SUFFIX,xn--durhre-yxa.de
@@ -421,7 +418,7 @@ DOMAIN-SUFFIX,seoul.dnsovertor.cc
 DOMAIN-SUFFIX,doh.buzz
 
 # doh.buzz
-DOMAIN-SUFFIX,3dns.eu
+DOMAIN-SUFFIX,doh.domreg.lt
 
 # domreg.lt
 DOMAIN-SUFFIX,agh.dshubham.xyz
