@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-07 02:56:32
-# Total rules: 225
+# Generated at: 2026-08-08 01:59:56
+# Total rules: 223
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -12,14 +12,11 @@ DOMAIN-SUFFIX,ibuki.cgnat.net
 # @null31
 DOMAIN-SUFFIX,doh.seby.io
 
-# ADnull DNS
-DOMAIN-SUFFIX,dns.akbxr.com
-
 # AdFilter
 DOMAIN-SUFFIX,adfreedns.top
 
 # AdGuard
-DOMAIN-SUFFIX,dns.adnull.com
+DOMAIN-SUFFIX,dns.akbxr.com
 
 # Adfreedns
 DOMAIN-SUFFIX,dns.adguard-dns.com
@@ -323,7 +320,7 @@ DOMAIN-SUFFIX,dns.startupstack.tech
 DOMAIN-SUFFIX,doh.sz-dns.com
 
 # Sunet DNS
-DOMAIN-SUFFIX,sunnygyl.com
+DOMAIN-SUFFIX,dns.switch.ch
 
 # Surfshark DNS
 DOMAIN-SUFFIX,resolver.sunet.se
@@ -554,9 +551,6 @@ DOMAIN-SUFFIX,dns.slinkyman.net
 
 # stirringphoto.com
 DOMAIN-SUFFIX,dns.surfsharkdns.com
-
-# sunnygyl.com
-DOMAIN-SUFFIX,dns.switch.ch
 
 # t53.de
 DOMAIN-SUFFIX,dns.telekom.de

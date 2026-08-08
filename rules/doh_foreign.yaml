@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-07 02:56:32
-# Total domains: 225
+# Generated at: 2026-08-08 01:59:56
+# Total domains: 223
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -11,12 +11,10 @@ payload:
   - ibuki.cgnat.net
   # @null31
   - doh.seby.io
-  # ADnull DNS
-  - dns.akbxr.com
   # AdFilter
   - adfreedns.top
   # AdGuard
-  - dns.adnull.com
+  - dns.akbxr.com
   # Adfreedns
   - dns.adguard-dns.com
   - family.adguard-dns.com
@@ -232,7 +230,7 @@ payload:
   # Startup Stack
   - doh.sz-dns.com
   # Sunet DNS
-  - sunnygyl.com
+  - dns.switch.ch
   # Surfshark DNS
   - resolver.sunet.se
   # Switch
@@ -390,8 +388,6 @@ payload:
   - dns.slinkyman.net
   # stirringphoto.com
   - dns.surfsharkdns.com
-  # sunnygyl.com
-  - dns.switch.ch
   # t53.de
   - dns.telekom.de
   # unx.io
