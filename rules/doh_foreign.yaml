@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-13 02:25:51
-# Total domains: 223
+# Generated at: 2026-08-14 02:24:16
+# Total domains: 226
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -91,6 +91,8 @@ payload:
   - dns.digitalsize.net
   # Dukun.de
   - xn--durhre-yxa.de
+  # Easy HNS
+  - dns.elemental.software
   # Elemental Software
   - dns.envs.net
   # FBI NICS E-Check
@@ -116,6 +118,8 @@ payload:
   - dns.guard.io
   # Guardio
   - secure.hafnova.com
+  # HNS DoH
+  - dns.hostux.net
   # HaGeZi DNS
   - dns.haka.se
   # Hafnova
@@ -123,7 +127,7 @@ payload:
   - root.hagezi.org
   - wurzn.hagezi.org
   # Hakase
-  - dns.hostux.net
+  - hnsdoh.com
   # Hostux.net
   - doth.huque.com
   # Huque
@@ -186,6 +190,8 @@ payload:
   - doh.niyawe.de
   # Njalla
   - dns.novg.net
+  # Omada
+  - ada.openbld.net
   # OpenBLD.net
   - ag.apollohct.com
   # OpenLoop
@@ -272,7 +278,7 @@ payload:
   # chenu.ch
   - dns.christerwaren.fi
   # d94.xyz
-  - dns.elemental.software
+  - dns.easyhns.com
   # data.haus
   - dns.datenquark.de
   # datenquark.de
@@ -360,7 +366,7 @@ payload:
   # o2cloud.fr
   - dns.paesa.es
   # ofdoom.net
-  - ada.openbld.net
+  - dns.omada.cafe
   # petqa.ru
   - helios.plan9-dns.com
   - kronos.plan9-dns.com

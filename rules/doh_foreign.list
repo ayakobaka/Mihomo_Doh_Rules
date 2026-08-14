@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-13 02:25:51
-# Total rules: 223
+# Generated at: 2026-08-14 02:24:16
+# Total rules: 226
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -124,6 +124,9 @@ DOMAIN-SUFFIX,dns.digitalsize.net
 # Dukun.de
 DOMAIN-SUFFIX,xn--durhre-yxa.de
 
+# Easy HNS
+DOMAIN-SUFFIX,dns.elemental.software
+
 # Elemental Software
 DOMAIN-SUFFIX,dns.envs.net
 
@@ -161,6 +164,9 @@ DOMAIN-SUFFIX,dns.guard.io
 # Guardio
 DOMAIN-SUFFIX,secure.hafnova.com
 
+# HNS DoH
+DOMAIN-SUFFIX,dns.hostux.net
+
 # HaGeZi DNS
 DOMAIN-SUFFIX,dns.haka.se
 
@@ -170,7 +176,7 @@ DOMAIN-SUFFIX,root.hagezi.org
 DOMAIN-SUFFIX,wurzn.hagezi.org
 
 # Hakase
-DOMAIN-SUFFIX,dns.hostux.net
+DOMAIN-SUFFIX,hnsdoh.com
 
 # Hostux.net
 DOMAIN-SUFFIX,doth.huque.com
@@ -256,6 +262,9 @@ DOMAIN-SUFFIX,doh.niyawe.de
 
 # Njalla
 DOMAIN-SUFFIX,dns.novg.net
+
+# Omada
+DOMAIN-SUFFIX,ada.openbld.net
 
 # OpenBLD.net
 DOMAIN-SUFFIX,ag.apollohct.com
@@ -383,7 +392,7 @@ DOMAIN-SUFFIX,dns.cert.ee
 DOMAIN-SUFFIX,dns.christerwaren.fi
 
 # d94.xyz
-DOMAIN-SUFFIX,dns.elemental.software
+DOMAIN-SUFFIX,dns.easyhns.com
 
 # data.haus
 DOMAIN-SUFFIX,dns.datenquark.de
@@ -510,7 +519,7 @@ DOMAIN-SUFFIX,dns.ofdoom.net
 DOMAIN-SUFFIX,dns.paesa.es
 
 # ofdoom.net
-DOMAIN-SUFFIX,ada.openbld.net
+DOMAIN-SUFFIX,dns.omada.cafe
 
 # petqa.ru
 DOMAIN-SUFFIX,helios.plan9-dns.com
