@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-20 01:31:37
-# Total rules: 226
+# Generated at: 2026-08-21 01:42:33
+# Total rules: 223
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -14,9 +14,6 @@ DOMAIN-SUFFIX,doh.seby.io
 
 # AdFilter
 DOMAIN-SUFFIX,adfreedns.top
-
-# AdGuard
-DOMAIN-SUFFIX,dns.akbxr.com
 
 # Adfreedns
 DOMAIN-SUFFIX,dns.adguard-dns.com
@@ -129,10 +126,6 @@ DOMAIN-SUFFIX,dns.elemental.software
 
 # Elemental Software
 DOMAIN-SUFFIX,dns.envs.net
-
-# FBI NICS E-Check
-DOMAIN-SUFFIX,ns0.fdn.fr
-DOMAIN-SUFFIX,ns1.fdn.fr
 
 # FDN
 DOMAIN-SUFFIX,doh.li
@@ -444,6 +437,10 @@ DOMAIN-SUFFIX,dnsvps.familiamv.net
 # familiamv.net
 DOMAIN-SUFFIX,dns.farshidhakimy.de
 
+# farshidhakimy.de
+DOMAIN-SUFFIX,ns0.fdn.fr
+DOMAIN-SUFFIX,ns1.fdn.fr
+
 # ffmuc.net
 DOMAIN-SUFFIX,fidelius.top
 
@@ -513,13 +510,10 @@ DOMAIN-SUFFIX,dns.neeb.it
 DOMAIN-SUFFIX,dns.nextdns.io
 
 # novg.net
-DOMAIN-SUFFIX,dns.ofdoom.net
+DOMAIN-SUFFIX,dns.omada.cafe
 
 # o2cloud.fr
 DOMAIN-SUFFIX,dns.paesa.es
-
-# ofdoom.net
-DOMAIN-SUFFIX,dns.omada.cafe
 
 # petqa.ru
 DOMAIN-SUFFIX,helios.plan9-dns.com
@@ -535,9 +529,6 @@ DOMAIN-SUFFIX,dns.practicallyunhackable.com
 DOMAIN-SUFFIX,regiopolis.cloud
 
 # regiopolis.cloud
-DOMAIN-SUFFIX,renardbleu.dev
-
-# renardbleu.dev
 DOMAIN-SUFFIX,dnspub.restena.lu
 
 # revelio.top

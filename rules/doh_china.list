@@ -1,9 +1,9 @@
 # DoH Servers Ruleset - 国内 DoH (建议直连)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-20 01:31:37
+# Generated at: 2026-08-21 01:42:33
 # Total rules: 2
 
-# AKBXR DNS
+# AdGuard
 DOMAIN-SUFFIX,dns.alidns.com
 
 # DNS over Tor

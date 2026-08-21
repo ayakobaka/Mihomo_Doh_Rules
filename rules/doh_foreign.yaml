@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-20 01:31:37
-# Total domains: 226
+# Generated at: 2026-08-21 01:42:33
+# Total domains: 223
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -13,8 +13,6 @@ payload:
   - doh.seby.io
   # AdFilter
   - adfreedns.top
-  # AdGuard
-  - dns.akbxr.com
   # Adfreedns
   - dns.adguard-dns.com
   - family.adguard-dns.com
@@ -95,9 +93,6 @@ payload:
   - dns.elemental.software
   # Elemental Software
   - dns.envs.net
-  # FBI NICS E-Check
-  - ns0.fdn.fr
-  - ns1.fdn.fr
   # FDN
   - doh.li
   # Feroz
@@ -313,6 +308,9 @@ payload:
   - dnsvps.familiamv.net
   # familiamv.net
   - dns.farshidhakimy.de
+  # farshidhakimy.de
+  - ns0.fdn.fr
+  - ns1.fdn.fr
   # ffmuc.net
   - fidelius.top
   # fidelius.top
@@ -362,11 +360,9 @@ payload:
   # neeb.it
   - dns.nextdns.io
   # novg.net
-  - dns.ofdoom.net
+  - dns.omada.cafe
   # o2cloud.fr
   - dns.paesa.es
-  # ofdoom.net
-  - dns.omada.cafe
   # petqa.ru
   - helios.plan9-dns.com
   - kronos.plan9-dns.com
@@ -377,8 +373,6 @@ payload:
   # redhosting.com.ar
   - regiopolis.cloud
   # regiopolis.cloud
-  - renardbleu.dev
-  # renardbleu.dev
   - dnspub.restena.lu
   # revelio.top
   - dns.rbn.gr

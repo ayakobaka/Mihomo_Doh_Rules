@@ -1,11 +1,11 @@
 # DoH Servers Ruleset - 国内 DoH (建议直连)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-20 01:31:37
+# Generated at: 2026-08-21 01:42:33
 # Total domains: 2
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
-  # AKBXR DNS
+  # AdGuard
   - dns.alidns.com
   # DNS over Tor
   - dns.pub
