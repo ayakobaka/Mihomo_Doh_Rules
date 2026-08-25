@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-08-24 01:43:01
-# Total rules: 223
+# Generated at: 2026-08-25 01:35:49
+# Total rules: 222
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -272,7 +272,8 @@ DOMAIN-SUFFIX,dns.paulo.nom.za
 DOMAIN-SUFFIX,dns.decky.eu
 
 # Pavol Decky
-DOMAIN-SUFFIX,dns.petqa.ru
+DOMAIN-SUFFIX,helios.plan9-dns.com
+DOMAIN-SUFFIX,kronos.plan9-dns.com
 
 # PlumeDNS
 DOMAIN-SUFFIX,pooblet.co.za
@@ -514,10 +515,6 @@ DOMAIN-SUFFIX,dns.omada.cafe
 
 # o2cloud.fr
 DOMAIN-SUFFIX,dns.paesa.es
-
-# petqa.ru
-DOMAIN-SUFFIX,helios.plan9-dns.com
-DOMAIN-SUFFIX,kronos.plan9-dns.com
 
 # plan9-dns
 DOMAIN-SUFFIX,privacy.plumedns.com
