@@ -1,6 +1,6 @@
 # Geosite: doh-foreign
-# Generated at: 2026-08-24 01:43:12
-# Total domains: 223
+# Generated at: 2026-08-25 01:36:01
+# Total domains: 222
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
@@ -24,4 +24,4 @@ Domains (first 20):
   anycast.uncensoreddns.org
   au-syd-w-f-1.nashkan.net
   base.dns.mullvad.net
-  ... and 203 more domains
+  ... and 202 more domains
