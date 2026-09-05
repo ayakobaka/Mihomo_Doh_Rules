@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-09-04 03:53:54
-# Total rules: 222
+# Generated at: 2026-09-05 03:52:30
+# Total rules: 216
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -230,12 +230,6 @@ DOMAIN-SUFFIX,dns.mateo.ovh
 
 # Mayx
 DOMAIN-SUFFIX,adguard.meddy94.de
-
-# Mullvad
-DOMAIN-SUFFIX,adblock.mydns.network
-DOMAIN-SUFFIX,family.mydns.network
-DOMAIN-SUFFIX,freedom.mydns.network
-DOMAIN-SUFFIX,paranoia.mydns.network
 
 # NIC.LV
 DOMAIN-SUFFIX,doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
@@ -494,12 +488,10 @@ DOMAIN-SUFFIX,dns.mh4ckt3mh4ckt1c4s.xyz
 DOMAIN-SUFFIX,addns1.m-it.ro
 
 # mmmalia.com
-DOMAIN-SUFFIX,adblock.dns.mullvad.net
-DOMAIN-SUFFIX,all.dns.mullvad.net
-DOMAIN-SUFFIX,base.dns.mullvad.net
-DOMAIN-SUFFIX,dns.mullvad.net
-DOMAIN-SUFFIX,extended.dns.mullvad.net
-DOMAIN-SUFFIX,family.dns.mullvad.net
+DOMAIN-SUFFIX,adblock.mydns.network
+DOMAIN-SUFFIX,family.mydns.network
+DOMAIN-SUFFIX,freedom.mydns.network
+DOMAIN-SUFFIX,paranoia.mydns.network
 
 # mydns.network
 DOMAIN-SUFFIX,dns.mzjtechnology.com

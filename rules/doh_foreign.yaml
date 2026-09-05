@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-09-04 03:53:54
-# Total domains: 222
+# Generated at: 2026-09-05 03:52:30
+# Total domains: 216
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -167,11 +167,6 @@ payload:
   - dns.mateo.ovh
   # Mayx
   - adguard.meddy94.de
-  # Mullvad
-  - adblock.mydns.network
-  - family.mydns.network
-  - freedom.mydns.network
-  - paranoia.mydns.network
   # NIC.LV
   - doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
   # NextDNS
@@ -348,12 +343,10 @@ payload:
   # mh4ckt3mh4ckt1c4s.xyz
   - addns1.m-it.ro
   # mmmalia.com
-  - adblock.dns.mullvad.net
-  - all.dns.mullvad.net
-  - base.dns.mullvad.net
-  - dns.mullvad.net
-  - extended.dns.mullvad.net
-  - family.dns.mullvad.net
+  - adblock.mydns.network
+  - family.mydns.network
+  - freedom.mydns.network
+  - paranoia.mydns.network
   # mydns.network
   - dns.mzjtechnology.com
   # nashkan.net
