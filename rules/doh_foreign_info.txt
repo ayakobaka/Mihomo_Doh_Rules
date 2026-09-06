@@ -1,5 +1,5 @@
 # Geosite: doh-foreign
-# Generated at: 2026-09-05 03:52:45
+# Generated at: 2026-09-06 03:56:35
 # Total domains: 216
 # Format: Protocol Buffers binary (.dat)
 
