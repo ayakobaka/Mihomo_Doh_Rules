@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-09-16 04:14:54
-# Total domains: 216
+# Generated at: 2026-09-17 04:21:48
+# Total domains: 218
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -247,9 +247,12 @@ payload:
   # VIA
   - v0dka.ru
   # W3C TAG
-  - zdn.ro
+  - dns.yunzheng.space
+  - filter.dns.yunzheng.space
   # Wikimedia DNS
   - dns.w3ctag.org
+  # YunZheng LAB DNS
+  - zdn.ro
   # a47.me
   - bazooki-infra.dev
   # anon.no
