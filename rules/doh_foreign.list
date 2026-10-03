@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-10-02 05:00:51
-# Total rules: 218
+# Generated at: 2026-10-03 04:44:21
+# Total rules: 219
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -160,6 +160,9 @@ DOMAIN-SUFFIX,secure.hafnova.com
 # HNS DoH
 DOMAIN-SUFFIX,dns.hostux.net
 
+# HQDNS
+DOMAIN-SUFFIX,doth.huque.com
+
 # HaGeZi DNS
 DOMAIN-SUFFIX,dns.haka.se
 
@@ -172,7 +175,7 @@ DOMAIN-SUFFIX,wurzn.hagezi.org
 DOMAIN-SUFFIX,hnsdoh.com
 
 # Hostux.net
-DOMAIN-SUFFIX,doth.huque.com
+DOMAIN-SUFFIX,dns.hqdns.sarl
 
 # Huque
 DOMAIN-SUFFIX,imperio.top

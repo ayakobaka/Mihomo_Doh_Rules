@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-10-02 05:00:51
-# Total domains: 218
+# Generated at: 2026-10-03 04:44:21
+# Total domains: 219
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -115,6 +115,8 @@ payload:
   - secure.hafnova.com
   # HNS DoH
   - dns.hostux.net
+  # HQDNS
+  - doth.huque.com
   # HaGeZi DNS
   - dns.haka.se
   # Hafnova
@@ -124,7 +126,7 @@ payload:
   # Hakase
   - hnsdoh.com
   # Hostux.net
-  - doth.huque.com
+  - dns.hqdns.sarl
   # Huque
   - imperio.top
   # In-Berlin
