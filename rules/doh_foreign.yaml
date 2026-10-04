@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-10-03 04:44:21
-# Total domains: 219
+# Generated at: 2026-10-04 05:15:20
+# Total domains: 220
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -73,6 +73,8 @@ payload:
   - dns.cynthialabs.net
   # CynthiaLabs
   - odvr.nic.cz
+  # DNS over Tor
+  - dnsdoh.art
   # DNS.SB
   - doh.dns4all.eu
   # DNS4all
