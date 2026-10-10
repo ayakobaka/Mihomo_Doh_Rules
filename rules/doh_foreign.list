@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-10-09 05:32:17
-# Total rules: 220
+# Generated at: 2026-10-10 05:16:27
+# Total rules: 218
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -111,9 +111,6 @@ DOMAIN-SUFFIX,child.joindns4.eu
 DOMAIN-SUFFIX,noads.joindns4.eu
 DOMAIN-SUFFIX,protective.joindns4.eu
 DOMAIN-SUFFIX,unfiltered.joindns4.eu
-
-# DNSPod
-DOMAIN-SUFFIX,doh.beauty
 
 # Digitale Gesellschaft
 DOMAIN-SUFFIX,doh.disconnect.app
@@ -417,9 +414,6 @@ DOMAIN-SUFFIX,dnslow.me
 DOMAIN-SUFFIX,chuncheon.dnsovertor.cc
 DOMAIN-SUFFIX,japan.dnsovertor.cc
 DOMAIN-SUFFIX,seoul.dnsovertor.cc
-
-# doh.beauty
-DOMAIN-SUFFIX,doh.buzz
 
 # doh.buzz
 DOMAIN-SUFFIX,doh.domreg.lt

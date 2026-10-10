@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 国内 DoH (建议直连)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-10-09 05:32:17
-# Total domains: 2
+# Generated at: 2026-10-10 05:16:27
+# Total domains: 4
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -9,3 +9,7 @@ payload:
   - dns.alidns.com
   # DNSDOH
   - dns.pub
+  # DNSPod
+  - doh.beauty
+  # doh.beauty
+  - doh.buzz
