@@ -1,6 +1,6 @@
 # Geosite: doh-foreign
-# Generated at: 2026-10-09 05:32:29
-# Total domains: 220
+# Generated at: 2026-10-10 05:16:39
+# Total domains: 218
 # Format: Protocol Buffers binary (.dat)
 
 Domains (first 20):
@@ -24,4 +24,4 @@ Domains (first 20):
   bazooki-infra.dev
   child-noads.joindns4.eu
   child.joindns4.eu
-  ... and 200 more domains
+  ... and 198 more domains
