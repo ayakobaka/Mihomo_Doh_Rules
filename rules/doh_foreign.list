@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-10-29 05:11:19
-# Total rules: 220
+# Generated at: 2026-10-30 05:10:10
+# Total rules: 204
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -49,8 +49,7 @@ DOMAIN-SUFFIX,rfree2.blue-shield.at
 DOMAIN-SUFFIX,dns.brembeck.cloud
 
 # CERT Estonia
-DOMAIN-SUFFIX,doh-01.spectrum.com
-DOMAIN-SUFFIX,doh-02.spectrum.com
+DOMAIN-SUFFIX,dns.chenu.ch
 
 # CIRA Canadian Shield
 DOMAIN-SUFFIX,doh.familyshield.opendns.com
@@ -58,13 +57,10 @@ DOMAIN-SUFFIX,doh.opendns.com
 DOMAIN-SUFFIX,doh.umbrella.com
 
 # CZ.NIC
-DOMAIN-SUFFIX,ns.data.haus
+DOMAIN-SUFFIX,dns.datenquark.de
 
 # Canarypwn
 DOMAIN-SUFFIX,dns.caspervk.net
-
-# Charter
-DOMAIN-SUFFIX,dns.chenu.ch
 
 # Christer Warén
 DOMAIN-SUFFIX,dns.chunghwamc.com
@@ -137,9 +133,6 @@ DOMAIN-SUFFIX,doh.li
 DOMAIN-SUFFIX,doh.ffmuc.net
 
 # Foundation for Applied Privacy
-DOMAIN-SUFFIX,es-ma.foxyfy.net
-
-# Foxyfy DNS
 DOMAIN-SUFFIX,dns.furrix.zone
 
 # FurrIX vIX
@@ -149,7 +142,9 @@ DOMAIN-SUFFIX,doh.futa.gg
 DOMAIN-SUFFIX,dns.gamban.com
 
 # Gamban
-DOMAIN-SUFFIX,gibblets.top
+DOMAIN-SUFFIX,8888.google
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,dns64.dns.google
 
 # Google
 DOMAIN-SUFFIX,dns.glf.wtf
@@ -163,9 +158,6 @@ DOMAIN-SUFFIX,secure.hafnova.com
 # HNS DoH
 DOMAIN-SUFFIX,dns.hostux.net
 
-# HQDNS
-DOMAIN-SUFFIX,doth.huque.com
-
 # HaGeZi DNS
 DOMAIN-SUFFIX,dns.haka.se
 
@@ -178,10 +170,11 @@ DOMAIN-SUFFIX,wurzn.hagezi.org
 DOMAIN-SUFFIX,hnsdoh.com
 
 # Hostux.net
-DOMAIN-SUFFIX,dns.hqdns.sarl
+DOMAIN-SUFFIX,doth.huque.com
 
 # Huque
-DOMAIN-SUFFIX,imperio.top
+DOMAIN-SUFFIX,dns1.in-berlin.de
+DOMAIN-SUFFIX,dns2.in-berlin.de
 
 # In-Berlin
 DOMAIN-SUFFIX,dns.inforlogia.com
@@ -237,9 +230,6 @@ DOMAIN-SUFFIX,dns.mateo.ovh
 # Mayx
 DOMAIN-SUFFIX,adguard.meddy94.de
 
-# NIC.LV
-DOMAIN-SUFFIX,doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
-
 # NextDNS
 DOMAIN-SUFFIX,dns.nick-slowinski.de
 
@@ -247,8 +237,7 @@ DOMAIN-SUFFIX,dns.nick-slowinski.de
 DOMAIN-SUFFIX,dns.njal.la
 
 # Nick Slowinski
-DOMAIN-SUFFIX,doh.lv
-DOMAIN-SUFFIX,doh.nic.lv
+DOMAIN-SUFFIX,doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
 
 # Nicolas Dorriere
 DOMAIN-SUFFIX,doh.niyawe.de
@@ -263,7 +252,7 @@ DOMAIN-SUFFIX,ada.openbld.net
 DOMAIN-SUFFIX,ag.apollohct.com
 
 # OpenLoop
-DOMAIN-SUFFIX,dns4eu.online
+DOMAIN-SUFFIX,dns.paesa.es
 
 # PaesaDNS
 DOMAIN-SUFFIX,dns.paulo.nom.za
@@ -276,7 +265,7 @@ DOMAIN-SUFFIX,helios.plan9-dns.com
 DOMAIN-SUFFIX,kronos.plan9-dns.com
 
 # PlumeDNS
-DOMAIN-SUFFIX,pooblet.co.za
+DOMAIN-SUFFIX,dns.practicallyunhackable.com
 
 # Practically Unhackable
 DOMAIN-SUFFIX,dns.quad9.net
@@ -302,7 +291,7 @@ DOMAIN-SUFFIX,dns.retakecs.com
 DOMAIN-SUFFIX,sky.rethinkdns.com
 
 # RethinkDNS
-DOMAIN-SUFFIX,revelio.top
+DOMAIN-SUFFIX,dns.rbn.gr
 
 # RobinGroppe.de
 DOMAIN-SUFFIX,dns.roedel.cloud
@@ -324,9 +313,6 @@ DOMAIN-SUFFIX,doh.sz-dns.com
 
 # Sunet DNS
 DOMAIN-SUFFIX,dns.switch.ch
-
-# Surfshark DNS
-DOMAIN-SUFFIX,resolver.sunet.se
 
 # Switch
 DOMAIN-SUFFIX,dns.t53.de
@@ -392,9 +378,6 @@ DOMAIN-SUFFIX,dns.christerwaren.fi
 # d94.xyz
 DOMAIN-SUFFIX,dns.easyhns.com
 
-# data.haus
-DOMAIN-SUFFIX,dns.datenquark.de
-
 # datenquark.de
 DOMAIN-SUFFIX,dns.dev-umbrellagov.com
 
@@ -404,11 +387,8 @@ DOMAIN-SUFFIX,dns.digitale-gesellschaft.ch
 # dns.digitalsize.net
 DOMAIN-SUFFIX,doh.dns.sb
 
-# dns.flatuslifir.is
-DOMAIN-SUFFIX,dns.dnshome.de
-
 # dns4me
-DOMAIN-SUFFIX,dns.flatuslifir.is
+DOMAIN-SUFFIX,dns.dnshome.de
 
 # dnsHome.de
 DOMAIN-SUFFIX,dnslow.me
@@ -447,25 +427,10 @@ DOMAIN-SUFFIX,ns0.fdn.fr
 DOMAIN-SUFFIX,ns1.fdn.fr
 
 # ffmuc.net
-DOMAIN-SUFFIX,fidelius.top
-
-# fidelius.top
 DOMAIN-SUFFIX,dns.floriantinney.de
 
 # floriantinney.de
 DOMAIN-SUFFIX,doh.applied-privacy.net
-
-# gibblets.top
-DOMAIN-SUFFIX,glacius.top
-
-# glacius.top
-DOMAIN-SUFFIX,8888.google
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,dns64.dns.google
-
-# imperio.top
-DOMAIN-SUFFIX,dns1.in-berlin.de
-DOMAIN-SUFFIX,dns2.in-berlin.de
 
 # kapite.in
 DOMAIN-SUFFIX,dns.kernel-error.de
@@ -515,23 +480,14 @@ DOMAIN-SUFFIX,dns.nextdns.io
 # novg.net
 DOMAIN-SUFFIX,dns.omada.cafe
 
-# o2cloud.fr
-DOMAIN-SUFFIX,dns.paesa.es
-
 # plan9-dns
 DOMAIN-SUFFIX,privacy.plumedns.com
-
-# pooblet.co.za
-DOMAIN-SUFFIX,dns.practicallyunhackable.com
 
 # redhosting.com.ar
 DOMAIN-SUFFIX,regiopolis.cloud
 
 # regiopolis.cloud
 DOMAIN-SUFFIX,dnspub.restena.lu
-
-# revelio.top
-DOMAIN-SUFFIX,dns.rbn.gr
 
 # roedel.cloud
 DOMAIN-SUFFIX,safeservedns.com
@@ -549,7 +505,7 @@ DOMAIN-SUFFIX,dns.skrep.eu
 DOMAIN-SUFFIX,dns.slinkyman.net
 
 # stirringphoto.com
-DOMAIN-SUFFIX,dns.surfsharkdns.com
+DOMAIN-SUFFIX,resolver.sunet.se
 
 # t53.de
 DOMAIN-SUFFIX,dns.telekom.de

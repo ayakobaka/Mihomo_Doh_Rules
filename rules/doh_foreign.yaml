@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-10-29 05:11:19
-# Total domains: 220
+# Generated at: 2026-10-30 05:10:10
+# Total domains: 204
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -37,18 +37,15 @@ payload:
   # Blue Shield Umbrella
   - dns.brembeck.cloud
   # CERT Estonia
-  - doh-01.spectrum.com
-  - doh-02.spectrum.com
+  - dns.chenu.ch
   # CIRA Canadian Shield
   - doh.familyshield.opendns.com
   - doh.opendns.com
   - doh.umbrella.com
   # CZ.NIC
-  - ns.data.haus
+  - dns.datenquark.de
   # Canarypwn
   - dns.caspervk.net
-  # Charter
-  - dns.chenu.ch
   # Christer Warén
   - dns.chunghwamc.com
   # ChunghwaMC
@@ -100,15 +97,15 @@ payload:
   # Feroz
   - doh.ffmuc.net
   # Foundation for Applied Privacy
-  - es-ma.foxyfy.net
-  # Foxyfy DNS
   - dns.furrix.zone
   # FurrIX vIX
   - doh.futa.gg
   # FutaDNS
   - dns.gamban.com
   # Gamban
-  - gibblets.top
+  - 8888.google
+  - dns.google
+  - dns64.dns.google
   # Google
   - dns.glf.wtf
   # Gottlieb Freitag
@@ -117,8 +114,6 @@ payload:
   - secure.hafnova.com
   # HNS DoH
   - dns.hostux.net
-  # HQDNS
-  - doth.huque.com
   # HaGeZi DNS
   - dns.haka.se
   # Hafnova
@@ -128,9 +123,10 @@ payload:
   # Hakase
   - hnsdoh.com
   # Hostux.net
-  - dns.hqdns.sarl
+  - doth.huque.com
   # Huque
-  - imperio.top
+  - dns1.in-berlin.de
+  - dns2.in-berlin.de
   # In-Berlin
   - dns.inforlogia.com
   # Inforlogia
@@ -171,15 +167,12 @@ payload:
   - dns.mateo.ovh
   # Mayx
   - adguard.meddy94.de
-  # NIC.LV
-  - doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
   # NextDNS
   - dns.nick-slowinski.de
   # NiYaWe
   - dns.njal.la
   # Nick Slowinski
-  - doh.lv
-  - doh.nic.lv
+  - doh-dilution-to-upstreams-adguardhome.nicolas-dorriere.fr
   # Nicolas Dorriere
   - doh.niyawe.de
   # Njalla
@@ -189,7 +182,7 @@ payload:
   # OpenBLD.net
   - ag.apollohct.com
   # OpenLoop
-  - dns4eu.online
+  - dns.paesa.es
   # PaesaDNS
   - dns.paulo.nom.za
   # Paulo
@@ -198,7 +191,7 @@ payload:
   - helios.plan9-dns.com
   - kronos.plan9-dns.com
   # PlumeDNS
-  - pooblet.co.za
+  - dns.practicallyunhackable.com
   # Practically Unhackable
   - dns.quad9.net
   - dns10.quad9.net
@@ -217,7 +210,7 @@ payload:
   # RetakeCS
   - sky.rethinkdns.com
   # RethinkDNS
-  - revelio.top
+  - dns.rbn.gr
   # RobinGroppe.de
   - dns.roedel.cloud
   # SZ DNS
@@ -232,8 +225,6 @@ payload:
   - doh.sz-dns.com
   # Sunet DNS
   - dns.switch.ch
-  # Surfshark DNS
-  - resolver.sunet.se
   # Switch
   - dns.t53.de
   # Telekom Deutschland
@@ -277,18 +268,14 @@ payload:
   - dns.christerwaren.fi
   # d94.xyz
   - dns.easyhns.com
-  # data.haus
-  - dns.datenquark.de
   # datenquark.de
   - dns.dev-umbrellagov.com
   # dev-umbrellagov
   - dns.digitale-gesellschaft.ch
   # dns.digitalsize.net
   - doh.dns.sb
-  # dns.flatuslifir.is
-  - dns.dnshome.de
   # dns4me
-  - dns.flatuslifir.is
+  - dns.dnshome.de
   # dnsHome.de
   - dnslow.me
   # dnslow.me
@@ -315,20 +302,9 @@ payload:
   - ns0.fdn.fr
   - ns1.fdn.fr
   # ffmuc.net
-  - fidelius.top
-  # fidelius.top
   - dns.floriantinney.de
   # floriantinney.de
   - doh.applied-privacy.net
-  # gibblets.top
-  - glacius.top
-  # glacius.top
-  - 8888.google
-  - dns.google
-  - dns64.dns.google
-  # imperio.top
-  - dns1.in-berlin.de
-  - dns2.in-berlin.de
   # kapite.in
   - dns.kernel-error.de
   # kescher
@@ -362,18 +338,12 @@ payload:
   - dns.nextdns.io
   # novg.net
   - dns.omada.cafe
-  # o2cloud.fr
-  - dns.paesa.es
   # plan9-dns
   - privacy.plumedns.com
-  # pooblet.co.za
-  - dns.practicallyunhackable.com
   # redhosting.com.ar
   - regiopolis.cloud
   # regiopolis.cloud
   - dnspub.restena.lu
-  # revelio.top
-  - dns.rbn.gr
   # roedel.cloud
   - safeservedns.com
   # shoupperuser.com
@@ -385,7 +355,7 @@ payload:
   # skrep.eu
   - dns.slinkyman.net
   # stirringphoto.com
-  - dns.surfsharkdns.com
+  - resolver.sunet.se
   # t53.de
   - dns.telekom.de
   # unx.io
