@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-01 05:22:56
-# Total domains: 204
+# Generated at: 2026-11-02 05:22:19
+# Total domains: 205
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -27,6 +27,8 @@ payload:
   - dns.a47.me
   # BITServices
   - dns.blokada.org
+  # BeatQuantum
+  - dns.belnet.be
   # Belnet
   - dns.bmwhocking.com
   # Ben Hocking
@@ -257,7 +259,7 @@ payload:
   # arnor.org
   - dns.asterimoon.com
   # bazooki-infra.dev
-  - dns.belnet.be
+  - beatquantum.com
   # brembeck.cloud
   - dns.busold.ws
   # busold.ws

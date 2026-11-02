@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-01 05:22:56
-# Total rules: 204
+# Generated at: 2026-11-02 05:22:19
+# Total rules: 205
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -34,6 +34,9 @@ DOMAIN-SUFFIX,dns.a47.me
 
 # BITServices
 DOMAIN-SUFFIX,dns.blokada.org
+
+# BeatQuantum
+DOMAIN-SUFFIX,dns.belnet.be
 
 # Belnet
 DOMAIN-SUFFIX,dns.bmwhocking.com
@@ -361,7 +364,7 @@ DOMAIN-SUFFIX,nsec.arnor.org
 DOMAIN-SUFFIX,dns.asterimoon.com
 
 # bazooki-infra.dev
-DOMAIN-SUFFIX,dns.belnet.be
+DOMAIN-SUFFIX,beatquantum.com
 
 # brembeck.cloud
 DOMAIN-SUFFIX,dns.busold.ws
