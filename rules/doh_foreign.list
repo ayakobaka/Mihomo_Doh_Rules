@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-05 06:00:21
-# Total rules: 205
+# Generated at: 2026-11-06 05:56:50
+# Total rules: 203
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -150,9 +150,6 @@ DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,dns64.dns.google
 
 # Google
-DOMAIN-SUFFIX,dns.glf.wtf
-
-# Gottlieb Freitag
 DOMAIN-SUFFIX,dns.guard.io
 
 # Guardio
@@ -338,9 +335,6 @@ DOMAIN-SUFFIX,dns.unx.io
 # Usable Privacy
 DOMAIN-SUFFIX,v.recipes
 
-# VIA
-DOMAIN-SUFFIX,v0dka.ru
-
 # W3C TAG
 DOMAIN-SUFFIX,dns.yunzheng.space
 DOMAIN-SUFFIX,filter.dns.yunzheng.space
@@ -523,7 +517,7 @@ DOMAIN-SUFFIX,dns.vaioswolke.xyz
 DOMAIN-SUFFIX,abel.waringer-atg.de
 
 # vaioswolke.xyz
-DOMAIN-SUFFIX,doh.viatech.com.tw
+DOMAIN-SUFFIX,v0dka.ru
 
 # waringer-atg.de
 DOMAIN-SUFFIX,wikimedia-dns.org

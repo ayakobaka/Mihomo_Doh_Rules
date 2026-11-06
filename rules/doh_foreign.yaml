@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-05 06:00:21
-# Total domains: 205
+# Generated at: 2026-11-06 05:56:50
+# Total domains: 203
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -109,8 +109,6 @@ payload:
   - dns.google
   - dns64.dns.google
   # Google
-  - dns.glf.wtf
-  # Gottlieb Freitag
   - dns.guard.io
   # Guardio
   - secure.hafnova.com
@@ -241,8 +239,6 @@ payload:
   - dns.unx.io
   # Usable Privacy
   - v.recipes
-  # VIA
-  - v0dka.ru
   # W3C TAG
   - dns.yunzheng.space
   - filter.dns.yunzheng.space
@@ -367,6 +363,6 @@ payload:
   # v0dka.ru
   - abel.waringer-atg.de
   # vaioswolke.xyz
-  - doh.viatech.com.tw
+  - v0dka.ru
   # waringer-atg.de
   - wikimedia-dns.org
