@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-06 05:56:50
-# Total rules: 203
+# Generated at: 2026-11-07 05:28:31
+# Total rules: 205
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -110,6 +110,9 @@ DOMAIN-SUFFIX,child.joindns4.eu
 DOMAIN-SUFFIX,noads.joindns4.eu
 DOMAIN-SUFFIX,protective.joindns4.eu
 DOMAIN-SUFFIX,unfiltered.joindns4.eu
+
+# DNSGuard
+DOMAIN-SUFFIX,doh.dns.sb
 
 # DNSPod
 DOMAIN-SUFFIX,doh.beauty
@@ -302,6 +305,9 @@ DOMAIN-SUFFIX,dns.stirringphoto.com
 # SafeServe
 DOMAIN-SUFFIX,adguard.shoupperuser.com
 
+# Sktr
+DOMAIN-SUFFIX,dns.slinkyman.net
+
 # Slinkyman.net
 DOMAIN-SUFFIX,dns.smartguard.io
 
@@ -382,7 +388,7 @@ DOMAIN-SUFFIX,dns.dev-umbrellagov.com
 DOMAIN-SUFFIX,dns.digitale-gesellschaft.ch
 
 # dns.digitalsize.net
-DOMAIN-SUFFIX,doh.dns.sb
+DOMAIN-SUFFIX,dns.dnsguard.pub
 
 # dns4me
 DOMAIN-SUFFIX,dns.dnshome.de
@@ -499,7 +505,7 @@ DOMAIN-SUFFIX,dns.simplylinux.ch
 DOMAIN-SUFFIX,dns.skrep.eu
 
 # skrep.eu
-DOMAIN-SUFFIX,dns.slinkyman.net
+DOMAIN-SUFFIX,dns.sktr.com.tr
 
 # stirringphoto.com
 DOMAIN-SUFFIX,resolver.sunet.se

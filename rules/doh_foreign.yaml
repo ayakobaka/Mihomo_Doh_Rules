@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-06 05:56:50
-# Total domains: 203
+# Generated at: 2026-11-07 05:28:31
+# Total domains: 205
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -82,6 +82,8 @@ payload:
   - noads.joindns4.eu
   - protective.joindns4.eu
   - unfiltered.joindns4.eu
+  # DNSGuard
+  - doh.dns.sb
   # DNSPod
   - doh.beauty
   # Digitale Gesellschaft
@@ -217,6 +219,8 @@ payload:
   - dns.stirringphoto.com
   # SafeServe
   - adguard.shoupperuser.com
+  # Sktr
+  - dns.slinkyman.net
   # Slinkyman.net
   - dns.smartguard.io
   # SmartGuard
@@ -271,7 +275,7 @@ payload:
   # dev-umbrellagov
   - dns.digitale-gesellschaft.ch
   # dns.digitalsize.net
-  - doh.dns.sb
+  - dns.dnsguard.pub
   # dns4me
   - dns.dnshome.de
   # dnsHome.de
@@ -351,7 +355,7 @@ payload:
   # simplylinux.ch
   - dns.skrep.eu
   # skrep.eu
-  - dns.slinkyman.net
+  - dns.sktr.com.tr
   # stirringphoto.com
   - resolver.sunet.se
   # t53.de
