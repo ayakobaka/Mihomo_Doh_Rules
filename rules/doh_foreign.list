@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-07 05:28:31
-# Total rules: 205
+# Generated at: 2026-11-08 05:27:24
+# Total rules: 206
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -127,6 +127,9 @@ DOMAIN-SUFFIX,dns.digitalsize.net
 DOMAIN-SUFFIX,xn--durhre-yxa.de
 
 # Easy HNS
+DOMAIN-SUFFIX,dns.ekinao.com
+
+# Ekinao
 DOMAIN-SUFFIX,dns.elemental.software
 
 # Elemental Software

@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-07 05:28:31
-# Total domains: 205
+# Generated at: 2026-11-08 05:27:24
+# Total domains: 206
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -93,6 +93,8 @@ payload:
   # Dukun.de
   - xn--durhre-yxa.de
   # Easy HNS
+  - dns.ekinao.com
+  # Ekinao
   - dns.elemental.software
   # Elemental Software
   - dns.envs.net
