@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-08 05:27:24
-# Total domains: 206
+# Generated at: 2026-11-09 05:37:14
+# Total domains: 207
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -121,6 +121,7 @@ payload:
   # HaGeZi DNS
   - dns.haka.se
   # Hafnova
+  - ctif.hagezi.org
   - juuri.hagezi.org
   - root.hagezi.org
   - wurzn.hagezi.org

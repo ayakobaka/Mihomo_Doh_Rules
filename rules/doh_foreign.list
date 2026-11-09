@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-08 05:27:24
-# Total rules: 206
+# Generated at: 2026-11-09 05:37:14
+# Total rules: 207
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -168,6 +168,7 @@ DOMAIN-SUFFIX,dns.hostux.net
 DOMAIN-SUFFIX,dns.haka.se
 
 # Hafnova
+DOMAIN-SUFFIX,ctif.hagezi.org
 DOMAIN-SUFFIX,juuri.hagezi.org
 DOMAIN-SUFFIX,root.hagezi.org
 DOMAIN-SUFFIX,wurzn.hagezi.org
