@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-09 05:37:14
-# Total domains: 207
+# Generated at: 2026-11-10 06:48:41
+# Total domains: 205
 # Format: Mihomo rule-provider (behavior: domain)
 
 payload:
@@ -65,8 +65,6 @@ payload:
   - mozilla.cloudflare-dns.com
   - security.cloudflare-dns.com
   # Cloudflare
-  - dns.comss.one
-  # Comss.one DNS
   - freedns.controld.com
   # Control D
   - dns.cynthialabs.net
@@ -233,7 +231,7 @@ payload:
   # Sunet DNS
   - dns.switch.ch
   # Switch
-  - dns.t53.de
+  - dns.telekom.de
   # Telekom Deutschland
   - dns.tipsy.coffee
   # Tiarap
@@ -361,8 +359,6 @@ payload:
   - dns.sktr.com.tr
   # stirringphoto.com
   - resolver.sunet.se
-  # t53.de
-  - dns.telekom.de
   # unx.io
   - adfree.usableprivacy.net
   # v.recipes

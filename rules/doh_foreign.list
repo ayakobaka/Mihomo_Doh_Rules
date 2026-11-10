@@ -1,7 +1,7 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-09 05:37:14
-# Total rules: 207
+# Generated at: 2026-11-10 06:48:41
+# Total rules: 205
 
 # **0-9**
 DOMAIN-SUFFIX,ns2.4netguides.org
@@ -87,9 +87,6 @@ DOMAIN-SUFFIX,mozilla.cloudflare-dns.com
 DOMAIN-SUFFIX,security.cloudflare-dns.com
 
 # Cloudflare
-DOMAIN-SUFFIX,dns.comss.one
-
-# Comss.one DNS
 DOMAIN-SUFFIX,freedns.controld.com
 
 # Control D
@@ -325,7 +322,7 @@ DOMAIN-SUFFIX,doh.sz-dns.com
 DOMAIN-SUFFIX,dns.switch.ch
 
 # Switch
-DOMAIN-SUFFIX,dns.t53.de
+DOMAIN-SUFFIX,dns.telekom.de
 
 # Telekom Deutschland
 DOMAIN-SUFFIX,dns.tipsy.coffee
@@ -513,9 +510,6 @@ DOMAIN-SUFFIX,dns.sktr.com.tr
 
 # stirringphoto.com
 DOMAIN-SUFFIX,resolver.sunet.se
-
-# t53.de
-DOMAIN-SUFFIX,dns.telekom.de
 
 # unx.io
 DOMAIN-SUFFIX,adfree.usableprivacy.net
