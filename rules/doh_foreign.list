@@ -1,6 +1,6 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-12 06:40:08
+# Generated at: 2026-11-13 05:59:16
 # Total rules: 205
 
 # **0-9**
@@ -199,7 +199,7 @@ DOMAIN-SUFFIX,dns.kosan.moe
 DOMAIN-SUFFIX,adblock.krctech.dev
 
 # La Contre-Voie
-DOMAIN-SUFFIX,dns.liberador.net
+DOMAIN-SUFFIX,ledns.eu
 
 # Liberador.net
 DOMAIN-SUFFIX,doh.libredns.gr
@@ -221,7 +221,6 @@ DOMAIN-SUFFIX,au-syd-w-f-1.nashkan.net
 DOMAIN-SUFFIX,gb-lon-w-p-2.nashkan.net
 DOMAIN-SUFFIX,ro-buc-w-p-1.nashkan.net
 DOMAIN-SUFFIX,sg-w-p-1.nashkan.net
-DOMAIN-SUFFIX,us-chi-w-f-1.nashkan.net
 DOMAIN-SUFFIX,us-chi-w-p-1.nashkan.net
 DOMAIN-SUFFIX,us-jac-w-f-1.nashkan.net
 DOMAIN-SUFFIX,us-jac-w-p-1.nashkan.net
@@ -447,6 +446,9 @@ DOMAIN-SUFFIX,doh.lacontrevoie.fr
 
 # l337.site
 DOMAIN-SUFFIX,dns.marasov.id
+
+# le_dns
+DOMAIN-SUFFIX,dns.liberador.net
 
 # loadlow.me
 DOMAIN-SUFFIX,dns.lobbygod.com

@@ -1,6 +1,6 @@
 # DoH Servers Ruleset - 境外 DoH (建议代理)
 # Auto-generated from curl/curl wiki
-# Generated at: 2026-11-12 06:40:08
+# Generated at: 2026-11-13 05:59:16
 # Total domains: 205
 # Format: Mihomo rule-provider (behavior: domain)
 
@@ -143,7 +143,7 @@ payload:
   # Kosan
   - adblock.krctech.dev
   # La Contre-Voie
-  - dns.liberador.net
+  - ledns.eu
   # Liberador.net
   - doh.libredns.gr
   # LibreDNS
@@ -160,7 +160,6 @@ payload:
   - gb-lon-w-p-2.nashkan.net
   - ro-buc-w-p-1.nashkan.net
   - sg-w-p-1.nashkan.net
-  - us-chi-w-f-1.nashkan.net
   - us-chi-w-p-1.nashkan.net
   - us-jac-w-f-1.nashkan.net
   - us-jac-w-p-1.nashkan.net
@@ -316,6 +315,8 @@ payload:
   - doh.lacontrevoie.fr
   # l337.site
   - dns.marasov.id
+  # le_dns
+  - dns.liberador.net
   # loadlow.me
   - dns.lobbygod.com
   # m-it.ro
